@@ -45,20 +45,22 @@
                 layer.bindPopup(feature.properties.popupContent);
             }
         }
+        function pointToLayerAction(feature, latlng) {
+            return L.circleMarker(latlng, tokamakStyle).bindTooltip(`
+                <b>${feature.properties.name}</b>
+                <br>
+                ${feature.properties.address}
+                <br>
+                ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
+            `, {direction: 'top', sticky: true})
+        }
 
         fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
             .then(r => r.json())
             .then(geojson => L.geoJSON(geojson, 
             {
-                pointToLayer: function (feature, latlng) {
-                    return L.circleMarker(latlng, tokamakStyle).bindTooltip(`
-                        <b>${feature.properties.name}</b>
-                        <br>
-                        ${feature.properties.address}
-                        <br>
-                        ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
-                    `, {direction: 'top', sticky: true})
-                },
+                pointToLayer: pointToLayerAction,
+                onEachFeacture: onEachFeatureAction
             }).addTo(map));
 
     </script>
