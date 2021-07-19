@@ -8,7 +8,7 @@
             43.704788050141296
         ],
         "website": "https://irfm.cea.fr/en/west/",
-        "R": 2.5,
+        "R": 2.5
     },
     {
         "country": "France",
@@ -19,7 +19,7 @@
             43.70879000045666
         ],
         "website": "https://iter.org/",
-        "R": 6.2,
+        "R": 6.2
     },
     {
         "country": "France",
@@ -29,7 +29,7 @@
             -0.8074136680055679,
             44.658605567060874
         ],
-        "website": "https://www-lmj.cea.fr/",
+        "website": "https://www-lmj.cea.fr/"
     },
     {
         "country": "France",
@@ -38,7 +38,7 @@
         "coordinates": [
             5.67483256527124,
             45.19592767645715
-        ],
+        ]
     },
     {
         "country": "France",
@@ -58,7 +58,7 @@
             51.65934962924273
         ],
         "website": "https://ccfe.ukaea.uk/research/joint-european-torus/",
-        "R": 2.96,
+        "R": 2.96
     },
     {
         "country": "United-Kingdom",
@@ -69,7 +69,7 @@
             51.658000352826996
         ],
         "website": "https://ccfe.ukaea.uk/research/mast-upgrade/",
-        "R": 0.85,
+        "R": 0.85
     },
     {
         "country": "United-Kingdom",
@@ -112,7 +112,7 @@
             48.264022565016305
         ],
         "website": "https://www.ipp.mpg.de/w7x",
-        "R": 5.5,
+        "R": 5.5
     },
     {
         "country": "Germany",
@@ -123,7 +123,7 @@
             48.78188166139253
         ],
         "website": "https://www.igvp.uni-stuttgart.de/en/research/plasma-dynamics-and-diagnostics/experiments/TJ-K/",
-        "R": 0.6,
+        "R": 0.6
     },
     {
         "country": "Japan",
@@ -142,7 +142,7 @@
             135.78086998987203,
             35.02646991574031
         ],
-        "R": 1.2,
+        "R": 1.2
     },
     {
         "country": "Japan",
@@ -152,7 +152,7 @@
             135.80037018143938,
             34.9105088579678
         ],
-        "R": 0.2,
+        "R": 0.2
     },
     {
         "country": "Japan",
@@ -172,7 +172,7 @@
             32.89524918966554
         ],
         "website": "https://www.ga.com/magnetic-fusion/diii-d",
-        "R": 1.7,
+        "R": 1.7
     },
     {
         "country": "United-States",
@@ -183,7 +183,7 @@
             40.35022723814888
         ],
         "website": "https://www.pppl.gov/nstx",
-        "R": 0.934,
+        "R": 0.934
     },
     {
         "country": "United-States",

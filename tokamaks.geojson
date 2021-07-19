@@ -7,7 +7,8 @@
                 "country": "France",
                 "name": "WEST",
                 "address": "Cadarache",
-                "popupContent": "<a href='https://irfm.cea.fr/en/west/'> Website </a>"
+                "popupContent": "<a href='https://irfm.cea.fr/en/west/'> Website </a>",
+                "R": 2.5
             },
             "geometry": {
                 "type": "Point",
@@ -23,7 +24,8 @@
                 "country": "France",
                 "name": "ITER",
                 "address": "St-Paul-lez-Durance",
-                "popupContent": "<a href='https://iter.org/'> Website </a>"
+                "popupContent": "<a href='https://iter.org/'> Website </a>",
+                "R": 6.2
             },
             "geometry": {
                 "type": "Point",
@@ -85,7 +87,8 @@
                 "country": "United-Kingdom",
                 "name": "JET",
                 "address": "Abingdon",
-                "popupContent": "<a href='https://ccfe.ukaea.uk/research/joint-european-torus/'> Website </a>"
+                "popupContent": "<a href='https://ccfe.ukaea.uk/research/joint-european-torus/'> Website </a>",
+                "R": 2.96
             },
             "geometry": {
                 "type": "Point",
@@ -101,7 +104,8 @@
                 "country": "United-Kingdom",
                 "name": "MAST-U",
                 "address": "Abingdon",
-                "popupContent": "<a href='https://ccfe.ukaea.uk/research/mast-upgrade/'> Website </a>"
+                "popupContent": "<a href='https://ccfe.ukaea.uk/research/mast-upgrade/'> Website </a>",
+                "R": 0.85
             },
             "geometry": {
                 "type": "Point",
@@ -133,7 +137,8 @@
                 "country": "United-Kingdom",
                 "name": "ST40",
                 "address": "Abingdon",
-                "popupContent": "<a href='https://www.tokamakenergy.co.uk/'> Website </a>"
+                "popupContent": "<a href='https://www.tokamakenergy.co.uk/'> Website </a>",
+                "R": 0.5
             },
             "geometry": {
                 "type": "Point",
@@ -149,7 +154,8 @@
                 "country": "Germany",
                 "name": "ASDEX",
                 "address": "Garching",
-                "popupContent": "<a href='https://www.ipp.mpg.de/16195/asdex'> Website </a>"
+                "popupContent": "<a href='https://www.ipp.mpg.de/16195/asdex'> Website </a>",
+                "R": 1.65
             },
             "geometry": {
                 "type": "Point",
@@ -165,7 +171,8 @@
                 "country": "Germany",
                 "name": "Wendelstein 7-X",
                 "address": "Garching",
-                "popupContent": "<a href='https://www.ipp.mpg.de/w7x'> Website </a>"
+                "popupContent": "<a href='https://www.ipp.mpg.de/w7x'> Website </a>",
+                "R": 5.5
             },
             "geometry": {
                 "type": "Point",
@@ -181,7 +188,8 @@
                 "country": "Germany",
                 "name": "TJ-K",
                 "address": "Stuttgart",
-                "popupContent": "<a href='https://www.igvp.uni-stuttgart.de/en/research/plasma-dynamics-and-diagnostics/experiments/TJ-K/'> Website </a>"
+                "popupContent": "<a href='https://www.igvp.uni-stuttgart.de/en/research/plasma-dynamics-and-diagnostics/experiments/TJ-K/'> Website </a>",
+                "R": 0.6
             },
             "geometry": {
                 "type": "Point",
@@ -211,7 +219,8 @@
             "properties": {
                 "country": "Japan",
                 "name": "Heliotron J",
-                "address": "Kyoto"
+                "address": "Kyoto",
+                "R": 1.2
             },
             "geometry": {
                 "type": "Point",
@@ -226,7 +235,8 @@
             "properties": {
                 "country": "Japan",
                 "name": "LATE",
-                "address": "Kyoto"
+                "address": "Kyoto",
+                "R": 0.2
             },
             "geometry": {
                 "type": "Point",
@@ -257,7 +267,8 @@
                 "country": "United-States",
                 "name": "DIII-D",
                 "address": "San Diego",
-                "popupContent": "<a href='https://www.ga.com/magnetic-fusion/diii-d'> Website </a>"
+                "popupContent": "<a href='https://www.ga.com/magnetic-fusion/diii-d'> Website </a>",
+                "R": 1.7
             },
             "geometry": {
                 "type": "Point",
@@ -273,7 +284,8 @@
                 "country": "United-States",
                 "name": "NSTX-U",
                 "address": "Princeton",
-                "popupContent": "<a href='https://www.pppl.gov/nstx'> Website </a>"
+                "popupContent": "<a href='https://www.pppl.gov/nstx'> Website </a>",
+                "R": 0.934
             },
             "geometry": {
                 "type": "Point",
@@ -304,7 +316,8 @@
             "properties": {
                 "country": "Korea",
                 "name": "KSTAR",
-                "address": "Daejeon"
+                "address": "Daejeon",
+                "R": 1.8
             },
             "geometry": {
                 "type": "Point",
@@ -334,7 +347,8 @@
             "properties": {
                 "country": "Brazil",
                 "name": "NOVA-FURG",
-                "address": "Vit\u00c3\u00b3ria"
+                "address": "Vit\u00c3\u00b3ria",
+                "R": 0.3
             },
             "geometry": {
                 "type": "Point",
@@ -349,7 +363,8 @@
             "properties": {
                 "country": "Brazil",
                 "name": "ETE",
-                "address": "S\u00c3\u00a3o Jos\u00c3\u00a9 dos Campos"
+                "address": "S\u00c3\u00a3o Jos\u00c3\u00a9 dos Campos",
+                "R": 0.3
             },
             "geometry": {
                 "type": "Point",
@@ -364,7 +379,8 @@
             "properties": {
                 "country": "Brazil",
                 "name": "TCABR",
-                "address": "S\u00c3\u00a3o Paulo"
+                "address": "S\u00c3\u00a3o Paulo",
+                "R": 0.61
             },
             "geometry": {
                 "type": "Point",
@@ -395,7 +411,8 @@
             "properties": {
                 "country": "Canada",
                 "name": "STOR-M",
-                "address": "Saskatchewan"
+                "address": "Saskatchewan",
+                "R": 0.46
             },
             "geometry": {
                 "type": "Point",
@@ -425,7 +442,8 @@
             "properties": {
                 "country": "China",
                 "name": "EXL-50",
-                "address": "Heibei"
+                "address": "Heibei",
+                "R": 0.58
             },
             "geometry": {
                 "type": "Point",
@@ -440,7 +458,8 @@
             "properties": {
                 "country": "China",
                 "name": "EAST",
-                "address": "Hefei"
+                "address": "Hefei",
+                "R": 1.7
             },
             "geometry": {
                 "type": "Point",
@@ -470,7 +489,8 @@
             "properties": {
                 "country": "Costa Rica",
                 "name": "MEDUSA-CR",
-                "address": "Cartago"
+                "address": "Cartago",
+                "R": 0.14
             },
             "geometry": {
                 "type": "Point",
@@ -485,7 +505,8 @@
             "properties": {
                 "country": "Costa Rica",
                 "name": "SCR-1",
-                "address": "Cartago"
+                "address": "Cartago",
+                "R": 0.238
             },
             "geometry": {
                 "type": "Point",
@@ -500,7 +521,8 @@
             "properties": {
                 "country": "Czech Republic",
                 "name": "GOLEM",
-                "address": "Prague"
+                "address": "Prague",
+                "R": 0.4
             },
             "geometry": {
                 "type": "Point",
@@ -531,7 +553,8 @@
                 "country": "Denmark",
                 "name": "NORTH",
                 "address": "Kongens Lyngby",
-                "popupContent": "<a href='https://www.iter.org/newsline/-/3330'> Website </a>"
+                "popupContent": "<a href='https://www.iter.org/newsline/-/3330'> Website </a>",
+                "R": 0.25
             },
             "geometry": {
                 "type": "Point",
@@ -546,7 +569,8 @@
             "properties": {
                 "country": "Egypt",
                 "name": "EGYPTOR",
-                "address": "Alexandria"
+                "address": "Alexandria",
+                "R": 0.3
             },
             "geometry": {
                 "type": "Point",
@@ -561,7 +585,8 @@
             "properties": {
                 "country": "India",
                 "name": "SST-1",
-                "address": "Gujarat"
+                "address": "Gujarat",
+                "R": 1.1
             },
             "geometry": {
                 "type": "Point",
@@ -576,7 +601,8 @@
             "properties": {
                 "country": "India",
                 "name": "ADITYA-U",
-                "address": "Gujarat"
+                "address": "Gujarat",
+                "R": 0.75
             },
             "geometry": {
                 "type": "Point",
@@ -606,7 +632,8 @@
             "properties": {
                 "country": "Spain",
                 "name": "TJ-II",
-                "address": "Madrid"
+                "address": "Madrid",
+                "R": 1.5
             },
             "geometry": {
                 "type": "Point",
