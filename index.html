@@ -59,7 +59,7 @@
             .then(r => r.json())
             .then(geojson => L.geoJSON(geojson, 
             {
-                onEachFeacture: onEachFeatureAction
+                onEachFeacture: onEachFeatureAction,
                 pointToLayer: pointToLayerAction,
             }).addTo(map));
 
