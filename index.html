@@ -18,6 +18,31 @@
             height: 100%;
             width: 100%;
         }
+		.info {
+			padding: 6px 8px;
+			font: 14px/16px Arial, Helvetica, sans-serif;
+			background: white;
+			background: rgba(255,255,255,0.8);
+			box-shadow: 0 0 15px rgba(0,0,0,0.2);
+			border-radius: 5px;
+		}
+		.info h4 {
+			margin: 0 0 5px;
+			color: #777;
+		}
+
+		.legend {
+			text-align: left;
+			line-height: 18px;
+			color: #555;
+		}
+		.legend i {
+			width: 18px;
+			height: 18px;
+			float: left;
+			margin-right: 8px;
+			opacity: 0.7;
+		}
     </style>
 </head>
 <body>
@@ -35,10 +60,34 @@
             fillColor: '#6E2594',
             color: '#808080',
             radius: 7,
+            weight: 1,
             fillOpacity: 0.7
         };
 
-        function onEachFeatureAction(base_layer) {
+        function highlightFeature(e) {
+            var layer = e.target;
+
+            layer.setStyle({
+                weight: 5,
+                color: '#666',
+                dashArray: '',
+                fillOpacity: 0.7
+            });
+
+            // if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+            //     layer.bringToFront();
+            // }
+            info.update(layer.feature.properties);
+        }
+        function resetHighlightRadius(e) {
+            e.target.setStyle(makeRadiusStyle(e.target.feature));
+            info.update();
+        }
+        function resetHighlightDefault(e) {
+            e.target.setStyle(tokamakStyle);
+            info.update();
+        }
+        function onEachFeatureAction(base_layer, resetHighlithFunction) {
             function fun(feature, layer) {
                 // add data
                 base_layer.addLayer(layer)
@@ -46,6 +95,11 @@
                 if (feature.properties && feature.properties.popupContent) {
                     layer.bindPopup(feature.properties.popupContent);
                 }
+                layer.on({
+                    mouseover: highlightFeature,
+                    mouseout: resetHighlithFunction,
+                    // click: zoomToFeature
+                });
             }
             return fun
         }
@@ -83,13 +137,14 @@
 
         function getColorRadius(r){
            return r > 4 ? '#FDE425' :
-           r > 3  ? '#5DC863' :
-           r > 2  ? '#3B528B' :
-           r > 1  ? '#21908C' :
-           '#440154';
+                  r > 3  ? '#5DC863' :
+                  r > 2  ? '#21908C' :
+                  r > 1  ? '#3B528B' :
+                           '#440154';
            }
 
-        function pointToLayer_radius(feature, latlng) {
+
+        function makeRadiusStyle(feature){
             var opt = {...tokamakStyle};
             factor = 7
             if (feature.properties.hasOwnProperty('R')){
@@ -102,9 +157,11 @@
             {
                 opt.radius = 0
             }
-            
+            return opt
+        }
+        function pointToLayer_radius(feature, latlng) {
 
-            return L.circleMarker(latlng,opt).bindTooltip(`
+            return L.circleMarker(latlng,makeRadiusStyle(feature)).bindTooltip(`
                 <b>${feature.properties.name}</b>
                 <br>
                 ${feature.properties.address}
@@ -118,19 +175,8 @@
             .then(r => r.json())
             .then(geojson => L.geoJSON(geojson,
                         {
-                            onEachFeature: onEachFeatureAction(default_layer),
+                            onEachFeature: onEachFeatureAction(default_layer, resetHighlightDefault),
                             pointToLayer: pointToLayerAction
-                        }));
-
-        let france_only = L.layerGroup()
-        geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
-            .then(r => r.json())
-            .then(geojson => L.geoJSON(geojson,
-                        {
-                            onEachFeature: onEachFeatureAction(france_only),
-                            pointToLayer: france_only_pointToLayer,
-                            filter: function (feature, layer) {
-                            if (feature.properties.country == "France") return true}
                         }));
 
         let based_on_radius = L.layerGroup()
@@ -138,18 +184,17 @@
             .then(r => r.json())
             .then(geojson => L.geoJSON(geojson,
                         {
-                            onEachFeature: onEachFeatureAction(based_on_radius),
+                            onEachFeature: onEachFeatureAction(based_on_radius, resetHighlightRadius),
                             pointToLayer: pointToLayer_radius,
                         }));
 
         /* Create layer control */
         let layerControl = {
-        "France only": france_only,
-        "radius": based_on_radius,
+        "Major radius": based_on_radius,
         "Default": default_layer,
         }
 
-        L.control.layers(layerControl, null).addTo( map )
+        L.control.layers(layerControl, null, {collapsed:false}).addTo( map )
 
 
         // add a legend
@@ -158,20 +203,41 @@
         legend.onAdd = function (map) {
 
             var div = L.DomUtil.create('div', 'info legend'),
-                grades = [0, 1, 2, 3, 4],
-                labels = [];
+			grades = [0, 1, 2, 3, 4],
+			labels = ['<strong> R (m) </strong>'],
+			from, to;
 
-            // loop through our density intervals and generate a label with a colored square for each interval
-            for (var i = 0; i < grades.length; i++) {
-                div.innerHTML +=
-                    '<i style="background:' + getColorRadius(grades[i] + 1) + '"></i> ' +
-                    grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
-            }
+		for (var i = grades.length - 1; i >= 0; i--) {
+			from = grades[i];
+			to = grades[i + 1];
 
-            return div;
+			labels.push(
+				'<i style="background:' + getColorRadius(from + 1) + '"></i> ' +
+				from + (to - 1? '&ndash;' + to : '+'));
+		}
+
+		div.innerHTML = labels.join('<br>');
+		return div;
         };
 
-legend.addTo(map);
+        legend.addTo(map);
+
+        // info control
+        var info = L.control();
+
+        info.onAdd = function (map) {
+            this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+            this.update();
+            return this._div;
+        };
+        // method that we will use to update the control based on feature properties passed
+        info.update = function (props) {
+            this._div.innerHTML = '<h4>Reactor info</h4>' +  (props ?
+                '<b>' + props.name + '</b><br /> Major radius ' + props.R + ' m'
+                : 'Hover over a reactor');
+        };
+
+        info.addTo(map);
     </script>
 </body>
 </html>
