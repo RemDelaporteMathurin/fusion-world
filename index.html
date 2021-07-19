@@ -81,11 +81,23 @@
             `, {direction: 'top', sticky: true})
         }
 
+        function getColorRadius(r){
+           return r > 4 ? '#FDE425' :
+           r > 3  ? '#5DC863' :
+           r > 2  ? '#3B528B' :
+           r > 1  ? '#21908C' :
+           '#440154';
+           }
+
         function pointToLayer_radius(feature, latlng) {
             var opt = {...tokamakStyle};
             factor = 7
             if (feature.properties.hasOwnProperty('R')){
+            console.log("opt.color");
                 opt.radius = feature.properties.R*factor
+                opt.fillColor = getColorRadius(feature.properties.R)
+              console.log(opt.color);
+
             } else
             {
                 opt.radius = 0
