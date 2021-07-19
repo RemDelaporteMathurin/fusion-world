@@ -60,8 +60,8 @@
             .then(r => r.json())
             .then(geojson => L.geoJSON(geojson,
             {
-                // onEachFeacture: onEachFeatureAction,
-                pointToLayer: pointToLayerAction,
+                onEachFeacture: onEachFeatureAction,
+                // pointToLayer: pointToLayerAction,
             }).addTo(map));
 
     </script>
