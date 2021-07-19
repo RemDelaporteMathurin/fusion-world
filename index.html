@@ -24,13 +24,10 @@
     <div id="map"></div>
 
     <script>
-        var mapboxUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+        var map = L.map('map', {center: [45.8336, 1.2611], zoom: 3});
         mapLink = '<a href="http://openstreetmap.org">OpenStreetMap</a>';
-        var mapboxAttribution = '&copy; ' + mapLink + ' Contributors'
-
-        var map = L.map('map', {center: [45.8336, 1.2611], zoom: 3, layers: []});
-        L.tileLayer(mapboxUrl, {
-            attribution: mapboxAttribution,
+        L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; ' + mapLink + ' Contributors',
             maxZoom: 13,
         }).addTo(map);
 
@@ -41,15 +38,22 @@
             fillOpacity: 0.7
         };
 
-        function onEachFeatureAction(feature, layer) {
-            // does this feature have a property named popupContent?
-            if (feature.properties && feature.properties.popupContent) {
-                layer.bindPopup(feature.properties.popupContent);
+        function onEachFeatureAction(base_layer) {
+            function fun(feature, layer) {
+                // add data
+                base_layer.addLayer(layer)
+                // does this feature have a property named popupContent?
+                if (feature.properties && feature.properties.popupContent) {
+                    layer.bindPopup(feature.properties.popupContent);
+                }
             }
+            return fun
         }
 
         function pointToLayerAction(feature, latlng) {
-            return L.circleMarker(latlng, tokamakStyle).bindTooltip(`
+        	var opt = {...tokamakStyle};
+
+            return L.circleMarker(latlng,opt).bindTooltip(`
                 <b>${feature.properties.name}</b>
                 <br>
                 ${feature.properties.address}
@@ -58,17 +62,52 @@
             `, {direction: 'top', sticky: true})
         }
 
-        var baseMaps = {};
+        function france_only_pointToLayer(feature, latlng) {
+        	var opt = {...tokamakStyle};
+            if(feature.properties.country == 'France'){
 
-        L.control.layers(baseMaps, null).addTo(map);
+                        opt.color = "#0000FF"
+                        opt.fillColor = "#0000FF"
+                        opt.radius = 12
+            }
+            
 
-        fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
-            .then(r => r.json())
-            .then(geojson => L.geoJSON(geojson,
-            {
-                onEachFeature: onEachFeatureAction,
-                pointToLayer: pointToLayerAction
-            }).addTo(map));
+            return L.circleMarker(latlng,opt).bindTooltip(`
+                <b>${feature.properties.name}</b>
+                <br>
+                ${feature.properties.address}
+                <br>
+                ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
+            `, {direction: 'top', sticky: true})
+        }
+
+        let default_layer = L.layerGroup().addTo( map )
+        geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+        .then(r => r.json())
+ 				.then(geojson => L.geoJSON(geojson,
+				            {
+				                onEachFeature: onEachFeatureAction(default_layer),
+				                pointToLayer: pointToLayerAction
+				            }));
+
+        let france_only = L.layerGroup()
+        geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+        .then(r => r.json())
+ 				.then(geojson => L.geoJSON(geojson,
+				            {
+				                onEachFeature: onEachFeatureAction(france_only),
+				                pointToLayer: france_only_pointToLayer,
+                                filter: function (feature, layer) {
+                                if (feature.properties.country == "France") return true}
+				            }));
+        
+        /* Create layer control */
+        let layerControl = {
+        "France only": france_only,
+        "Default": default_layer,
+        }
+
+        L.control.layers(layerControl, null).addTo( map )
     </script>
 </body>
 </html>
