@@ -39,7 +39,7 @@
             fillOpacity: 0.9
         };
 
-        fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/locs/main/tokamaks.geojson')
+        fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
             .then(r => r.json())
             .then(geojson => L.geoJSON(geojson, {
                 pointToLayer: function (feature, latlng) {
