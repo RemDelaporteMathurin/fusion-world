@@ -65,25 +65,30 @@ with open('tokamaks.csv') as f:
 
 geojson = {
     'type': 'FeatureCollection',
-    'features': [
-        {
-            'type': 'Feature',
-            'properties': {
-                'country': store['country'],
-                'name': store['name'],
-                'address': store['address']
-            },
-            'geometry': {
-                'type': 'Point',
-                'coordinates': [
-                    float(store['longitude']),
-                    float(store['latitude'])
-                ]
-            }
-        }
-        for store in stores
-    ]
+    'features': []
 }
+
+for store in stores:
+    feature_dict = {
+        'type': 'Feature',
+        'properties': {
+            'country': store['country'],
+            'name': store['name'],
+            'address': store['address']
+        },
+        'geometry': {
+            'type': 'Point',
+            'coordinates': [
+                float(store['longitude']),
+                float(store['latitude'])
+            ]
+        }
+    }
+    if "website" in store:
+        feature_dict['properties']['popupContent'] = "Website: <a href = " + store["website"] + "</a>"
+    geojson["features"].append(feature_dict)
+
+
 
 with open('tokamaks.geojson', 'w') as f:
     json.dump(geojson, f)
