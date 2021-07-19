@@ -1,15 +1,5 @@
 [
-    {
-        "country": "France",
-        "name": "WEST",
-        "address": "Cadarache",
-        "coordinates": [
-            5.763735075034328,
-            43.704788050141296
-        ],
-        "website": "https://irfm.cea.fr/en/west/",
-        "R": 2.5
-    },
+
     {
         "country": "France",
         "name": "ITER",
@@ -20,6 +10,17 @@
         ],
         "website": "https://iter.org/",
         "R": 6.2
+    },
+    {
+        "country": "France",
+        "name": "WEST",
+        "address": "Cadarache",
+        "coordinates": [
+            5.763735075034328,
+            43.704788050141296
+        ],
+        "website": "https://irfm.cea.fr/en/west/",
+        "R": 2.5
     },
     {
         "country": "France",
@@ -94,17 +95,6 @@
     },
     {
         "country": "Germany",
-        "name": "ASDEX",
-        "address": "Garching",
-        "coordinates": [
-            11.671764353853556,
-            48.26295113080633
-        ],
-        "website": "https://www.ipp.mpg.de/16195/asdex",
-        "R": 1.65
-    },
-    {
-        "country": "Germany",
         "name": "Wendelstein 7-X",
         "address": "Garching",
         "coordinates": [
@@ -113,6 +103,17 @@
         ],
         "website": "https://www.ipp.mpg.de/w7x",
         "R": 5.5
+    },
+    {
+        "country": "Germany",
+        "name": "ASDEX",
+        "address": "Garching",
+        "coordinates": [
+            11.671764353853556,
+            48.26295113080633
+        ],
+        "website": "https://www.ipp.mpg.de/16195/asdex",
+        "R": 1.65
     },
     {
         "country": "Germany",

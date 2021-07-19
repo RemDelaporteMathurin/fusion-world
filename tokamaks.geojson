@@ -5,23 +5,6 @@
             "type": "Feature",
             "properties": {
                 "country": "France",
-                "name": "WEST",
-                "address": "Cadarache",
-                "popupContent": "<a href='https://irfm.cea.fr/en/west/'> Website </a>",
-                "R": 2.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    5.763735075034328,
-                    43.704788050141296
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "France",
                 "name": "ITER",
                 "address": "St-Paul-lez-Durance",
                 "popupContent": "<a href='https://iter.org/'> Website </a>",
@@ -32,6 +15,23 @@
                 "coordinates": [
                     5.777038831078966,
                     43.70879000045666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "France",
+                "name": "WEST",
+                "address": "Cadarache",
+                "popupContent": "<a href='https://irfm.cea.fr/en/west/'> Website </a>",
+                "R": 2.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.763735075034328,
+                    43.704788050141296
                 ]
             }
         },
@@ -152,23 +152,6 @@
             "type": "Feature",
             "properties": {
                 "country": "Germany",
-                "name": "ASDEX",
-                "address": "Garching",
-                "popupContent": "<a href='https://www.ipp.mpg.de/16195/asdex'> Website </a>",
-                "R": 1.65
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    11.671764353853556,
-                    48.26295113080633
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Germany",
                 "name": "Wendelstein 7-X",
                 "address": "Garching",
                 "popupContent": "<a href='https://www.ipp.mpg.de/w7x'> Website </a>",
@@ -179,6 +162,23 @@
                 "coordinates": [
                     11.671373173100747,
                     48.264022565016305
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Germany",
+                "name": "ASDEX",
+                "address": "Garching",
+                "popupContent": "<a href='https://www.ipp.mpg.de/16195/asdex'> Website </a>",
+                "R": 1.65
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.671764353853556,
+                    48.26295113080633
                 ]
             }
         },
