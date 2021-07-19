@@ -84,7 +84,7 @@ for store in stores:
             ]
         }
     }
-    if "website" in store:
+    if store["website"] != "":
         feature_dict['properties']['popupContent'] = "Website: <a href = " + store["website"] + "</a>"
     geojson["features"].append(feature_dict)
 
