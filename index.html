@@ -25,13 +25,15 @@
 
     <script>
         var mapboxUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+        mapLink = '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+        var mapboxAttribution = '&copy; ' + mapLink + ' Contributors'
+
         var grayscale = L.tileLayer(mapboxUrl, {id: 'MapID', tileSize: 512, zoomOffset: -1, attribution: mapboxAttribution}),
             streets   = L.tileLayer(mapboxUrl, {id: 'MapID', tileSize: 512, zoomOffset: -1, attribution: mapboxAttribution});
 
         var map = L.map('map', {center: [45.8336, 1.2611], zoom: 3});
-        mapLink = '<a href="http://openstreetmap.org">OpenStreetMap</a>';
         L.tileLayer(mapboxUrl, {
-            attribution: '&copy; ' + mapLink + ' Contributors',
+            attribution: mapboxAttribution,
             maxZoom: 13,
         }).addTo(map);
 
