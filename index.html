@@ -31,7 +31,7 @@
         var grayscale = L.tileLayer(mapboxUrl, {id: 'MapID', tileSize: 512, zoomOffset: -1, attribution: mapboxAttribution}),
             streets   = L.tileLayer(mapboxUrl, {id: 'MapID', tileSize: 512, zoomOffset: -1, attribution: mapboxAttribution});
 
-        var map = L.map('map', {center: [45.8336, 1.2611], zoom: 3});
+        var map = L.map('map', {center: [45.8336, 1.2611], zoom: 3, layers: [grayscale, streets]});
         L.tileLayer(mapboxUrl, {
             attribution: mapboxAttribution,
             maxZoom: 13,
@@ -61,12 +61,12 @@
             `, {direction: 'top', sticky: true})
         }
 
-        // var baseMaps = {
-        //     "Grayscale": grayscale,
-        //     "Streets": streets
-        // };
+        var baseMaps = {
+            "Grayscale": grayscale,
+            "Streets": streets
+        };
 
-        // L.control.layers(baseMaps, null).addTo(map);
+        L.control.layers(baseMaps, null).addTo(map);
 
         fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
             .then(r => r.json())
