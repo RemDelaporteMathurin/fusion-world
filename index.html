@@ -45,8 +45,9 @@
                 layer.bindPopup(feature.properties.popupContent);
             }
         }
+
         function pointToLayerAction(feature, latlng) {
-            return L.circleMarker(latlng, tokamakStyle).bindTooltip(`
+            return new L.circleMarker(latlng, tokamakStyle).bindTooltip(`
                 <b>${feature.properties.name}</b>
                 <br>
                 ${feature.properties.address}
