@@ -81,29 +81,59 @@
             `, {direction: 'top', sticky: true})
         }
 
+        function pointToLayer_radius(feature, latlng) {
+            var opt = {...tokamakStyle};
+            factor = 7
+            if (feature.properties.hasOwnProperty('R')){
+                opt.radius = feature.properties.R*factor
+            } else
+            {
+                opt.radius = 0
+            }
+            
+
+            return L.circleMarker(latlng,opt).bindTooltip(`
+                <b>${feature.properties.name}</b>
+                <br>
+                ${feature.properties.address}
+                <br>
+                ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
+            `, {direction: 'top', sticky: true})
+        }
+
         let default_layer = L.layerGroup().addTo( map )
         geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
-        .then(r => r.json())
- 				.then(geojson => L.geoJSON(geojson,
-				            {
-				                onEachFeature: onEachFeatureAction(default_layer),
-				                pointToLayer: pointToLayerAction
-				            }));
+            .then(r => r.json())
+            .then(geojson => L.geoJSON(geojson,
+                        {
+                            onEachFeature: onEachFeatureAction(default_layer),
+                            pointToLayer: pointToLayerAction
+                        }));
 
         let france_only = L.layerGroup()
         geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
-        .then(r => r.json())
- 				.then(geojson => L.geoJSON(geojson,
-				            {
-				                onEachFeature: onEachFeatureAction(france_only),
-				                pointToLayer: france_only_pointToLayer,
-                                filter: function (feature, layer) {
-                                if (feature.properties.country == "France") return true}
-				            }));
-        
+            .then(r => r.json())
+            .then(geojson => L.geoJSON(geojson,
+                        {
+                            onEachFeature: onEachFeatureAction(france_only),
+                            pointToLayer: france_only_pointToLayer,
+                            filter: function (feature, layer) {
+                            if (feature.properties.country == "France") return true}
+                        }));
+
+        let based_on_radius = L.layerGroup()
+        geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+            .then(r => r.json())
+            .then(geojson => L.geoJSON(geojson,
+                        {
+                            onEachFeature: onEachFeatureAction(based_on_radius),
+                            pointToLayer: pointToLayer_radius,
+                        }));
+
         /* Create layer control */
         let layerControl = {
         "France only": france_only,
+        "radius": based_on_radius,
         "Default": default_layer,
         }
 
