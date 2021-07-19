@@ -1,0 +1,386 @@
+[
+    {
+        "country": "France",
+        "name": "WEST",
+        "address": "Cadarache",
+        "coordinates": [
+            5.763735075034328,
+            43.704788050141296
+        ],
+        "website": "https://irfm.cea.fr/en/west/"
+    },
+    {
+        "country": "France",
+        "name": "ITER",
+        "address": "St-Paul-lez-Durance",
+        "coordinates": [
+            5.777038831078966,
+            43.70879000045666
+        ],
+        "website": "https://iter.org/"
+    },
+    {
+        "country": "France",
+        "name": "LMJ",
+        "address": "Le Barp",
+        "coordinates": [
+            -0.8074136680055679,
+            44.658605567060874
+        ],
+        "website": "https://www-lmj.cea.fr/"
+    },
+    {
+        "country": "France",
+        "name": "Renaissance Fusion",
+        "address": "Fontaine",
+        "coordinates": [
+            5.67483256527124,
+            45.19592767645715
+        ]
+    },
+    {
+        "country": "France",
+        "name": "ToriX",
+        "address": "Palaiseau",
+        "coordinates": [
+            2.21129169809826,
+            48.714410343730435
+        ]
+    },
+    {
+        "country": "United-Kingdom",
+        "name": "JET",
+        "address": "Abingdon",
+        "coordinates": [
+            -1.225019945107592,
+            51.65934962924273
+        ],
+        "website": "https://ccfe.ukaea.uk/research/joint-european-torus/"
+    },
+    {
+        "country": "United-Kingdom",
+        "name": "MAST-U",
+        "address": "Abingdon",
+        "coordinates": [
+            -1.2295439295543145,
+            51.658000352826996
+        ],
+        "website": "https://ccfe.ukaea.uk/research/mast-upgrade/"
+    },
+    {
+        "country": "United-Kingdom",
+        "name": "First Light",
+        "address": "Kidlington",
+        "coordinates": [
+            -1.3001906859764691,
+            51.805036645983655
+        ],
+        "website": "https://firstlightfusion.com/"
+    },
+    {
+        "country": "United-Kingdom",
+        "name": "ST40",
+        "address": "Abingdon",
+        "coordinates": [
+            -1.281794045869338,
+            51.623251899457706
+        ],
+        "website": "https://www.tokamakenergy.co.uk/"
+    },
+    {
+        "country": "Germany",
+        "name": "ASDEX",
+        "address": "Garching",
+        "coordinates": [
+            11.671764353853556,
+            48.26295113080633
+        ],
+        "website": "https://www.ipp.mpg.de/16195/asdex"
+    },
+    {
+        "country": "Germany",
+        "name": "Wendelstein 7-X",
+        "address": "Garching",
+        "coordinates": [
+            11.671373173100747,
+            48.264022565016305
+        ],
+        "website": "https://www.ipp.mpg.de/w7x"
+    },
+    {
+        "country": "Germany",
+        "name": "TJ-K",
+        "address": "Stuttgart",
+        "coordinates": [
+            9.17365141088079,
+            48.78188166139253
+        ],
+        "website": "https://www.igvp.uni-stuttgart.de/en/research/plasma-dynamics-and-diagnostics/experiments/TJ-K/"
+    },
+    {
+        "country": "Japan",
+        "name": "RELAX",
+        "address": "Kyoto",
+        "coordinates": [
+            135.78211483557752,
+            35.050320110307794
+        ]
+    },
+    {
+        "country": "Japan",
+        "name": "Heliotron J",
+        "address": "Kyoto",
+        "coordinates": [
+            135.78086998987203,
+            35.02646991574031
+        ]
+    },
+    {
+        "country": "Japan",
+        "name": "LATE",
+        "address": "Kyoto",
+        "coordinates": [
+            135.80037018143938,
+            34.9105088579678
+        ]
+    },
+    {
+        "country": "Japan",
+        "name": "QUEST",
+        "address": "Kyoto",
+        "coordinates": [
+            130.42529969435358,
+            33.623181894454575
+        ]
+    },
+    {
+        "country": "United-States",
+        "name": "DIII-D",
+        "address": "San Diego",
+        "coordinates": [
+            -117.23677839176327,
+            32.89524918966554
+        ],
+        "website": "https://www.ga.com/magnetic-fusion/diii-d"
+    },
+    {
+        "country": "United-States",
+        "name": "NSTX-U",
+        "address": "Princeton",
+        "coordinates": [
+            -74.60305535964459,
+            40.35022723814888
+        ],
+        "website": "https://www.pppl.gov/nstx"
+    },
+    {
+        "country": "United-States",
+        "name": "SPARC",
+        "address": "Devens MA",
+        "coordinates": [
+            -71.61180064645845,
+            42.54222704578338
+        ],
+        "website": "https://www.psfc.mit.edu/sparc"
+    },
+    {
+        "country": "Korea",
+        "name": "KSTAR",
+        "address": "Daejeon",
+        "coordinates": [
+            127.35195757861905,
+            36.37266478029253
+        ]
+    },
+    {
+        "country": "Korea",
+        "name": "VEST",
+        "address": "Seoul",
+        "coordinates": [
+            126.95008611338027,
+            37.4568736825987
+        ]
+    },
+    {
+        "country": "Brazil",
+        "name": "NOVA-FURG",
+        "address": "Vit\u00c3\u00b3ria",
+        "coordinates": [
+            -40.20363948880572,
+            -19.012103417010753
+        ]
+    },
+    {
+        "country": "Brazil",
+        "name": "ETE",
+        "address": "S\u00c3\u00a3o Jos\u00c3\u00a9 dos Campos",
+        "coordinates": [
+            -45.860201592872386,
+            -23.20676278738629
+        ]
+    },
+    {
+        "country": "Brazil",
+        "name": "TCABR",
+        "address": "S\u00c3\u00a3o Paulo",
+        "coordinates": [
+            -46.731308062011756,
+            -23.56146460186351
+        ]
+    },
+    {
+        "country": "Canada",
+        "name": "General Fusion",
+        "address": "Burnaby",
+        "coordinates": [
+            -122.91537454408733,
+            49.252004059432664
+        ],
+        "website": "https://generalfusion.com/technology-magnetized-target-fusion/"
+    },
+    {
+        "country": "Canada",
+        "name": "STOR-M",
+        "address": "Saskatchewan",
+        "coordinates": [
+            -106.63480279413353,
+            52.15379223628213
+        ]
+    },
+    {
+        "country": "China",
+        "name": "HT-7",
+        "address": "Hefei",
+        "coordinates": [
+            117.1711244555299,
+            31.857641122096826
+        ]
+    },
+    {
+        "country": "China",
+        "name": "EXL-50",
+        "address": "Heibei",
+        "coordinates": [
+            116.73533333916788,
+            39.560976913258614
+        ]
+    },
+    {
+        "country": "China",
+        "name": "EAST",
+        "address": "Hefei",
+        "coordinates": [
+            117.1711244555299,
+            31.857641122096826
+        ]
+    },
+    {
+        "country": "China",
+        "name": "CFQS",
+        "address": "Shanghai",
+        "coordinates": [
+            121.43196100765981,
+            31.198475788344112
+        ]
+    },
+    {
+        "country": "Costa Rica",
+        "name": "MEDUSA-CR",
+        "address": "Cartago",
+        "coordinates": [
+            -83.91244621661976,
+            9.856522484302424
+        ]
+    },
+    {
+        "country": "Costa Rica",
+        "name": "SCR-1",
+        "address": "Cartago",
+        "coordinates": [
+            -83.91238030711098,
+            9.856706690590785
+        ]
+    },
+    {
+        "country": "Czech Republic",
+        "name": "GOLEM",
+        "address": "Prague",
+        "coordinates": [
+            14.391359200111388,
+            50.10318777376735
+        ]
+    },
+    {
+        "country": "Czech Republic",
+        "name": "COMPASS-U",
+        "address": "Prague",
+        "coordinates": [
+            14.394294432566214,
+            50.10497085179941
+        ]
+    },
+    {
+        "country": "Denmark",
+        "name": "NORTH",
+        "address": "Kongens Lyngby",
+        "coordinates": [
+            12.5216351393253,
+            55.78536970233601
+        ],
+        "website": "https://www.iter.org/newsline/-/3330"
+    },
+    {
+        "country": "Egypt",
+        "name": "EGYPTOR",
+        "address": "Alexandria",
+        "coordinates": [
+            29.944445441425476,
+            31.255478324106356
+        ]
+    },
+    {
+        "country": "India",
+        "name": "SST-1",
+        "address": "Gujarat",
+        "coordinates": [
+            72.62239375120585,
+            23.097163401418662
+        ]
+    },
+    {
+        "country": "India",
+        "name": "ADITYA-U",
+        "address": "Gujarat",
+        "coordinates": [
+            72.62504900244637,
+            23.098684664631392
+        ]
+    },
+    {
+        "country": "Italy",
+        "name": "DTT",
+        "address": "Roma",
+        "coordinates": [
+            12.669695326483946,
+            41.82178139404003
+        ]
+    },
+    {
+        "country": "Spain",
+        "name": "TJ-II",
+        "address": "Madrid",
+        "coordinates": [
+            -3.728997406392373,
+            40.454386165022335
+        ]
+    },
+    {
+        "country": "Spain",
+        "name": "SMART",
+        "address": "Seville",
+        "coordinates": [
+            -5.991069769509132,
+            37.38074935450412
+        ]
+    }
+]
