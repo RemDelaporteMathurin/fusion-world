@@ -24,7 +24,7 @@
     <div id="map"></div>
 
     <script>
-        var mapboxUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+        var mapboxUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
         var grayscale = L.tileLayer(mapboxUrl, {id: 'MapID', tileSize: 512, zoomOffset: -1, attribution: mapboxAttribution}),
             streets   = L.tileLayer(mapboxUrl, {id: 'MapID', tileSize: 512, zoomOffset: -1, attribution: mapboxAttribution});
 
