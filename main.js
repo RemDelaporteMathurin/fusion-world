@@ -6,12 +6,30 @@ L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 var tokamakStyle = {
-    fillColor: '#6E2594',
+    fillColor: '#BA324F',
+    // fillColor: '#6E2594',
     color: '#808080',
     radius: 7,
     weight: 1,
     fillOpacity: 0.7
 };
+
+var stellaratorStyle = {
+    fillColor: '#175676',
+    color: '#808080',
+    radius: 7,
+    weight: 1,
+    fillOpacity: 0.7
+};
+
+var othersStyle = {
+    fillColor: '#4BA3C3',
+    color: '#808080',
+    radius: 7,
+    weight: 1,
+    fillOpacity: 0.7
+};
+
 
 function highlightFeature(e) {
     var layer = e.target;
@@ -195,7 +213,16 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-lo
     .then(geojson => L.geoJSON(geojson,
                 {
                     onEachFeature: onEachFeatureAction(stellarators, resetHighlightDefault),
-                    pointToLayer: pointToLayerAction,
+                    pointToLayer: function (feature, latlng) {
+                    
+                        return L.circleMarker(latlng,stellaratorStyle).bindTooltip(`
+                            <b>${feature.properties.name}</b>
+                            <br>
+                            ${feature.properties.address}
+                            <br>
+                            ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
+                        `, {direction: 'top', sticky: true})
+                    },
                     filter: function(feature, layer) {
                         return feature.properties.configuration == "stellarator"
                     }
@@ -207,7 +234,16 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-lo
     .then(geojson => L.geoJSON(geojson,
                 {
                     onEachFeature: onEachFeatureAction(others, resetHighlightDefault),
-                    pointToLayer: pointToLayerAction,
+                    pointToLayer: function (feature, latlng) {
+                    
+                        return L.circleMarker(latlng,othersStyle).bindTooltip(`
+                            <b>${feature.properties.name}</b>
+                            <br>
+                            ${feature.properties.address}
+                            <br>
+                            ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
+                        `, {direction: 'top', sticky: true})
+                    },
                     filter: function(feature, layer) {
                         return feature.properties.configuration == "alternate_concept"
                     }
