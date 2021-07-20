@@ -1678,6 +1678,56 @@
                     45.39882359345374
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-Kingdom",
+                "name": "FDP",
+                "address": "Abingdon",
+                "configuration": "itertial"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.2305699355838213,
+                    51.65926166977835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-States",
+                "name": "Z machine",
+                "address": "Albuquerque",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://www.sandia.gov/z-machine/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.55130036031196,
+                    35.317561649738074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-States",
+                "name": "Fusion Power Core",
+                "address": "Albuquerque",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://www.sandia.gov/z-machine/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.55130036031196,
+                    35.317561649738074
+                ]
+            }
         }
     ]
 }

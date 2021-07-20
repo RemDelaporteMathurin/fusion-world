@@ -1042,5 +1042,28 @@
         "website": "https://www.igi.cnr.it/?q=content%2Fexperiment-introduction",
         "coordinates": [11.87050513999025, 45.39882359345374],
         "configuration": "alternate_concept"
+    },
+    {
+        "country": "United-Kingdom",
+        "name": "FDP",
+        "address": "Abingdon",
+        "coordinates": [-1.2305699355838213, 51.65926166977835],
+        "configuration": "itertial"
+    },
+    {
+        "country": "United-States",
+        "name": "Z machine",
+        "address": "Albuquerque",
+        "coordinates": [-106.55130036031196, 35.317561649738074],
+        "configuration":"alternate_concept",
+        "website": "https://www.sandia.gov/z-machine/"
+    },
+    {
+        "country": "United-States",
+        "name": "Fusion Power Core",
+        "address": "Albuquerque",
+        "coordinates": [-106.55130036031196, 35.317561649738074],
+        "configuration":"alternate_concept",
+        "website": "https://www.sandia.gov/z-machine/"
     }
 ]
