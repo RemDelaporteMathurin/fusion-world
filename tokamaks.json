@@ -297,17 +297,6 @@
         "coordinates": [30.372538772590566, 60.007625769468554]
     },
     {
-        "name": "FTU",
-        "country": "Italy",
-        "address": "Frascati",
-        "R": "0.935",
-        "r": "0.3",
-        "TF": "8",
-        "IP": "1.6",
-        "configuration": "tokamak",
-        "coordinates": [12.662124025832343, 41.82051935341014]
-    },
-    {
         "name": "GLAST-III",
         "country": "Pakistan",
         "address": "Islamabad",
@@ -1005,6 +994,17 @@
         "coordinates": [12.67276703033901, 41.821031065163126],
         "website": "https://www.dtt-project.it/",
         "configuration": "tokamak"
+    },
+    {
+        "name": "FTU",
+        "country": "Italy",
+        "address": "Roma",
+        "R": "0.935",
+        "r": "0.3",
+        "TF": "8",
+        "IP": "1.6",
+        "configuration": "tokamak",
+        "coordinates": [12.662124025832343, 41.82051935341014]
     },
     {
         "country": "Spain",

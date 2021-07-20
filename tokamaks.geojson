@@ -468,26 +468,6 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "Italy",
-                "name": "FTU",
-                "address": "Frascati",
-                "configuration": "tokamak",
-                "R": "0.935",
-                "r": "0.3",
-                "TF": "8",
-                "IP": "1.6"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    12.662124025832343,
-                    41.82051935341014
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "country": "Pakistan",
                 "name": "GLAST-III",
                 "address": "Islamabad",
@@ -1606,6 +1586,26 @@
                 "coordinates": [
                     12.67276703033901,
                     41.821031065163126
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Italy",
+                "name": "FTU",
+                "address": "Roma",
+                "configuration": "tokamak",
+                "R": "0.935",
+                "r": "0.3",
+                "TF": "8",
+                "IP": "1.6"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.662124025832343,
+                    41.82051935341014
                 ]
             }
         },
