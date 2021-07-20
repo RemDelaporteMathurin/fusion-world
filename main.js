@@ -135,6 +135,15 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-m
                 {
                     onEachFeature: onEachFeatureAction(based_on_radius, resetHighlightRadius),
                     pointToLayer: pointToLayer_radius,
+                    filter: function(feature, layer) {
+                        switch (feature.properties.configuration) {
+                            case 'tokamak':
+                            case 'stellarator':
+                                return true;
+                            default:
+                                return false;
+                        }
+                    }
                 }));
 
 /* Create layer control */
