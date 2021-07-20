@@ -8,7 +8,7 @@
         "TF": "0.7",
         "IP": "0.08",
         "configuration": "stellarator",
-        "coordinates": [-85.49508141184504, 32.59506710233563]
+        "coordinates": [32.59506710233563, -85.49508141184504]
     },
     {
         "country": "Japan",
@@ -160,7 +160,7 @@
         "TF": "0.8",
         "IP": "0.035",
         "configuration": "tokamak",
-        "coordinates": [35.703761905133454, 51.40946511376906]
+        "coordinates": [51.40946511376906, 35.703761905133454]
     },
     {
         "name": "IR-T1",
@@ -171,7 +171,7 @@
         "TF": "0.8",
         "IP": "0.035",
         "configuration": "tokamak",
-        "coordinates": [35.67631465416959, 51.4696688711306]
+        "coordinates": [51.4696688711306, 35.67631465416959]
     },
 
     {
@@ -194,7 +194,7 @@
         "TF": "0.9",
         "IP": "0.03",
         "configuration": "tokamak",
-        "coordinates":[35.7393684858733, 51.3880330688036]
+        "coordinates":[51.3880330688036, 35.7393684858733]
     },
     {
         "country": "United-States",
@@ -968,7 +968,7 @@
         "country": "Italy",
         "name": "DTT",
         "address": "Roma",
-        "coordinates": [41.821031065163126, 12.67276703033901]
+        "coordinates": [12.67276703033901, 41.821031065163126]
     },
     {
         "country": "Spain",
