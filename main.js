@@ -169,7 +169,15 @@ div.innerHTML = labels.join('<br>');
 return div;
 };
 
-legend.addTo(map);
+// make the legend appear or disappear
+map.on('baselayerchange', function (eventLayer) {
+    // Switch to the Population legend...
+    if (eventLayer.name === 'Major radius') {
+        legend.addTo(this);
+    } else {
+        this.removeControl(legend);
+    }
+});
 
 // info control
 var info = L.control();
