@@ -8,13 +8,13 @@ Discover the (not so small) world of fusion [here](https://remdelaportemathurin.
 ## Usage
 
 **Zoom in/out, hover over the machines to get info:**
-![animation_hover](https://user-images.githubusercontent.com/40028739/126386321-f133b298-21a5-4f3b-ae59-0cbcece6e3a8.gif)
+<img src="https://user-images.githubusercontent.com/40028739/126386321-f133b298-21a5-4f3b-ae59-0cbcece6e3a8.gif" width="500">
 
 **Compare the fusion reactors based on their properties:**
-![animation_layers](https://user-images.githubusercontent.com/40028739/126386494-27c7bd2b-0099-4c0a-a848-0dd49986af7c.gif)
+<img src=https://user-images.githubusercontent.com/40028739/126386494-27c7bd2b-0099-4c0a-a848-0dd49986af7c.gif width="500">
 
 **Display only tokamaks or stellarators or the alternate concepts:**
-![animation_overlays](https://user-images.githubusercontent.com/40028739/126386589-baecb6ee-f227-4639-8e56-b7f5f8e2b86d.gif)
+<img src=https://user-images.githubusercontent.com/40028739/126386589-baecb6ee-f227-4639-8e56-b7f5f8e2b86d.gif width="500">
 
 ## How to contribute
 
