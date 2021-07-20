@@ -870,6 +870,27 @@
             "type": "Feature",
             "properties": {
                 "country": "United-Kingdom",
+                "name": "ST40",
+                "address": "Abingdon",
+                "configuration": "tokamak",
+                "popupContent": "<a href='https://www.tokamakenergy.co.uk/'> Website </a>",
+                "R": "0.5",
+                "r": "0.3",
+                "TF": "3",
+                "IP": "2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.281794045869338,
+                    51.623251899457706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-Kingdom",
                 "name": "MAST-U",
                 "address": "Abingdon",
                 "configuration": "tokamak",
@@ -1066,27 +1087,6 @@
                 "coordinates": [
                     72.62239375120585,
                     23.097163401418662
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "United-Kingdom",
-                "name": "ST40",
-                "address": "Abingdon",
-                "configuration": "tokamak",
-                "popupContent": "<a href='https://www.tokamakenergy.co.uk/'> Website </a>",
-                "R": "0.5",
-                "r": "0.3",
-                "TF": "3",
-                "IP": "2"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -1.281794045869338,
-                    51.623251899457706
                 ]
             }
         },
