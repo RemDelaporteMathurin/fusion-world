@@ -18,7 +18,8 @@ for store in stores:
             'properties': {
                 'country': store['country'],
                 'name': store['name'],
-                'address': store['address']
+                'address': store['address'],
+                "configuration": store["configuration"]
             },
             'geometry': {
                 'type': 'Point',
@@ -28,8 +29,10 @@ for store in stores:
         if "website" in store:
             content = "<a href='" + store["website"] + "'> Website </a>"
             feature_dict['properties']['popupContent'] = content
-        if "R" in store:
-            feature_dict['properties']['R'] = store["R"]
+
+        for prop in ["R", "r", "TF", "IP"]:
+            if prop in store:
+                feature_dict['properties'][prop] = store[prop]
         geojson["features"].append(feature_dict)
 
 with open('tokamaks.geojson', 'w') as f:

@@ -7,7 +7,11 @@
                 "country": "USA",
                 "name": "CTH",
                 "address": "Auburn",
-                "R": "0.75"
+                "configuration": "stellarator",
+                "R": "0.75",
+                "r": "0.29",
+                "TF": "0.7",
+                "IP": "0.08"
             },
             "geometry": {
                 "type": "Point",
@@ -23,7 +27,11 @@
                 "country": "Japan",
                 "name": "Heliotron J",
                 "address": "Kyoto",
-                "R": "1.2"
+                "configuration": "stellarator",
+                "R": "1.2",
+                "r": "0.1",
+                "TF": "1.5",
+                "IP": "0.2"
             },
             "geometry": {
                 "type": "Point",
@@ -39,7 +47,11 @@
                 "country": "United-States",
                 "name": "HIDRA",
                 "address": "Urbana",
-                "R": "0.72"
+                "configuration": "stellarator",
+                "R": "0.72",
+                "r": "0.19",
+                "TF": "0.5",
+                "IP": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -55,7 +67,11 @@
                 "country": "United-States",
                 "name": "HSX",
                 "address": "Madison",
-                "R": "1.2"
+                "configuration": "stellarator",
+                "R": "1.2",
+                "r": "0.15",
+                "TF": "1.25",
+                "IP": "0.0134"
             },
             "geometry": {
                 "type": "Point",
@@ -71,7 +87,11 @@
                 "country": "Japan",
                 "name": "LHD",
                 "address": "Toki",
-                "R": "3.9"
+                "configuration": "stellarator",
+                "R": "3.9",
+                "r": "0.65",
+                "TF": "4",
+                "IP": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -87,7 +107,11 @@
                 "country": "Costa Rica",
                 "name": "SCR-1",
                 "address": "Cartago",
-                "R": "0.238"
+                "configuration": "stellarator",
+                "R": "0.238",
+                "r": "0.042",
+                "TF": "0.0878",
+                "IP": "0.04"
             },
             "geometry": {
                 "type": "Point",
@@ -103,7 +127,11 @@
                 "country": "Spain",
                 "name": "TJ-II",
                 "address": "Madrid",
-                "R": "1.5"
+                "configuration": "stellarator",
+                "R": "1.5",
+                "r": "0.22",
+                "TF": "0.95",
+                "IP": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -119,8 +147,12 @@
                 "country": "Germany",
                 "name": "TJ-K",
                 "address": "Stuttgart",
+                "configuration": "stellarator",
                 "popupContent": "<a href='https://www.igvp.uni-stuttgart.de/en/research/plasma-dynamics-and-diagnostics/experiments/TJ-K/'> Website </a>",
-                "R": "0.6"
+                "R": "0.6",
+                "r": "0.1",
+                "TF": "0.5",
+                "IP": "0.003"
             },
             "geometry": {
                 "type": "Point",
@@ -136,7 +168,11 @@
                 "country": "Ukraine",
                 "name": "Uragan-2M",
                 "address": "Kharkov",
-                "R": "1.7"
+                "configuration": "stellarator",
+                "R": "1.7",
+                "r": "0.22",
+                "TF": "2.4",
+                "IP": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -152,7 +188,11 @@
                 "country": "Ukraine",
                 "name": "Uragan-3M",
                 "address": "Kharkov",
-                "R": "1"
+                "configuration": "stellarator",
+                "R": "1",
+                "r": "0.12",
+                "TF": "0.7",
+                "IP": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -168,8 +208,12 @@
                 "country": "Germany",
                 "name": "Wendelstein 7-X",
                 "address": "Garching",
+                "configuration": "stellarator",
                 "popupContent": "<a href='https://www.ipp.mpg.de/w7x'> Website </a>",
-                "R": "5.5"
+                "R": "5.5",
+                "r": "0.53",
+                "TF": "3",
+                "IP": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -185,7 +229,11 @@
                 "country": "India",
                 "name": "ADITYA-U",
                 "address": "Gujarat",
-                "R": "0.75"
+                "configuration": "tokamak",
+                "R": "0.75",
+                "r": "0.25",
+                "TF": "1.5",
+                "IP": "0.25"
             },
             "geometry": {
                 "type": "Point",
@@ -201,7 +249,11 @@
                 "country": "Iran",
                 "name": "Alvand",
                 "address": "Teheran",
-                "R": "0.456"
+                "configuration": "tokamak",
+                "R": "0.456",
+                "r": "0.126",
+                "TF": "0.8",
+                "IP": "0.035"
             },
             "geometry": {
                 "type": "Point",
@@ -217,7 +269,11 @@
                 "country": "Iran",
                 "name": "IR-T1",
                 "address": "Teheran",
-                "R": "0.456"
+                "configuration": "tokamak",
+                "R": "0.456",
+                "r": "0.126",
+                "TF": "0.8",
+                "IP": "0.035"
             },
             "geometry": {
                 "type": "Point",
@@ -233,7 +289,11 @@
                 "country": "Czech Republic",
                 "name": "COMPASS",
                 "address": "Prague",
-                "R": "0.56"
+                "configuration": "tokamak",
+                "R": "0.56",
+                "r": "0.2",
+                "TF": "2.1",
+                "IP": "0.4"
             },
             "geometry": {
                 "type": "Point",
@@ -249,7 +309,11 @@
                 "country": "Iran",
                 "name": "Damavand",
                 "address": "Teheran",
-                "R": "0.362"
+                "configuration": "tokamak",
+                "R": "0.362",
+                "r": "0.077",
+                "TF": "0.9",
+                "IP": "0.03"
             },
             "geometry": {
                 "type": "Point",
@@ -265,8 +329,12 @@
                 "country": "United-States",
                 "name": "DIII-D",
                 "address": "San Diego",
+                "configuration": "tokamak",
                 "popupContent": "<a href='https://www.ga.com/magnetic-fusion/diii-d'> Website </a>",
-                "R": "1.7"
+                "R": "1.7",
+                "r": "0.6",
+                "TF": "2.17",
+                "IP": "2"
             },
             "geometry": {
                 "type": "Point",
@@ -282,7 +350,11 @@
                 "country": "China",
                 "name": "EAST",
                 "address": "Hefei",
-                "R": "1.7"
+                "configuration": "tokamak",
+                "R": "1.7",
+                "r": "0.4",
+                "TF": "3.5",
+                "IP": "0.5"
             },
             "geometry": {
                 "type": "Point",
@@ -298,7 +370,11 @@
                 "country": "Egypt",
                 "name": "EGYPTOR",
                 "address": "Alexandria",
-                "R": "0.3"
+                "configuration": "tokamak",
+                "R": "0.3",
+                "r": "0.1",
+                "TF": "1.2",
+                "IP": "0.05"
             },
             "geometry": {
                 "type": "Point",
@@ -314,7 +390,11 @@
                 "country": "Brazil",
                 "name": "ETE",
                 "address": "S\u00c3\u00a3o Jos\u00c3\u00a9 dos Campos",
-                "R": "0.3"
+                "configuration": "tokamak",
+                "R": "0.3",
+                "r": "0.2",
+                "TF": "0.4",
+                "IP": "0.045"
             },
             "geometry": {
                 "type": "Point",
@@ -330,7 +410,11 @@
                 "country": "China",
                 "name": "EXL-50",
                 "address": "Heibei",
-                "R": "0.58"
+                "configuration": "tokamak",
+                "R": "0.58",
+                "r": "0.41",
+                "TF": "0.402",
+                "IP": "0.05"
             },
             "geometry": {
                 "type": "Point",
@@ -346,7 +430,11 @@
                 "country": "Russia",
                 "name": "FT-2",
                 "address": "St-Petersburg",
-                "R": "0.55"
+                "configuration": "tokamak",
+                "R": "0.55",
+                "r": "0.087",
+                "TF": "2.3",
+                "IP": "0.04"
             },
             "geometry": {
                 "type": "Point",
@@ -362,7 +450,11 @@
                 "country": "Italy",
                 "name": "FTU",
                 "address": "Frascati",
-                "R": "0.935"
+                "configuration": "tokamak",
+                "R": "0.935",
+                "r": "0.3",
+                "TF": "8",
+                "IP": "1.6"
             },
             "geometry": {
                 "type": "Point",
@@ -378,7 +470,11 @@
                 "country": "Pakistan",
                 "name": "GLAST-III",
                 "address": "Islamabad",
-                "R": "0.2"
+                "configuration": "tokamak",
+                "R": "0.2",
+                "r": "0.1",
+                "TF": "0.0875",
+                "IP": "0.002"
             },
             "geometry": {
                 "type": "Point",
@@ -394,7 +490,11 @@
                 "country": "Russia",
                 "name": "Globus-M2",
                 "address": "St-Petersburg",
-                "R": "0.36"
+                "configuration": "tokamak",
+                "R": "0.36",
+                "r": "0.24",
+                "TF": "1",
+                "IP": "0.5"
             },
             "geometry": {
                 "type": "Point",
@@ -410,7 +510,11 @@
                 "country": "Czech Republic",
                 "name": "GOLEM",
                 "address": "Prague",
-                "R": "0.4"
+                "configuration": "tokamak",
+                "R": "0.4",
+                "r": "0.085",
+                "TF": "0.8",
+                "IP": "0.008"
             },
             "geometry": {
                 "type": "Point",
@@ -426,7 +530,11 @@
                 "country": "Russia",
                 "name": "GUTTA",
                 "address": "St-Petersburg",
-                "R": "0.16"
+                "configuration": "tokamak",
+                "R": "0.16",
+                "r": "0.08",
+                "TF": "1.5",
+                "IP": "0.15"
             },
             "geometry": {
                 "type": "Point",
@@ -442,7 +550,11 @@
                 "country": "United-States",
                 "name": "HBT-EP",
                 "address": "New-York",
-                "R": "0.94"
+                "configuration": "tokamak",
+                "R": "0.94",
+                "r": "0.2",
+                "TF": "0.3",
+                "IP": "0.032"
             },
             "geometry": {
                 "type": "Point",
@@ -458,7 +570,11 @@
                 "country": "Japan",
                 "name": "HIST",
                 "address": "Hyogo",
-                "R": "0.3"
+                "configuration": "tokamak",
+                "R": "0.3",
+                "r": "0.24",
+                "TF": "0.2",
+                "IP": "0.1"
             },
             "geometry": {
                 "type": "Point",
@@ -474,7 +590,11 @@
                 "country": "China",
                 "name": "HL-2A",
                 "address": "Chengdu",
-                "R": "1.65"
+                "configuration": "tokamak",
+                "R": "1.65",
+                "r": "0.4",
+                "TF": "2.8",
+                "IP": "0.8"
             },
             "geometry": {
                 "type": "Point",
@@ -490,7 +610,11 @@
                 "country": "China",
                 "name": "HL-2M",
                 "address": "Chengdu",
-                "R": "1.78"
+                "configuration": "tokamak",
+                "R": "1.78",
+                "r": "0.65",
+                "TF": "2.2",
+                "IP": "2.5"
             },
             "geometry": {
                 "type": "Point",
@@ -506,7 +630,11 @@
                 "country": "China",
                 "name": "HT-7",
                 "address": "Hefei",
-                "R": "1.75"
+                "configuration": "tokamak",
+                "R": "1.75",
+                "r": "0.4",
+                "TF": "3.5",
+                "IP": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -522,7 +650,11 @@
                 "country": "Japan",
                 "name": "HYBTOK-II",
                 "address": "Nagoya",
-                "R": "0.4"
+                "configuration": "tokamak",
+                "R": "0.4",
+                "r": "0.128",
+                "TF": "0.5",
+                "IP": "0.015"
             },
             "geometry": {
                 "type": "Point",
@@ -538,8 +670,12 @@
                 "country": "United-Kingdom",
                 "name": "JET",
                 "address": "Abingdon",
+                "configuration": "tokamak",
                 "popupContent": "<a href='https://ccfe.ukaea.uk/research/joint-european-torus/'> Website </a>",
-                "R": "2.96"
+                "R": "2.96",
+                "r": "1.25",
+                "TF": "3.4",
+                "IP": "5"
             },
             "geometry": {
                 "type": "Point",
@@ -555,7 +691,11 @@
                 "country": "Korea",
                 "name": "KSTAR",
                 "address": "Daejeon",
-                "R": "1.8"
+                "configuration": "tokamak",
+                "R": "1.8",
+                "r": "0.5",
+                "TF": "3.5",
+                "IP": "2"
             },
             "geometry": {
                 "type": "Point",
@@ -571,7 +711,11 @@
                 "country": "Japan",
                 "name": "LATE",
                 "address": "Kyoto",
-                "R": "0.2"
+                "configuration": "tokamak",
+                "R": "0.2",
+                "r": "0.14",
+                "TF": "0.18",
+                "IP": "0.05"
             },
             "geometry": {
                 "type": "Point",
@@ -587,8 +731,12 @@
                 "country": "United-Kingdom",
                 "name": "MAST-U",
                 "address": "Abingdon",
+                "configuration": "tokamak",
                 "popupContent": "<a href='https://ccfe.ukaea.uk/research/mast-upgrade/'> Website </a>",
-                "R": "0.85"
+                "R": "0.85",
+                "r": "0.65",
+                "TF": "0.52",
+                "IP": "1.3"
             },
             "geometry": {
                 "type": "Point",
@@ -604,7 +752,11 @@
                 "country": "Costa Rica",
                 "name": "MEDUSA-CR",
                 "address": "Cartago",
-                "R": "0.14"
+                "configuration": "tokamak",
+                "R": "0.14",
+                "r": "0.1",
+                "TF": "0.5",
+                "IP": "0.04"
             },
             "geometry": {
                 "type": "Point",
@@ -620,8 +772,12 @@
                 "country": "Denmark",
                 "name": "NORTH",
                 "address": "Kongens Lyngby",
+                "configuration": "tokamak",
                 "popupContent": "<a href='https://www.iter.org/newsline/-/3330'> Website </a>",
-                "R": "0.25"
+                "R": "0.25",
+                "r": "0",
+                "TF": "0.3",
+                "IP": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -637,7 +793,11 @@
                 "country": "Brazil",
                 "name": "NOVA-FURG",
                 "address": "Vit\u00c3\u00b3ria",
-                "R": "0.3"
+                "configuration": "tokamak",
+                "R": "0.3",
+                "r": "0.06",
+                "TF": "1.5",
+                "IP": "0.01"
             },
             "geometry": {
                 "type": "Point",
@@ -653,8 +813,12 @@
                 "country": "United-States",
                 "name": "NSTX-U",
                 "address": "Princeton",
+                "configuration": "tokamak",
                 "popupContent": "<a href='https://www.pppl.gov/nstx'> Website </a>",
-                "R": "0.934"
+                "R": "0.934",
+                "r": "0.68",
+                "TF": "1",
+                "IP": "2"
             },
             "geometry": {
                 "type": "Point",
@@ -670,7 +834,11 @@
                 "country": "United-States",
                 "name": "Pegasus-III",
                 "address": "Madison",
-                "R": "0.45"
+                "configuration": "tokamak",
+                "R": "0.45",
+                "r": "0.37",
+                "TF": "0.58",
+                "IP": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -686,7 +854,11 @@
                 "country": "Japan",
                 "name": "PHiX",
                 "address": "Tokyo",
-                "R": "0.33"
+                "configuration": "tokamak",
+                "R": "0.33",
+                "r": "0.09",
+                "TF": "0.091",
+                "IP": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -702,7 +874,11 @@
                 "country": "Japan",
                 "name": "QUEST",
                 "address": "Kyushu",
-                "R": "0.68"
+                "configuration": "tokamak",
+                "R": "0.68",
+                "r": "0.4",
+                "TF": "0.25",
+                "IP": "0.1"
             },
             "geometry": {
                 "type": "Point",
@@ -718,7 +894,11 @@
                 "country": "India",
                 "name": "SST-1",
                 "address": "Gujarat",
-                "R": "1.1"
+                "configuration": "tokamak",
+                "R": "1.1",
+                "r": "0.2",
+                "TF": "3",
+                "IP": "0.2"
             },
             "geometry": {
                 "type": "Point",
@@ -734,8 +914,12 @@
                 "country": "United-Kingdom",
                 "name": "ST40",
                 "address": "Abingdon",
+                "configuration": "tokamak",
                 "popupContent": "<a href='https://www.tokamakenergy.co.uk/'> Website </a>",
-                "R": "0.5"
+                "R": "0.5",
+                "r": "0.3",
+                "TF": "3",
+                "IP": "2"
             },
             "geometry": {
                 "type": "Point",
@@ -751,7 +935,11 @@
                 "country": "Canada",
                 "name": "STOR-M",
                 "address": "Saskatchewan",
-                "R": "0.46"
+                "configuration": "tokamak",
+                "R": "0.46",
+                "r": "0.125",
+                "TF": "0.7",
+                "IP": "0.06"
             },
             "geometry": {
                 "type": "Point",
@@ -767,7 +955,11 @@
                 "country": "China",
                 "name": "SUNIST",
                 "address": "Tsinghua",
-                "R": "0.3"
+                "configuration": "tokamak",
+                "R": "0.3",
+                "r": "0.23",
+                "TF": "0.27",
+                "IP": "0.1"
             },
             "geometry": {
                 "type": "Point",
@@ -783,7 +975,11 @@
                 "country": "Russia",
                 "name": "T-11M",
                 "address": "Moscow",
-                "R": "0.7"
+                "configuration": "tokamak",
+                "R": "0.7",
+                "r": "0.2",
+                "TF": "1",
+                "IP": "0.1"
             },
             "geometry": {
                 "type": "Point",
@@ -799,7 +995,11 @@
                 "country": "Brazil",
                 "name": "TCABR",
                 "address": "S\u00c3\u00a3o Paulo",
-                "R": "0.61"
+                "configuration": "tokamak",
+                "R": "0.61",
+                "r": "0.18",
+                "TF": "1.07",
+                "IP": "0.1"
             },
             "geometry": {
                 "type": "Point",
@@ -815,7 +1015,11 @@
                 "country": "Switzerland",
                 "name": "TCV",
                 "address": "Ecublens",
-                "R": "0.89"
+                "configuration": "tokamak",
+                "R": "0.89",
+                "r": "0.25",
+                "TF": "1.54",
+                "IP": "1.2"
             },
             "geometry": {
                 "type": "Point",
@@ -831,7 +1035,11 @@
                 "country": "Japan",
                 "name": "TOKASTAR-2",
                 "address": "Nagoya",
-                "R": "0.1"
+                "configuration": "tokamak",
+                "R": "0.1",
+                "r": "0.04",
+                "TF": "0.1",
+                "IP": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -847,7 +1055,11 @@
                 "country": "Japan",
                 "name": "TS-4U",
                 "address": "Tokyo",
-                "R": "0.5"
+                "configuration": "tokamak",
+                "R": "0.5",
+                "r": "0.3",
+                "TF": "0.1",
+                "IP": "0.1"
             },
             "geometry": {
                 "type": "Point",
@@ -863,7 +1075,11 @@
                 "country": "Japan",
                 "name": "TS-6",
                 "address": "Tokyo",
-                "R": "0.2"
+                "configuration": "tokamak",
+                "R": "0.2",
+                "r": "0.15",
+                "TF": "0.1",
+                "IP": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -879,7 +1095,11 @@
                 "country": "Japan",
                 "name": "TST-2",
                 "address": "Tokyo",
-                "R": "0.37"
+                "configuration": "tokamak",
+                "R": "0.37",
+                "r": "0.23",
+                "TF": "0.4",
+                "IP": "0.4"
             },
             "geometry": {
                 "type": "Point",
@@ -895,7 +1115,11 @@
                 "country": "Russia",
                 "name": "TUMAN-3M",
                 "address": "St-Petersburg",
-                "R": "0.53"
+                "configuration": "tokamak",
+                "R": "0.53",
+                "r": "0.22",
+                "TF": "1.2",
+                "IP": "0.18"
             },
             "geometry": {
                 "type": "Point",
@@ -911,7 +1135,11 @@
                 "country": "Japan",
                 "name": "UTST",
                 "address": "Tokyo",
-                "R": "0.39"
+                "configuration": "tokamak",
+                "R": "0.39",
+                "r": "0.24",
+                "TF": "0.3",
+                "IP": "0.2"
             },
             "geometry": {
                 "type": "Point",
@@ -927,7 +1155,11 @@
                 "country": "Korea",
                 "name": "VEST",
                 "address": "Seoul",
-                "R": "0.45"
+                "configuration": "tokamak",
+                "R": "0.45",
+                "r": "0.33",
+                "TF": "0.1",
+                "IP": "0.1"
             },
             "geometry": {
                 "type": "Point",
@@ -943,8 +1175,12 @@
                 "country": "France",
                 "name": "WEST",
                 "address": "Cadarache",
+                "configuration": "tokamak",
                 "popupContent": "<a href='https://irfm.cea.fr/en/west/'> Website </a>",
-                "R": "2.5"
+                "R": "2.5",
+                "r": "0.5",
+                "TF": "3.7",
+                "IP": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -960,7 +1196,11 @@
                 "country": "Czech Republic",
                 "name": "COMPASS-U",
                 "address": "Prague",
-                "R": "0"
+                "configuration": "tokamak",
+                "R": "0",
+                "r": "0",
+                "TF": "0",
+                "IP": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -976,8 +1216,12 @@
                 "country": "France",
                 "name": "ITER",
                 "address": "St-Paul-lez-Durance",
+                "configuration": "tokamak",
                 "popupContent": "<a href='https://iter.org/'> Website </a>",
-                "R": "6.2"
+                "R": "6.2",
+                "r": "2",
+                "TF": "5.3",
+                "IP": "15"
             },
             "geometry": {
                 "type": "Point",
@@ -993,7 +1237,11 @@
                 "country": "Pakistan",
                 "name": "MT-2",
                 "address": "Dera Ghazi Khan",
-                "R": "0"
+                "configuration": "tokamak",
+                "R": "0",
+                "r": "0",
+                "TF": "0",
+                "IP": "0"
             },
             "geometry": {
                 "type": "Point",
@@ -1009,7 +1257,11 @@
                 "country": "Russia",
                 "name": "T-15MD",
                 "address": "Moscow",
-                "R": "2.43"
+                "configuration": "tokamak",
+                "R": "2.43",
+                "r": "0.42",
+                "TF": "3.5",
+                "IP": "1"
             },
             "geometry": {
                 "type": "Point",
@@ -1025,7 +1277,11 @@
                 "country": "Thailand",
                 "name": "TT-1",
                 "address": "Bangkok",
-                "R": "0.65"
+                "configuration": "tokamak",
+                "R": "0.65",
+                "r": "0.2",
+                "TF": "1.52",
+                "IP": "0.1"
             },
             "geometry": {
                 "type": "Point",
@@ -1041,6 +1297,7 @@
                 "country": "France",
                 "name": "LMJ",
                 "address": "Le Barp",
+                "configuration": "inertial",
                 "popupContent": "<a href='https://www-lmj.cea.fr/'> Website </a>"
             },
             "geometry": {
@@ -1056,7 +1313,8 @@
             "properties": {
                 "country": "France",
                 "name": "Renaissance Fusion",
-                "address": "Fontaine"
+                "address": "Fontaine",
+                "configuration": "stellarator"
             },
             "geometry": {
                 "type": "Point",
@@ -1071,7 +1329,8 @@
             "properties": {
                 "country": "France",
                 "name": "ToriX",
-                "address": "Palaiseau"
+                "address": "Palaiseau",
+                "configuration": "alternate_concept"
             },
             "geometry": {
                 "type": "Point",
@@ -1087,6 +1346,7 @@
                 "country": "United-Kingdom",
                 "name": "First Light",
                 "address": "Kidlington",
+                "configuration": "inertial",
                 "popupContent": "<a href='https://firstlightfusion.com/'> Website </a>"
             },
             "geometry": {
@@ -1103,8 +1363,12 @@
                 "country": "Germany",
                 "name": "ASDEX Upgrade",
                 "address": "Garching",
+                "configuration": "tokamak",
                 "popupContent": "<a href='https://www.ipp.mpg.de/16195/asdex'> Website </a>",
-                "R": "1.65"
+                "R": "1.65",
+                "r": "0.5",
+                "TF": "3.2",
+                "IP": "1.4"
             },
             "geometry": {
                 "type": "Point",
@@ -1119,7 +1383,8 @@
             "properties": {
                 "country": "Japan",
                 "name": "RELAX",
-                "address": "Kyoto"
+                "address": "Kyoto",
+                "configuration": "alternate_concept"
             },
             "geometry": {
                 "type": "Point",
@@ -1135,6 +1400,7 @@
                 "country": "United-States",
                 "name": "SPARC",
                 "address": "Devens MA",
+                "configuration": "tokamak",
                 "popupContent": "<a href='https://www.psfc.mit.edu/sparc'> Website </a>"
             },
             "geometry": {
@@ -1151,6 +1417,7 @@
                 "country": "Canada",
                 "name": "General Fusion",
                 "address": "Burnaby",
+                "configuration": "inertial",
                 "popupContent": "<a href='https://generalfusion.com/technology-magnetized-target-fusion/'> Website </a>"
             },
             "geometry": {
@@ -1166,7 +1433,12 @@
             "properties": {
                 "country": "China",
                 "name": "CFQS",
-                "address": "Shanghai"
+                "address": "Shanghai",
+                "configuration": "stellarator",
+                "R": 1,
+                "r": 0,
+                "TF": 1,
+                "IP": 0
             },
             "geometry": {
                 "type": "Point",
@@ -1181,7 +1453,13 @@
             "properties": {
                 "country": "Italy",
                 "name": "DTT",
-                "address": "Roma"
+                "address": "Roma",
+                "configuration": "tokamak",
+                "popupContent": "<a href='https://www.dtt-project.it/'> Website </a>",
+                "R": 2.14,
+                "r": 0.65,
+                "TF": 6,
+                "IP": 5.5
             },
             "geometry": {
                 "type": "Point",
@@ -1196,13 +1474,34 @@
             "properties": {
                 "country": "Spain",
                 "name": "SMART",
-                "address": "Seville"
+                "address": "Seville",
+                "configuration": "tokamak",
+                "R": 0.4,
+                "r": 0.2,
+                "TF": 1,
+                "IP": 0.5
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -5.991069769509132,
                     37.38074935450412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-States",
+                "name": "NIF",
+                "address": "Livermore",
+                "configuration": "inertial"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.71628283086609,
+                    37.68017876829969
                 ]
             }
         }

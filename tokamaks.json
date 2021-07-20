@@ -952,6 +952,7 @@
             -71.61180064645845,
             42.54222704578338
         ],
+        "configuration": "tokamak",
         "website": "https://www.psfc.mit.edu/sparc"
     },
     {
@@ -962,12 +963,18 @@
             -122.91537454408733,
             49.252004059432664
         ],
+        "configuration":"inertial",
         "website": "https://generalfusion.com/technology-magnetized-target-fusion/"
     },
     {
         "country": "China",
         "name": "CFQS",
         "address": "Shanghai",
+        "configuration":"stellarator",
+        "R": 1,
+        "r": 0,
+        "TF": 1,
+        "IP": 0,
         "coordinates": [
             121.43196100765981,
             31.198475788344112
@@ -976,8 +983,14 @@
     {
         "country": "Italy",
         "name": "DTT",
+        "R": 2.14,
+        "r": 0.65,
+        "IP": 5.5,
+        "TF": 6,
         "address": "Roma",
-        "coordinates": [12.67276703033901, 41.821031065163126]
+        "coordinates": [12.67276703033901, 41.821031065163126],
+        "website": "https://www.dtt-project.it/",
+        "configuration": "tokamak"
     },
     {
         "country": "Spain",
@@ -986,6 +999,18 @@
         "coordinates": [
             -5.991069769509132,
             37.38074935450412
-        ]
+        ],
+        "R": 0.4,
+        "r": 0.2,
+        "IP": 0.5,
+        "TF": 1,
+        "configuration": "tokamak"
+    },
+    {
+        "country": "United-States",
+        "name": "NIF",
+        "address": "Livermore",
+        "coordinates": [-121.71628283086609, 37.68017876829969],
+        "configuration":"inertial"
     }
 ]
