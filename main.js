@@ -6,12 +6,30 @@ L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 var tokamakStyle = {
-    fillColor: '#6E2594',
+    fillColor: '#BA324F',
+    // fillColor: '#6E2594',
     color: '#808080',
     radius: 7,
     weight: 1,
     fillOpacity: 0.7
 };
+
+var stellaratorStyle = {
+    fillColor: '#175676',
+    color: '#808080',
+    radius: 7,
+    weight: 1,
+    fillOpacity: 0.7
+};
+
+var othersStyle = {
+    fillColor: '#4BA3C3',
+    color: '#808080',
+    radius: 7,
+    weight: 1,
+    fillOpacity: 0.7
+};
+
 
 function highlightFeature(e) {
     var layer = e.target;
@@ -59,25 +77,6 @@ function onEachFeatureAction(base_layer, resetHighlithFunction) {
 
 function pointToLayerAction(feature, latlng) {
     var opt = {...tokamakStyle};
-
-    return L.circleMarker(latlng,opt).bindTooltip(`
-        <b>${feature.properties.name}</b>
-        <br>
-        ${feature.properties.address}
-        <br>
-        ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
-    `, {direction: 'top', sticky: true})
-}
-
-function france_only_pointToLayer(feature, latlng) {
-    var opt = {...tokamakStyle};
-    if(feature.properties.country == 'France'){
-
-                opt.color = "#0000FF"
-                opt.fillColor = "#0000FF"
-                opt.radius = 12
-    }
-    
 
     return L.circleMarker(latlng,opt).bindTooltip(`
         <b>${feature.properties.name}</b>
@@ -196,6 +195,59 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-m
                     }
                 }));
 
+let tokamaks = L.layerGroup()
+geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+    .then(r => r.json())
+    .then(geojson => L.geoJSON(geojson,
+                {
+                    onEachFeature: onEachFeatureAction(tokamaks, resetHighlightDefault),
+                    pointToLayer: pointToLayerAction,
+                    filter: function(feature, layer) {
+                        return feature.properties.configuration == "tokamak"
+                    }
+                }));
+
+let stellarators = L.layerGroup()
+fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+    .then(r => r.json())
+    .then(geojson => L.geoJSON(geojson,
+                {
+                    onEachFeature: onEachFeatureAction(stellarators, resetHighlightDefault),
+                    pointToLayer: function (feature, latlng) {
+                    
+                        return L.circleMarker(latlng,stellaratorStyle).bindTooltip(`
+                            <b>${feature.properties.name}</b>
+                            <br>
+                            ${feature.properties.address}
+                            <br>
+                            ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
+                        `, {direction: 'top', sticky: true})
+                    },
+                    filter: function(feature, layer) {
+                        return feature.properties.configuration == "stellarator"
+                    }
+                }));
+
+let others = L.layerGroup()
+fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+    .then(r => r.json())
+    .then(geojson => L.geoJSON(geojson,
+                {
+                    onEachFeature: onEachFeatureAction(others, resetHighlightDefault),
+                    pointToLayer: function (feature, latlng) {
+                    
+                        return L.circleMarker(latlng,othersStyle).bindTooltip(`
+                            <b>${feature.properties.name}</b>
+                            <br>
+                            ${feature.properties.address}
+                            <br>
+                            ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
+                        `, {direction: 'top', sticky: true})
+                    },
+                    filter: function(feature, layer) {
+                        return feature.properties.configuration == "alternate_concept"
+                    }
+                }));
 /* Create layer control */
 let layerControl = {
     "Default": default_layer,
@@ -203,7 +255,13 @@ let layerControl = {
     "Plasma Current": based_on_current,
 }
 
-L.control.layers(layerControl, null, {collapsed:false}).addTo( map )
+let overlayMaps = {
+    "Tokamaks": tokamaks,
+    "Stellarators": stellarators,
+    "Others": others
+};
+
+controllayers = L.control.layers(layerControl, overlayMaps, {collapsed:false}).addTo( map );
 
 
 // add legends
@@ -256,7 +314,15 @@ return div;
 
 // make the legend appear or disappear
 map.on('baselayerchange', function (eventLayer) {
-    // Switch to the Population legend...
+    setTimeout(function() {
+        map.removeLayer(tokamaks);
+    }, 5);
+    setTimeout(function() {
+        map.removeLayer(stellarators);
+    }, 5);
+    setTimeout(function() {
+        map.removeLayer(others);
+    }, 5);
     if (eventLayer.name === 'Major radius') {
         legend_radius.addTo(this);
         this.removeControl(legend_current);
@@ -268,6 +334,21 @@ map.on('baselayerchange', function (eventLayer) {
         this.removeControl(legend_current);
     }
 });
+
+// removing base layer when adding overlay
+map.on('overlayadd', function (eventoverlay) {
+    setTimeout(function() {
+        map.removeLayer(default_layer);
+    }, 5);
+    setTimeout(function() {
+        map.removeLayer(based_on_radius);
+    }, 5);
+    setTimeout(function() {
+        map.removeLayer(based_on_current);
+    }, 5);
+});
+
+
 
 // info control
 var info = L.control();
