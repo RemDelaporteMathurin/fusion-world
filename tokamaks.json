@@ -290,7 +290,7 @@
         "TF": "8",
         "IP": "1.6",
         "configuration": "tokamak",
-        "coordinates": [41.82051935341014, 12.662124025832343]
+        "coordinates": [12.662124025832343, 41.82051935341014]
     },
     {
         "name": "GLAST-III",
@@ -971,7 +971,7 @@
         "country": "Italy",
         "name": "DTT",
         "address": "Roma",
-        "coordinates": [41.821031065163126, 12.67276703033901]
+        "coordinates": [12.67276703033901, 41.821031065163126]
     },
     {
         "country": "Spain",
