@@ -1026,5 +1026,13 @@
         "address": "Livermore",
         "coordinates": [-121.71628283086609, 37.68017876829969],
         "configuration":"inertial"
+    },
+    {
+        "country": "Australia",
+        "name": "HB11 Energy",
+        "address": "Sidney",
+        "website": "https://hb11.energy/",
+        "coordinates": [151.2289472749941, -33.87246036455869],
+        "configuration": "inertial"
     }
 ]

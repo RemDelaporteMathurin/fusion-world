@@ -1644,6 +1644,23 @@
                     37.68017876829969
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Australia",
+                "name": "HB11 Energy",
+                "address": "Sidney",
+                "configuration": "inertial",
+                "popupContent": "<a href='https://hb11.energy/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.2289472749941,
+                    -33.87246036455869
+                ]
+            }
         }
     ]
 }
