@@ -32,5 +32,5 @@ for store in stores:
             feature_dict['properties']['R'] = store["R"]
         geojson["features"].append(feature_dict)
 
-with open('tokamaks2.geojson', 'w') as f:
+with open('tokamaks.geojson', 'w') as f:
     json.dump(geojson, f, indent=4)
