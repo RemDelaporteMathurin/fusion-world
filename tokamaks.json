@@ -1034,5 +1034,13 @@
         "website": "https://hb11.energy/",
         "coordinates": [151.2289472749941, -33.87246036455869],
         "configuration": "inertial"
+    },
+    {
+        "country": "Italy",
+        "name": "RFX",
+        "address": "Padua",
+        "website": "https://www.igi.cnr.it/?q=content%2Fexperiment-introduction",
+        "coordinates": [11.87050513999025, 45.39882359345374],
+        "configuration": "alternate_concept"
     }
 ]
