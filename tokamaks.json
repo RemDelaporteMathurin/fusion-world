@@ -607,7 +607,7 @@
         "TF": "0.091",
         "IP": "0",
         "configuration": "tokamak",
-        "coordinates":[139.6831175956234, 35.606782075443284]
+        "coordinates":[35.606782075443284, 139.6831175956234]
     },
     {
         "country": "Japan",
@@ -711,7 +711,7 @@
         "TF": "1.54",
         "IP": "1.2",
         "configuration": "tokamak",
-        "coordinates":[46.51778945301607, 6.564788038654824]
+        "coordinates":[6.564788038654824, 46.51778945301607]
     },
     {
         "name": "TOKASTAR-2",
