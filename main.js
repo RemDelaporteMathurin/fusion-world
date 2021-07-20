@@ -69,25 +69,6 @@ function pointToLayerAction(feature, latlng) {
     `, {direction: 'top', sticky: true})
 }
 
-function france_only_pointToLayer(feature, latlng) {
-    var opt = {...tokamakStyle};
-    if(feature.properties.country == 'France'){
-
-                opt.color = "#0000FF"
-                opt.fillColor = "#0000FF"
-                opt.radius = 12
-    }
-    
-
-    return L.circleMarker(latlng,opt).bindTooltip(`
-        <b>${feature.properties.name}</b>
-        <br>
-        ${feature.properties.address}
-        <br>
-        ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
-    `, {direction: 'top', sticky: true})
-}
-
 function getColorRadius(r){
    return r > 4 ? '#FDE425' :
           r > 3  ? '#5DC863' :
@@ -208,6 +189,29 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-m
                     }
                 }));
 
+let stellarators = L.layerGroup()
+fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+    .then(r => r.json())
+    .then(geojson => L.geoJSON(geojson,
+                {
+                    onEachFeature: onEachFeatureAction(stellarators, resetHighlightDefault),
+                    pointToLayer: pointToLayerAction,
+                    filter: function(feature, layer) {
+                        return feature.properties.configuration == "stellarator"
+                    }
+                }));
+
+let others = L.layerGroup()
+fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+    .then(r => r.json())
+    .then(geojson => L.geoJSON(geojson,
+                {
+                    onEachFeature: onEachFeatureAction(others, resetHighlightDefault),
+                    pointToLayer: pointToLayerAction,
+                    filter: function(feature, layer) {
+                        return feature.properties.configuration == "alternate_concept"
+                    }
+                }));
 /* Create layer control */
 let layerControl = {
     "Default": default_layer,
@@ -216,7 +220,9 @@ let layerControl = {
 }
 
 let overlayMaps = {
-    "Tokamaks": tokamaks
+    "Tokamaks": tokamaks,
+    "Stellarators": stellarators,
+    "Others": others
 };
 
 controllayers = L.control.layers(layerControl, overlayMaps, {collapsed:false}).addTo( map );
@@ -272,7 +278,15 @@ return div;
 
 // make the legend appear or disappear
 map.on('baselayerchange', function (eventLayer) {
-
+    setTimeout(function() {
+        map.removeLayer(tokamaks);
+    }, 5);
+    setTimeout(function() {
+        map.removeLayer(stellarators);
+    }, 5);
+    setTimeout(function() {
+        map.removeLayer(others);
+    }, 5);
     if (eventLayer.name === 'Major radius') {
         legend_radius.addTo(this);
         this.removeControl(legend_current);
@@ -296,9 +310,6 @@ map.on('overlayadd', function (eventoverlay) {
     setTimeout(function() {
         map.removeLayer(based_on_current);
     }, 5);
-
-    this.removeControl(legend_radius);
-    this.removeControl(legend_current);
 });
 
 
