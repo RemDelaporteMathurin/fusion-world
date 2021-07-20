@@ -23,7 +23,7 @@
                 "country": "USA",
                 "name": "CTH_correct",
                 "address": "Auburn",
-                "R": "0.75"
+                "R": "12"
             },
             "geometry": {
                 "type": "Point",
