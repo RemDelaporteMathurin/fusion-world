@@ -12,22 +12,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    32.59506710233563,
-                    -85.49508141184504
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "USA",
-                "name": "CTH_correct",
-                "address": "Auburn",
-                "R": "12"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     -85.49508141184504,
                     32.59506710233563
                 ]
