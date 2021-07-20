@@ -968,7 +968,7 @@
         "country": "Italy",
         "name": "DTT",
         "address": "Roma",
-        "coordinates": [12.67276703033901, 41.821031065163126]
+        "coordinates": [41.821031065163126, 12.67276703033901]
     },
     {
         "country": "Spain",
