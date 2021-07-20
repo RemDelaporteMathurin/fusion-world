@@ -34,6 +34,8 @@ for store in stores:
             if prop in store:
                 feature_dict['properties'][prop] = store[prop]
         geojson["features"].append(feature_dict)
+    else:
+        print(store["name"] + " doesn't have coordinates")
 
 with open('tokamaks.geojson', 'w') as f:
     json.dump(geojson, f, indent=4)
