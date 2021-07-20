@@ -139,8 +139,8 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-m
 
 /* Create layer control */
 let layerControl = {
-"Major radius": based_on_radius,
-"Default": default_layer,
+    "Default": default_layer,
+    "Major radius": based_on_radius,
 }
 
 L.control.layers(layerControl, null, {collapsed:false}).addTo( map )
