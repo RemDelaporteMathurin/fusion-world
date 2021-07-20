@@ -1,9 +1,9 @@
-# fusion-machines-locations
+# fusion-world
 How many nuclear fusion machines are there in the world? :earth_americas:
 
 Where are they located? What technology? How big are they?
 
-Discover the (not so small) world of fusion [here](https://remdelaportemathurin.github.io/fusion-machines-locations/)!
+Discover the (not so small) world of fusion [here](https://remdelaportemathurin.github.io/fusion-world/)!
 
 ## Usage
 
@@ -23,7 +23,7 @@ Missing a reactor? Have we made a mistake somewhere?
 
 Or maybe you just have a question or noticed a bug!
 
-Please [submit an issue](https://github.com/RemDelaporteMathurin/fusion-machines-locations/issues/new) and we'll work this out!  :speech_balloon:
+Please [submit an issue](https://github.com/RemDelaporteMathurin/fusion-world/issues/new) and we'll work this out!  :speech_balloon:
 
 ### Contribute to the database!
 We greatly welcome any contribution to the database: add a missing machine, add/correct details about a machine, correct a machine's location...
