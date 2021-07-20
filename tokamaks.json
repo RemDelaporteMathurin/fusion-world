@@ -104,21 +104,6 @@
         "configuration": "stellarator"
     },
     {
-        "country": "Germany",
-        "name": "TJ-K",
-        "address": "Stuttgart",
-        "coordinates": [
-            9.17365141088079,
-            48.78188166139253
-        ],
-        "website": "https://www.igvp.uni-stuttgart.de/en/research/plasma-dynamics-and-diagnostics/experiments/TJ-K/",
-        "R": "0.6",
-        "configuration": "stellarator",
-        "r": "0.1",
-        "TF": "0.5",
-        "IP": "0.003"
-    },
-    {
         "name": "Uragan-2M",
         "country": "Ukraine",
         "address": "Kharkov",
@@ -936,6 +921,21 @@
         "TF": "3.2",
         "IP": "1.4",
         "configuration": "tokamak"
+    },
+    {
+        "country": "Germany",
+        "name": "TJ-K",
+        "address": "Stuttgart",
+        "coordinates": [
+            9.17365141088079,
+            48.78188166139253
+        ],
+        "website": "https://www.igvp.uni-stuttgart.de/en/research/plasma-dynamics-and-diagnostics/experiments/TJ-K/",
+        "R": "0.6",
+        "configuration": "stellarator",
+        "r": "0.1",
+        "TF": "0.5",
+        "IP": "0.003"
     },
     {
         "country": "Japan",

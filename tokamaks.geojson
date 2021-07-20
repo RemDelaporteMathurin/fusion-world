@@ -165,27 +165,6 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "Germany",
-                "name": "TJ-K",
-                "address": "Stuttgart",
-                "configuration": "stellarator",
-                "popupContent": "<a href='https://www.igvp.uni-stuttgart.de/en/research/plasma-dynamics-and-diagnostics/experiments/TJ-K/'> Website </a>",
-                "R": "0.6",
-                "r": "0.1",
-                "TF": "0.5",
-                "IP": "0.003"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    9.17365141088079,
-                    48.78188166139253
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "country": "Ukraine",
                 "name": "Uragan-2M",
                 "address": "Kharkov",
@@ -1495,6 +1474,27 @@
                 "coordinates": [
                     11.671764353853556,
                     48.26295113080633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Germany",
+                "name": "TJ-K",
+                "address": "Stuttgart",
+                "configuration": "stellarator",
+                "popupContent": "<a href='https://www.igvp.uni-stuttgart.de/en/research/plasma-dynamics-and-diagnostics/experiments/TJ-K/'> Website </a>",
+                "R": "0.6",
+                "r": "0.1",
+                "TF": "0.5",
+                "IP": "0.003"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.17365141088079,
+                    48.78188166139253
                 ]
             }
         },
