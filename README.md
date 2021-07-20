@@ -43,7 +43,7 @@ Typically, a machine has the following structure:
         "name": "Regional Tokamak of Brittany",
         "country": "France",
         "address": "Nantes",
-        "coordinates": [-1.549333358, 47.216155004] # [Long. , Lat.]
+        "coordinates": [-1.549333358, 47.216155004], # [Long. , Lat.]
         "configuration": "tokamak",
 
         # optional keys if applicable
