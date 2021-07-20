@@ -589,26 +589,6 @@
             "type": "Feature",
             "properties": {
                 "country": "China",
-                "name": "HL-2A",
-                "address": "Chengdu",
-                "configuration": "tokamak",
-                "R": "1.65",
-                "r": "0.4",
-                "TF": "2.8",
-                "IP": "0.8"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    104.09790975068603,
-                    30.64249852182921
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "China",
                 "name": "HL-2M",
                 "address": "Chengdu",
                 "configuration": "tokamak",
@@ -622,6 +602,26 @@
                 "coordinates": [
                     104.03004615446031,
                     30.632447185744073
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "China",
+                "name": "HL-2A",
+                "address": "Chengdu",
+                "configuration": "tokamak",
+                "R": "1.65",
+                "r": "0.4",
+                "TF": "2.8",
+                "IP": "0.8"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.09790975068603,
+                    30.64249852182921
                 ]
             }
         },
