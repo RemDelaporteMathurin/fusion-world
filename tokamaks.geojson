@@ -4,11 +4,980 @@
         {
             "type": "Feature",
             "properties": {
+                "country": "USA",
+                "name": "CTH",
+                "address": "Auburn",
+                "R": "0.75"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.59506710233563,
+                    -85.49508141184504
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "Heliotron J",
+                "address": "Kyoto",
+                "R": "1.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.78086998987203,
+                    35.02646991574031
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-States",
+                "name": "HIDRA",
+                "address": "Urbana",
+                "R": "0.72"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    40.11007671413551,
+                    -88.22872477539707
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-States",
+                "name": "HSX",
+                "address": "Madison",
+                "R": "1.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.078859941654926,
+                    -89.41263087442712
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "LHD",
+                "address": "Toki",
+                "R": "3.9"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.32565699840918,
+                    137.1678128
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Costa Rica",
+                "name": "SCR-1",
+                "address": "Cartago",
+                "R": "0.238"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.91238030711098,
+                    9.856706690590785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Spain",
+                "name": "TJ-II",
+                "address": "Madrid",
+                "R": "1.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.728997406392373,
+                    40.454386165022335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Germany",
+                "name": "TJ-K",
+                "address": "Stuttgart",
+                "popupContent": "<a href='https://www.igvp.uni-stuttgart.de/en/research/plasma-dynamics-and-diagnostics/experiments/TJ-K/'> Website </a>",
+                "R": "0.6"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.17365141088079,
+                    48.78188166139253
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Ukraine",
+                "name": "Uragan-2M",
+                "address": "Kharkov",
+                "R": "1.7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    50.08688514839137,
+                    36.252426592155494
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Ukraine",
+                "name": "Uragan-3M",
+                "address": "Kharkov",
+                "R": "1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    50.091214402548815,
+                    36.24771686773435
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Germany",
+                "name": "Wendelstein 7-X",
+                "address": "Garching",
+                "popupContent": "<a href='https://www.ipp.mpg.de/w7x'> Website </a>",
+                "R": "5.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.671373173100747,
+                    48.264022565016305
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "name": "ADITYA-U",
+                "address": "Gujarat",
+                "R": "0.75"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.62504900244637,
+                    23.098684664631392
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Iran",
+                "name": "Alvand",
+                "address": "Teheran",
+                "R": "0.456"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.703761905133454,
+                    51.40946511376906
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Iran",
+                "name": "IR-T1",
+                "address": "Teheran",
+                "R": "0.456"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.67631465416959,
+                    51.4696688711306
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Czech Republic",
+                "name": "COMPASS",
+                "address": "Prague",
+                "R": "0.56"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    50.08099417779581,
+                    14.435958075652815
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Iran",
+                "name": "Damavand",
+                "address": "Teheran",
+                "R": "0.362"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.7393684858733,
+                    51.3880330688036
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-States",
+                "name": "DIII-D",
+                "address": "San Diego",
+                "popupContent": "<a href='https://www.ga.com/magnetic-fusion/diii-d'> Website </a>",
+                "R": "1.7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.23677839176327,
+                    32.89524918966554
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "China",
+                "name": "EAST",
+                "address": "Hefei",
+                "R": "1.7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.1711244555299,
+                    31.857641122096826
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Egypt",
+                "name": "EGYPTOR",
+                "address": "Alexandria",
+                "R": "0.3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.944445441425476,
+                    31.255478324106356
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Brazil",
+                "name": "ETE",
+                "address": "S\u00c3\u00a3o Jos\u00c3\u00a9 dos Campos",
+                "R": "0.3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -45.860201592872386,
+                    -23.20676278738629
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "China",
+                "name": "EXL-50",
+                "address": "Heibei",
+                "R": "0.58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.73533333916788,
+                    39.560976913258614
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Russia",
+                "name": "FT-2",
+                "address": "St-Petersburg",
+                "R": "0.55"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.007625769468554,
+                    30.372538772590566
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Italy",
+                "name": "FTU",
+                "address": "Frascati",
+                "R": "0.935"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    41.82051935341014,
+                    12.662124025832343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Pakistan",
+                "name": "GLAST-III",
+                "address": "Islamabad",
+                "R": "0.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.663533871077156,
+                    73.02427309550254
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Russia",
+                "name": "Globus-M2",
+                "address": "St-Petersburg",
+                "R": "0.36"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.00872494242375,
+                    30.378326939335714
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Czech Republic",
+                "name": "GOLEM",
+                "address": "Prague",
+                "R": "0.4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.391359200111388,
+                    50.10318777376735
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Russia",
+                "name": "GUTTA",
+                "address": "St-Petersburg",
+                "R": "0.16"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    59.94218841508222,
+                    30.298767513127014
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-States",
+                "name": "HBT-EP",
+                "address": "New-York",
+                "R": "0.94"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    40.82233625022625,
+                    -73.95143414514969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "HIST",
+                "address": "Hyogo",
+                "R": "0.3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.75784798047062,
+                    134.88718387417916
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "China",
+                "name": "HL-2A",
+                "address": "Chengdu",
+                "R": "1.65"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.64249852182921,
+                    104.09790975068603
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "China",
+                "name": "HL-2M",
+                "address": "Chengdu",
+                "R": "1.78"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.632447185744073,
+                    104.03004615446031
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "China",
+                "name": "HT-7",
+                "address": "Hefei",
+                "R": "1.75"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.1711244555299,
+                    31.857641122096826
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "HYBTOK-II",
+                "address": "Nagoya",
+                "R": "0.4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.156193787837346,
+                    136.96869075779102
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-Kingdom",
+                "name": "JET",
+                "address": "Abingdon",
+                "popupContent": "<a href='https://ccfe.ukaea.uk/research/joint-european-torus/'> Website </a>",
+                "R": "2.96"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.225019945107592,
+                    51.65934962924273
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Korea",
+                "name": "KSTAR",
+                "address": "Daejeon",
+                "R": "1.8"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.35195757861905,
+                    36.37266478029253
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "LATE",
+                "address": "Kyoto",
+                "R": "0.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.80037018143938,
+                    34.9105088579678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-Kingdom",
+                "name": "MAST-U",
+                "address": "Abingdon",
+                "popupContent": "<a href='https://ccfe.ukaea.uk/research/mast-upgrade/'> Website </a>",
+                "R": "0.85"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.2295439295543145,
+                    51.658000352826996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Costa Rica",
+                "name": "MEDUSA-CR",
+                "address": "Cartago",
+                "R": "0.14"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.91244621661976,
+                    9.856522484302424
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Denmark",
+                "name": "NORTH",
+                "address": "Kongens Lyngby",
+                "popupContent": "<a href='https://www.iter.org/newsline/-/3330'> Website </a>",
+                "R": "0.25"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5216351393253,
+                    55.78536970233601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Brazil",
+                "name": "NOVA-FURG",
+                "address": "Vit\u00c3\u00b3ria",
+                "R": "0.3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -40.20363948880572,
+                    -19.012103417010753
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-States",
+                "name": "NSTX-U",
+                "address": "Princeton",
+                "popupContent": "<a href='https://www.pppl.gov/nstx'> Website </a>",
+                "R": "0.934"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.60305535964459,
+                    40.35022723814888
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-States",
+                "name": "Pegasus-III",
+                "address": "Madison",
+                "R": "0.45"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.07543327740595,
+                    -89.40383502610601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "PHiX",
+                "address": "Tokyo",
+                "R": "0.33"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.606782075443284,
+                    139.6831175956234
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "QUEST",
+                "address": "Kyoto",
+                "R": "0.68"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.42529969435358,
+                    33.623181894454575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "name": "SST-1",
+                "address": "Gujarat",
+                "R": "1.1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.62239375120585,
+                    23.097163401418662
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-Kingdom",
+                "name": "ST40",
+                "address": "Abingdon",
+                "popupContent": "<a href='https://www.tokamakenergy.co.uk/'> Website </a>",
+                "R": "0.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.281794045869338,
+                    51.623251899457706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Canada",
+                "name": "STOR-M",
+                "address": "Saskatchewan",
+                "R": "0.46"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.63480279413353,
+                    52.15379223628213
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "China",
+                "name": "SUNIST",
+                "address": "Tsinghua",
+                "R": "0.3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    40.00016493671451,
+                    116.32654660505905
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Russia",
+                "name": "T-11M",
+                "address": "Moscow",
+                "R": "0.7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.48695225963987,
+                    37.304515352539504
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Brazil",
+                "name": "TCABR",
+                "address": "S\u00c3\u00a3o Paulo",
+                "R": "0.61"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.731308062011756,
+                    -23.56146460186351
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Switzerland",
+                "name": "TCV",
+                "address": "Ecublens",
+                "R": "0.89"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    46.51778945301607,
+                    6.564788038654824
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "TOKASTAR-2",
+                "address": "Nagoya",
+                "R": "0.1"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.26986636362017,
+                    136.99741420054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "TS-4U",
+                "address": "Tokyo",
+                "R": "0.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.71162306461253,
+                    139.7635617708173
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "TS-6",
+                "address": "Tokyo",
+                "R": "0.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.71448364385392,
+                    139.76313738524476
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "TST-2",
+                "address": "Tokyo",
+                "R": "0.37"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.7117798114651,
+                    139.7587738732024
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Russia",
+                "name": "TUMAN-3M",
+                "address": "St-Petersburg",
+                "R": "0.53"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60.00460626895757,
+                    30.39306786038113
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "UTST",
+                "address": "Tokyo",
+                "R": "0.39"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.714255738150634,
+                    139.7582252444953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Korea",
+                "name": "VEST",
+                "address": "Seoul",
+                "R": "0.45"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.95008611338027,
+                    37.4568736825987
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "France",
+                "name": "WEST",
+                "address": "Cadarache",
+                "popupContent": "<a href='https://irfm.cea.fr/en/west/'> Website </a>",
+                "R": "2.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.763735075034328,
+                    43.704788050141296
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Czech Republic",
+                "name": "COMPASS-U",
+                "address": "Prague",
+                "R": "0"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.394294432566214,
+                    50.10497085179941
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "country": "France",
                 "name": "ITER",
                 "address": "St-Paul-lez-Durance",
                 "popupContent": "<a href='https://iter.org/'> Website </a>",
-                "R": 6.2
+                "R": "6.2"
             },
             "geometry": {
                 "type": "Point",
@@ -21,17 +990,48 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "France",
-                "name": "WEST",
-                "address": "Cadarache",
-                "popupContent": "<a href='https://irfm.cea.fr/en/west/'> Website </a>",
-                "R": 2.5
+                "country": "Pakistan",
+                "name": "MT-2",
+                "address": "Dera Ghazi Khan",
+                "R": "0"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    5.763735075034328,
-                    43.704788050141296
+                    30.017292808100674,
+                    70.6052391297637
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Russia",
+                "name": "T-15MD",
+                "address": "Moscow",
+                "R": "2.43"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.80129195026851,
+                    37.476996083085425
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Thailand",
+                "name": "TT-1",
+                "address": "Bangkok",
+                "R": "0.65"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.854748041090069,
+                    100.56643118231219
                 ]
             }
         },
@@ -85,40 +1085,6 @@
             "type": "Feature",
             "properties": {
                 "country": "United-Kingdom",
-                "name": "JET",
-                "address": "Abingdon",
-                "popupContent": "<a href='https://ccfe.ukaea.uk/research/joint-european-torus/'> Website </a>",
-                "R": 2.96
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -1.225019945107592,
-                    51.65934962924273
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "United-Kingdom",
-                "name": "MAST-U",
-                "address": "Abingdon",
-                "popupContent": "<a href='https://ccfe.ukaea.uk/research/mast-upgrade/'> Website </a>",
-                "R": 0.85
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -1.2295439295543145,
-                    51.658000352826996
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "United-Kingdom",
                 "name": "First Light",
                 "address": "Kidlington",
                 "popupContent": "<a href='https://firstlightfusion.com/'> Website </a>"
@@ -134,68 +1100,17 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-Kingdom",
-                "name": "ST40",
-                "address": "Abingdon",
-                "popupContent": "<a href='https://www.tokamakenergy.co.uk/'> Website </a>",
-                "R": 0.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -1.281794045869338,
-                    51.623251899457706
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "country": "Germany",
-                "name": "Wendelstein 7-X",
-                "address": "Garching",
-                "popupContent": "<a href='https://www.ipp.mpg.de/w7x'> Website </a>",
-                "R": 5.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    11.671373173100747,
-                    48.264022565016305
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Germany",
-                "name": "ASDEX",
+                "name": "ASDEX Upgrade",
                 "address": "Garching",
                 "popupContent": "<a href='https://www.ipp.mpg.de/16195/asdex'> Website </a>",
-                "R": 1.65
+                "R": "1.65"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     11.671764353853556,
                     48.26295113080633
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Germany",
-                "name": "TJ-K",
-                "address": "Stuttgart",
-                "popupContent": "<a href='https://www.igvp.uni-stuttgart.de/en/research/plasma-dynamics-and-diagnostics/experiments/TJ-K/'> Website </a>",
-                "R": 0.6
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    9.17365141088079,
-                    48.78188166139253
                 ]
             }
         },
@@ -211,87 +1126,6 @@
                 "coordinates": [
                     135.78211483557752,
                     35.050320110307794
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Japan",
-                "name": "Heliotron J",
-                "address": "Kyoto",
-                "R": 1.2
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    135.78086998987203,
-                    35.02646991574031
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Japan",
-                "name": "LATE",
-                "address": "Kyoto",
-                "R": 0.2
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    135.80037018143938,
-                    34.9105088579678
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Japan",
-                "name": "QUEST",
-                "address": "Kyoto"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    130.42529969435358,
-                    33.623181894454575
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "United-States",
-                "name": "DIII-D",
-                "address": "San Diego",
-                "popupContent": "<a href='https://www.ga.com/magnetic-fusion/diii-d'> Website </a>",
-                "R": 1.7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -117.23677839176327,
-                    32.89524918966554
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "United-States",
-                "name": "NSTX-U",
-                "address": "Princeton",
-                "popupContent": "<a href='https://www.pppl.gov/nstx'> Website </a>",
-                "R": 0.934
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -74.60305535964459,
-                    40.35022723814888
                 ]
             }
         },
@@ -314,85 +1148,6 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "Korea",
-                "name": "KSTAR",
-                "address": "Daejeon",
-                "R": 1.8
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    127.35195757861905,
-                    36.37266478029253
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Korea",
-                "name": "VEST",
-                "address": "Seoul"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    126.95008611338027,
-                    37.4568736825987
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Brazil",
-                "name": "NOVA-FURG",
-                "address": "Vit\u00c3\u00b3ria",
-                "R": 0.3
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -40.20363948880572,
-                    -19.012103417010753
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Brazil",
-                "name": "ETE",
-                "address": "S\u00c3\u00a3o Jos\u00c3\u00a9 dos Campos",
-                "R": 0.3
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -45.860201592872386,
-                    -23.20676278738629
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Brazil",
-                "name": "TCABR",
-                "address": "S\u00c3\u00a3o Paulo",
-                "R": 0.61
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -46.731308062011756,
-                    -23.56146460186351
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "country": "Canada",
                 "name": "General Fusion",
                 "address": "Burnaby",
@@ -403,69 +1158,6 @@
                 "coordinates": [
                     -122.91537454408733,
                     49.252004059432664
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Canada",
-                "name": "STOR-M",
-                "address": "Saskatchewan",
-                "R": 0.46
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -106.63480279413353,
-                    52.15379223628213
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "China",
-                "name": "HT-7",
-                "address": "Hefei"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    117.1711244555299,
-                    31.857641122096826
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "China",
-                "name": "EXL-50",
-                "address": "Heibei",
-                "R": 0.58
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.73533333916788,
-                    39.560976913258614
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "China",
-                "name": "EAST",
-                "address": "Hefei",
-                "R": 1.7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    117.1711244555299,
-                    31.857641122096826
                 ]
             }
         },
@@ -487,134 +1179,6 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "Costa Rica",
-                "name": "MEDUSA-CR",
-                "address": "Cartago",
-                "R": 0.14
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -83.91244621661976,
-                    9.856522484302424
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Costa Rica",
-                "name": "SCR-1",
-                "address": "Cartago",
-                "R": 0.238
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -83.91238030711098,
-                    9.856706690590785
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Czech Republic",
-                "name": "GOLEM",
-                "address": "Prague",
-                "R": 0.4
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.391359200111388,
-                    50.10318777376735
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Czech Republic",
-                "name": "COMPASS-U",
-                "address": "Prague"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    14.394294432566214,
-                    50.10497085179941
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Denmark",
-                "name": "NORTH",
-                "address": "Kongens Lyngby",
-                "popupContent": "<a href='https://www.iter.org/newsline/-/3330'> Website </a>",
-                "R": 0.25
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    12.5216351393253,
-                    55.78536970233601
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Egypt",
-                "name": "EGYPTOR",
-                "address": "Alexandria",
-                "R": 0.3
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    29.944445441425476,
-                    31.255478324106356
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "India",
-                "name": "SST-1",
-                "address": "Gujarat",
-                "R": 1.1
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    72.62239375120585,
-                    23.097163401418662
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "India",
-                "name": "ADITYA-U",
-                "address": "Gujarat",
-                "R": 0.75
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    72.62504900244637,
-                    23.098684664631392
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "country": "Italy",
                 "name": "DTT",
                 "address": "Roma"
@@ -622,24 +1186,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    12.669695326483946,
-                    41.82178139404003
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "Spain",
-                "name": "TJ-II",
-                "address": "Madrid",
-                "R": 1.5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -3.728997406392373,
-                    40.454386165022335
+                    41.821031065163126,
+                    12.67276703033901
                 ]
             }
         },
