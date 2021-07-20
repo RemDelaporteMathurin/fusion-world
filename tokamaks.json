@@ -607,12 +607,12 @@
         "TF": "0.091",
         "IP": "0",
         "configuration": "tokamak",
-        "coordinates":[35.606782075443284, 139.6831175956234]
+        "coordinates":[139.6831175956234, 35.606782075443284]
     },
     {
         "country": "Japan",
         "name": "QUEST",
-        "address": "Kyoto",
+        "address": "Kyushu",
         "coordinates": [
             130.42529969435358,
             33.623181894454575
@@ -733,7 +733,7 @@
         "TF": "0.1",
         "IP": "0.1",
         "configuration": "tokamak",
-        "coordinates":[35.71162306461253, 139.7635617708173]
+        "coordinates":[139.7635617708173, 35.71162306461253]
     },
     {
         "name": "TS-6",
@@ -744,7 +744,7 @@
         "TF": "0.1",
         "IP": "0",
         "configuration": "tokamak",
-        "coordinates":[35.71448364385392, 139.76313738524476]
+        "coordinates":[139.76313738524476, 35.71448364385392]
 
     },
     {
@@ -756,7 +756,7 @@
         "TF": "0.4",
         "IP": "0.4",
         "configuration": "tokamak",
-        "coordinates":[35.7117798114651, 139.7587738732024]
+        "coordinates":[139.7587738732024, 35.7117798114651]
     },
     {
         "name": "TUMAN-3M",
@@ -778,7 +778,7 @@
         "TF": "0.3",
         "IP": "0.2",
         "configuration": "tokamak",
-        "coordinates":[35.714255738150634, 139.7582252444953]
+        "coordinates":[139.7582252444953, 35.714255738150634]
     },
     {
         "country": "Korea",
