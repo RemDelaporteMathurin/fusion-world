@@ -29,20 +29,6 @@
         ]
     },
     {
-        "country": "Japan",
-        "name": "Heliotron J",
-        "address": "Kyoto",
-        "coordinates": [
-            135.78086998987203,
-            35.02646991574031
-        ],
-        "R": "1.2",
-        "configuration": "stellarator",
-        "r": "0.1",
-        "TF": "1.5",
-        "IP": "0.2"
-    },
-    {
         "name": "HIDRA",
         "country": "United-States",
         "address": "Urbana",
@@ -74,6 +60,20 @@
         "IP": "0",
         "configuration": "stellarator",
         "coordinates": [137.1678128, 35.32565699840918]
+    },
+    {
+        "country": "Japan",
+        "name": "Heliotron J",
+        "address": "Kyoto",
+        "coordinates": [
+            135.78086998987203,
+            35.02646991574031
+        ],
+        "R": "1.2",
+        "configuration": "stellarator",
+        "r": "0.1",
+        "TF": "1.5",
+        "IP": "0.2"
     },
     {
         "country": "Costa Rica",

@@ -45,26 +45,6 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "Japan",
-                "name": "Heliotron J",
-                "address": "Kyoto",
-                "configuration": "stellarator",
-                "R": "1.2",
-                "r": "0.1",
-                "TF": "1.5",
-                "IP": "0.2"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    135.78086998987203,
-                    35.02646991574031
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "country": "United-States",
                 "name": "HIDRA",
                 "address": "Urbana",
@@ -119,6 +99,26 @@
                 "coordinates": [
                     137.1678128,
                     35.32565699840918
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "Heliotron J",
+                "address": "Kyoto",
+                "configuration": "stellarator",
+                "R": "1.2",
+                "r": "0.1",
+                "TF": "1.5",
+                "IP": "0.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.78086998987203,
+                    35.02646991574031
                 ]
             }
         },
