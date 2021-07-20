@@ -337,6 +337,8 @@ map.on('baselayerchange', function (eventLayer) {
 
 // removing base layer when adding overlay
 map.on('overlayadd', function (eventoverlay) {
+    this.removeControl(legend_radius);
+    this.removeControl(legend_current);
     setTimeout(function() {
         map.removeLayer(default_layer);
     }, 5);
