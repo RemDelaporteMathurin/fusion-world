@@ -95,10 +95,10 @@ function getColorRadius(r){
                    '#440154';
 }
 function getColorCurrent(r){
-    return r > 4 ? '#FDE425' :
-           r > 3  ? '#5DC863' :
-           r > 2  ? '#21908C' :
-           r > 1  ? '#3B528B' :
+    return r > 8 ? '#FDE425' :
+           r > 6  ? '#5DC863' :
+           r > 4  ? '#21908C' :
+           r > 2  ? '#3B528B' :
                     '#440154';
  }
 
@@ -282,7 +282,7 @@ for (var i = grades.length - 1; i >= 0; i--) {
 
     labels.push(
         '<i style="background:' + getColorRadius(from + 1) + '"></i> ' +
-        from + (to - 1? '&ndash;' + to : '+'));
+        from + (to ? '&ndash;' + to : '+'));
 }
 
 div.innerHTML = labels.join('<br>');
@@ -295,7 +295,7 @@ var legend_current = L.control({position: 'bottomright'});
 legend_current.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend'),
-    grades = [0, 1, 2, 3, 4],
+    grades = [0, 2, 4, 6, 8],
     labels = ['<strong> IP (MA) </strong>'],
     from, to;
 
@@ -304,7 +304,7 @@ for (var i = grades.length - 1; i >= 0; i--) {
     to = grades[i + 1];
 
     labels.push(
-        '<i style="background:' + getColorRadius(from + 1) + '"></i> ' +
+        '<i style="background:' + getColorCurrent(from + 1) + '"></i> ' +
         from + (to - 1? '&ndash;' + to : '+'));
 }
 
