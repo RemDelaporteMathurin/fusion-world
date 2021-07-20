@@ -206,10 +206,12 @@ let layerControl = {
 L.control.layers(layerControl, null, {collapsed:false}).addTo( map )
 
 
-// add a legend
-var legend = L.control({position: 'bottomright'});
+// add legends
 
-legend.onAdd = function (map) {
+// legend for major radius
+var legend_radius = L.control({position: 'bottomright'});
+
+legend_radius.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend'),
     grades = [0, 1, 2, 3, 4],
@@ -229,13 +231,41 @@ div.innerHTML = labels.join('<br>');
 return div;
 };
 
+// legend for plasma current
+var legend_current = L.control({position: 'bottomright'});
+
+legend_current.onAdd = function (map) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+    grades = [0, 1, 2, 3, 4],
+    labels = ['<strong> IP (MA) </strong>'],
+    from, to;
+
+for (var i = grades.length - 1; i >= 0; i--) {
+    from = grades[i];
+    to = grades[i + 1];
+
+    labels.push(
+        '<i style="background:' + getColorRadius(from + 1) + '"></i> ' +
+        from + (to - 1? '&ndash;' + to : '+'));
+}
+
+div.innerHTML = labels.join('<br>');
+return div;
+};
+
 // make the legend appear or disappear
 map.on('baselayerchange', function (eventLayer) {
     // Switch to the Population legend...
     if (eventLayer.name === 'Major radius') {
-        legend.addTo(this);
+        legend_radius.addTo(this);
+        this.removeControl(legend_current);
+    } else if (eventLayer.name === 'Plasma Current'){
+        legend_current.addTo(this);
+        this.removeControl(legend_radius);
     } else {
-        this.removeControl(legend);
+        this.removeControl(legend_radius);
+        this.removeControl(legend_current);
     }
 });
 
