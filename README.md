@@ -33,12 +33,36 @@ First, fork this repository.
 Then, make the necessary changes to the `tokamaks.json` file which contains all the information about the machines.
 If you're adding a new machine, don't forget to specify the mandatory keys `"name"`, `"address"`, `"coordinates"`, `"country"` and `"configuration"`.
 
+Typically, a machine has the following structure:
+
+```python
+[
+    ....,
+    {
+        # mandatory keys
+        "name": "Regional Tokamak of Brittany",
+        "country": "France",
+        "address": "Nantes",
+        "coordinates": [-1.549333358, 47.216155004] # [Long. , Lat.]
+        "configuration": "tokamak",
+
+        # optional keys if applicable
+        "R": 1,  # major radius (m)
+        "r": 0.3,  # minor radius (m)
+        "TF": 0.7,  # toroidal magnetic field (T)
+        "IP": 1,  # plasma current (MA)
+        "website": "https://www.chateaunantes.fr/en/"
+    },
+    ....
+]
+```
+
 Once this is done, run the following [python](https://www.python.org/downloads/) command:
 ```
 python geocode.py
 ```
 This will add the changes to the `tokamaks.geojson` file.
-Finally push the changes and open a pull request!
+Finally push the changes and [open a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
 Click [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo) for more details on contributions with Github.
 
