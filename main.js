@@ -32,6 +32,10 @@ function resetHighlightRadius(e) {
     e.target.setStyle(makeRadiusStyle(e.target.feature));
     info.update();
 }
+function resetHighlightCurrent(e) {
+    e.target.setStyle(makeCurrentStyle(e.target.feature));
+    info.update();
+}
 function resetHighlightDefault(e) {
     e.target.setStyle(tokamakStyle);
     info.update();
@@ -90,24 +94,40 @@ function getColorRadius(r){
           r > 2  ? '#21908C' :
           r > 1  ? '#3B528B' :
                    '#440154';
-   }
-
+}
+function getColorCurrent(r){
+    return r > 4 ? '#FDE425' :
+           r > 3  ? '#5DC863' :
+           r > 2  ? '#21908C' :
+           r > 1  ? '#3B528B' :
+                    '#440154';
+ }
 
 function makeRadiusStyle(feature){
     var opt = {...tokamakStyle};
-    factor = 7
+    factor = 7;
     if (feature.properties.hasOwnProperty('R')){
-    console.log("opt.color");
-        opt.radius = feature.properties.R*factor
-        opt.fillColor = getColorRadius(feature.properties.R)
-      console.log(opt.color);
-
+        opt.radius = feature.properties.R*factor;
+        opt.fillColor = getColorRadius(feature.properties.R);
     } else
     {
-        opt.radius = 0
+        opt.radius = 0;
     }
-    return opt
+    return opt;
 }
+function makeCurrentStyle(feature){
+    var opt = {...tokamakStyle};
+    factor = 7;
+    if (feature.properties.hasOwnProperty('IP')){
+        opt.radius = feature.properties.IP*factor;
+        opt.fillColor = getColorCurrent(feature.properties.IP);
+    } else
+    {
+        opt.radius = 0;
+    }
+    return opt;
+}
+
 function pointToLayer_radius(feature, latlng) {
 
     return L.circleMarker(latlng,makeRadiusStyle(feature)).bindTooltip(`
@@ -118,6 +138,18 @@ function pointToLayer_radius(feature, latlng) {
         ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
     `, {direction: 'top', sticky: true})
 }
+
+function pointToLayer_current(feature, latlng) {
+
+    return L.circleMarker(latlng,makeCurrentStyle(feature)).bindTooltip(`
+        <b>${feature.properties.name}</b>
+        <br>
+        ${feature.properties.address}
+        <br>
+        ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
+    `, {direction: 'top', sticky: true})
+}
+
 
 let default_layer = L.layerGroup().addTo( map )
 geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
@@ -146,19 +178,40 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-m
                     }
                 }));
 
+let based_on_current = L.layerGroup()
+geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+    .then(r => r.json())
+    .then(geojson => L.geoJSON(geojson,
+                {
+                    onEachFeature: onEachFeatureAction(based_on_current, resetHighlightCurrent),
+                    pointToLayer: pointToLayer_current,
+                    filter: function(feature, layer) {
+                        switch (feature.properties.configuration) {
+                            case 'tokamak':
+                            case 'stellarator':
+                                return true;
+                            default:
+                                return false;
+                        }
+                    }
+                }));
+
 /* Create layer control */
 let layerControl = {
     "Default": default_layer,
     "Major radius": based_on_radius,
+    "Plasma Current": based_on_current,
 }
 
 L.control.layers(layerControl, null, {collapsed:false}).addTo( map )
 
 
-// add a legend
-var legend = L.control({position: 'bottomright'});
+// add legends
 
-legend.onAdd = function (map) {
+// legend for major radius
+var legend_radius = L.control({position: 'bottomright'});
+
+legend_radius.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend'),
     grades = [0, 1, 2, 3, 4],
@@ -178,13 +231,41 @@ div.innerHTML = labels.join('<br>');
 return div;
 };
 
+// legend for plasma current
+var legend_current = L.control({position: 'bottomright'});
+
+legend_current.onAdd = function (map) {
+
+    var div = L.DomUtil.create('div', 'info legend'),
+    grades = [0, 1, 2, 3, 4],
+    labels = ['<strong> IP (MA) </strong>'],
+    from, to;
+
+for (var i = grades.length - 1; i >= 0; i--) {
+    from = grades[i];
+    to = grades[i + 1];
+
+    labels.push(
+        '<i style="background:' + getColorRadius(from + 1) + '"></i> ' +
+        from + (to - 1? '&ndash;' + to : '+'));
+}
+
+div.innerHTML = labels.join('<br>');
+return div;
+};
+
 // make the legend appear or disappear
 map.on('baselayerchange', function (eventLayer) {
     // Switch to the Population legend...
     if (eventLayer.name === 'Major radius') {
-        legend.addTo(this);
+        legend_radius.addTo(this);
+        this.removeControl(legend_current);
+    } else if (eventLayer.name === 'Plasma Current'){
+        legend_current.addTo(this);
+        this.removeControl(legend_radius);
     } else {
-        this.removeControl(legend);
+        this.removeControl(legend_radius);
+        this.removeControl(legend_current);
     }
 });
 
@@ -208,7 +289,7 @@ info.update = function (props) {
             '<br /> Major radius ' + props.R + ' m' +
             '</b><br /> Minor radius ' + props.r + ' m' +
             '</b><br /> Tor. Magnetic Field ' + props.TF + ' T' +
-            '</b><br /> Plasma Current ' + props.TF + ' MA';
+            '</b><br /> Plasma Current ' + props.IP + ' MA';
         }
 
     this._div.innerHTML = '<h4>Reactor info</h4>' + properties_string;
