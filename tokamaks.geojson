@@ -667,6 +667,46 @@
         {
             "type": "Feature",
             "properties": {
+                "country": "Portugal",
+                "name": "ISTTOK",
+                "address": "Lisbon",
+                "configuration": "tokamak",
+                "R": "0.46",
+                "r": "0.085",
+                "TF": "2.8",
+                "IP": "0.007"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.138696002984,
+                    38.737094000078514
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "China",
+                "name": "J-TEXT",
+                "address": "Wuhan",
+                "configuration": "tokamak",
+                "R": "1.05",
+                "r": "0.25",
+                "TF": "2",
+                "IP": "0.2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114.42023268249642,
+                    30.513161413300043
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "country": "United-Kingdom",
                 "name": "JET",
                 "address": "Abingdon",
@@ -682,6 +722,26 @@
                 "coordinates": [
                     -1.225019945107592,
                     51.65934962924273
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "JT-60SA",
+                "address": "Tokyo",
+                "configuration": "tokamak",
+                "R": "2.96",
+                "r": "1.18",
+                "TF": "2.25",
+                "IP": "5.5"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.0977476097571,
+                    35.67229891749631
                 ]
             }
         },
@@ -708,6 +768,26 @@
         {
             "type": "Feature",
             "properties": {
+                "country": "Kazakhstan",
+                "name": "KTM",
+                "address": "Kurchatov",
+                "configuration": "tokamak",
+                "R": "0.86",
+                "r": "0.43",
+                "TF": "1",
+                "IP": "0.75"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.50769985601123,
+                    50.81628751621313
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "country": "Japan",
                 "name": "LATE",
                 "address": "Kyoto",
@@ -722,6 +802,46 @@
                 "coordinates": [
                     135.80037018143938,
                     34.9105088579678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Libya",
+                "name": "LIBTOR",
+                "address": "Tripoli",
+                "configuration": "tokamak",
+                "R": "0.53",
+                "r": "0.115",
+                "TF": "4",
+                "IP": "0.12"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.378669412165532,
+                    32.83543529236914
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "United-States",
+                "name": "LTX-beta",
+                "address": "Princeton",
+                "configuration": "tokamak",
+                "R": "0.4",
+                "r": "0.26",
+                "TF": "3.7",
+                "IP": "0.175"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.60235798535736,
+                    40.34814220939181
                 ]
             }
         },
@@ -763,6 +883,26 @@
                 "coordinates": [
                     -83.91244621661976,
                     9.856522484302424
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Pakistan",
+                "name": "MT-1",
+                "address": "Dera Ghazi Khan",
+                "configuration": "tokamak",
+                "R": "0.25",
+                "r": "0.1",
+                "TF": "0",
+                "IP": "0.015"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.66465645475284,
+                    30.093819783673688
                 ]
             }
         },

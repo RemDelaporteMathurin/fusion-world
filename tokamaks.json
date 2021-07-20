@@ -411,20 +411,24 @@
     {
         "name": "ISTTOK",
         "country": "Portugal",
+        "address": "Lisbon",
         "R": "0.46",
         "r": "0.085",
         "TF": "2.8",
         "IP": "0.007",
-        "configuration": "tokamak"
+        "configuration": "tokamak",
+        "coordinates":[-9.138696002984, 38.737094000078514]
     },
     {
         "name": "J-TEXT",
         "country": "China",
+        "address": "Wuhan",
         "R": "1.05",
         "r": "0.25",
         "TF": "2",
         "IP": "0.2",
-        "configuration": "tokamak"
+        "configuration": "tokamak",
+        "coordinates":[114.42023268249642, 30.513161413300043]
     },
     {
         "country": "United-Kingdom",
@@ -444,11 +448,13 @@
     {
         "name": "JT-60SA",
         "country": "Japan",
+        "address":"Tokyo",
         "R": "2.96",
         "r": "1.18",
         "TF": "2.25",
         "IP": "5.5",
-        "configuration": "tokamak"
+        "configuration": "tokamak",
+        "coordinates":[140.0977476097571, 35.67229891749631]
     },
     {
         "country": "Korea",
@@ -467,11 +473,13 @@
     {
         "name": "KTM",
         "country": "Kazakhstan",
+        "address": "Kurchatov",
         "R": "0.86",
         "r": "0.43",
         "TF": "1",
         "IP": "0.75",
-        "configuration": "tokamak"
+        "configuration": "tokamak",
+        "coordinates":[78.50769985601123, 50.81628751621313]
     },
     {
         "country": "Japan",
@@ -490,20 +498,24 @@
     {
         "name": "LIBTOR",
         "country": "Libya",
+        "address": "Tripoli",
         "R": "0.53",
         "r": "0.115",
         "TF": "4",
         "IP": "0.12",
-        "configuration": "tokamak"
+        "configuration": "tokamak",
+        "coordinates": [13.378669412165532, 32.83543529236914]
     },
     {
-        "name": "LTX-\u00ce\u00b2",
+        "name": "LTX-beta",
         "country": "United-States",
+        "address": "Princeton",
         "R": "0.4",
         "r": "0.26",
         "TF": "3.7",
         "IP": "0.175",
-        "configuration": "tokamak"
+        "configuration": "tokamak",
+        "coordinates":[-74.60235798535736, 40.34814220939181]
     },
     {
         "country": "United-Kingdom",
@@ -537,11 +549,13 @@
     {
         "name": "MT-1",
         "country": "Pakistan",
+        "address": "Dera Ghazi Khan",
         "R": "0.25",
         "r": "0.1",
         "TF": "0",
         "IP": "0.015",
-        "configuration": "tokamak"
+        "configuration": "tokamak",
+        "coordinates":[70.66465645475284, 30.093819783673688]
     },
     {
         "country": "Denmark",
