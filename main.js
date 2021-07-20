@@ -198,9 +198,20 @@ info.onAdd = function (map) {
 };
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
-    this._div.innerHTML = '<h4>Reactor info</h4>' +  (props ?
-        '<b>' + props.name + '</b><br /> Major radius ' + props.R + ' m'
-        : 'Hover over a reactor');
+    properties_string = (props ?
+        '<b>' + props.name + '</b>' + '<br />' + props.configuration:
+        'Hover over a reactor');
+    
+    // if tokamak or stellarator, display parameters
+    if (props && (props.configuration == "tokamak" || props.configuration == "stellarator")){
+        properties_string +=
+            '<br /> Major radius ' + props.R + ' m' +
+            '</b><br /> Minor radius ' + props.r + ' m' +
+            '</b><br /> Tor. Magnetic Field ' + props.TF + ' T' +
+            '</b><br /> Plasma Current ' + props.TF + ' MA';
+        }
+
+    this._div.innerHTML = '<h4>Reactor info</h4>' + properties_string;
 };
 
 info.addTo(map);
