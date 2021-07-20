@@ -4,6 +4,27 @@
         {
             "type": "Feature",
             "properties": {
+                "country": "France",
+                "name": "ITER",
+                "address": "St-Paul-lez-Durance",
+                "configuration": "tokamak",
+                "popupContent": "<a href='https://iter.org/'> Website </a>",
+                "R": "6.2",
+                "r": "2",
+                "TF": "5.3",
+                "IP": "15"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.777038831078966,
+                    43.70879000045666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "country": "USA",
                 "name": "CTH",
                 "address": "Auburn",
@@ -1347,27 +1368,6 @@
                 "coordinates": [
                     14.394294432566214,
                     50.10497085179941
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "France",
-                "name": "ITER",
-                "address": "St-Paul-lez-Durance",
-                "configuration": "tokamak",
-                "popupContent": "<a href='https://iter.org/'> Website </a>",
-                "R": "6.2",
-                "r": "2",
-                "TF": "5.3",
-                "IP": "15"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    5.777038831078966,
-                    43.70879000045666
                 ]
             }
         },
