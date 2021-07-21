@@ -62,6 +62,14 @@ function resetHighlightDefault(e) {
     e.target.setStyle(tokamakStyle);
     info.update();
 }
+function resetHighlightStellarator(e) {
+    e.target.setStyle(stellaratorStyle);
+    info.update();
+}
+function resetHighlightOthers(e) {
+    e.target.setStyle(othersStyle);
+    info.update();
+}
 function onEachFeatureAction(base_layer, resetHighlithFunction) {
     function fun(feature, layer) {
         // add data
@@ -258,7 +266,7 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-lo
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
-                    onEachFeature: onEachFeatureAction(stellarators, resetHighlightDefault),
+                    onEachFeature: onEachFeatureAction(stellarators, resetHighlightStellarator),
                     pointToLayer: function (feature, latlng) {
                     
                         return L.circleMarker(latlng,stellaratorStyle).bindTooltip(`
@@ -277,7 +285,7 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-lo
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
-                    onEachFeature: onEachFeatureAction(others, resetHighlightDefault),
+                    onEachFeature: onEachFeatureAction(others, resetHighlightOthers),
                     pointToLayer: function (feature, latlng) {
                     
                         return L.circleMarker(latlng,othersStyle).bindTooltip(`
