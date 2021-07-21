@@ -26,7 +26,7 @@ Or maybe you just have a question or noticed a bug!
 Please [submit an issue](https://github.com/RemDelaporteMathurin/fusion-world/issues/new) and we'll work this out!  :speech_balloon:
 
 ### Contribute to the database!
-We greatly welcome any contribution to the database: add a missing machine, add/correct details about a machine, correct a machine's location...
+Any contribution to the database is welcome: add a missing machine, add/correct details about a machine, correct a machine's location...
 
 First, fork this repository.
 
