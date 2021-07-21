@@ -245,7 +245,7 @@
     {
         "country": "Brazil",
         "name": "ETE",
-        "address": "S\u00c3\u00a3o Jos\u00c3\u00a9 dos Campos",
+        "address": "Sao José dos Campos",
         "coordinates": [
             -45.860201592872386,
             -23.20676278738629
@@ -579,7 +579,7 @@
     {
         "country": "Brazil",
         "name": "NOVA-FURG",
-        "address": "Vit\u00c3\u00b3ria",
+        "address": "Vitoria",
         "coordinates": [
             -40.20363948880572,
             -19.012103417010753
@@ -694,7 +694,7 @@
     {
         "country": "Brazil",
         "name": "TCABR",
-        "address": "S\u00c3\u00a3o Paulo",
+        "address": "Sao Paulo",
         "coordinates": [
             -46.731308062011756,
             -23.56146460186351

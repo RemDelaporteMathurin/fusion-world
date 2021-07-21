@@ -389,7 +389,7 @@
             "properties": {
                 "country": "Brazil",
                 "name": "ETE",
-                "address": "S\u00c3\u00a3o Jos\u00c3\u00a9 dos Campos",
+                "address": "Sao Jos\u00c3\u00a9 dos Campos",
                 "configuration": "tokamak",
                 "R": "0.3",
                 "r": "0.2",
@@ -933,7 +933,7 @@
             "properties": {
                 "country": "Brazil",
                 "name": "NOVA-FURG",
-                "address": "Vit\u00c3\u00b3ria",
+                "address": "Vitoria",
                 "configuration": "tokamak",
                 "R": "0.3",
                 "r": "0.06",
@@ -1114,7 +1114,7 @@
             "properties": {
                 "country": "Brazil",
                 "name": "TCABR",
-                "address": "S\u00c3\u00a3o Paulo",
+                "address": "Sao Paulo",
                 "configuration": "tokamak",
                 "R": "0.61",
                 "r": "0.18",
