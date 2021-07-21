@@ -86,9 +86,9 @@ function pointToLayerAction(feature, latlng) {
         <b>${feature.properties.name}</b>
         <br>
         ${feature.properties.address}
-        <br>
-        ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
     `, {direction: 'top', sticky: true})
+    // <br>
+    // ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
 }
 
 function getColorRadius(r){
@@ -156,8 +156,6 @@ function pointToLayer_radius(feature, latlng) {
         <b>${feature.properties.name}</b>
         <br>
         ${feature.properties.address}
-        <br>
-        ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
     `, {direction: 'top', sticky: true})
 }
 
@@ -167,8 +165,6 @@ function pointToLayer_current(feature, latlng) {
         <b>${feature.properties.name}</b>
         <br>
         ${feature.properties.address}
-        <br>
-        ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
     `, {direction: 'top', sticky: true})
 }
 
@@ -178,8 +174,6 @@ function pointToLayer_field(feature, latlng) {
         <b>${feature.properties.name}</b>
         <br>
         ${feature.properties.address}
-        <br>
-        ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
     `, {direction: 'top', sticky: true})
 }
 
@@ -271,8 +265,6 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-lo
                             <b>${feature.properties.name}</b>
                             <br>
                             ${feature.properties.address}
-                            <br>
-                            ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
                         `, {direction: 'top', sticky: true})
                     },
                     filter: function(feature, layer) {
@@ -292,8 +284,6 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-lo
                             <b>${feature.properties.name}</b>
                             <br>
                             ${feature.properties.address}
-                            <br>
-                            ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}
                         `, {direction: 'top', sticky: true})
                     },
                     filter: function(feature, layer) {
