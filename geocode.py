@@ -1,8 +1,5 @@
-
-import csv
 import json
 
-# Now we create stores.geojson, which is the GeoJSON equivalent of stores.csv
 with open('tokamaks.json') as f:
     stores = json.load(f)
 
