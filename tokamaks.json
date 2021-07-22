@@ -30,7 +30,7 @@
     },
     {
         "name": "HIDRA",
-        "country": "United-States",
+        "country": "USA",
         "address": "Urbana",
         "R": "0.72",
         "r": "0.19",
@@ -41,7 +41,7 @@
     },
     {
         "name": "HSX",
-        "country": "United-States",
+        "country": "USA",
         "address": "Madison",
         "R": "1.2",
         "r": "0.15",
@@ -200,7 +200,7 @@
         "coordinates":[51.3880330688036, 35.7393684858733]
     },
     {
-        "country": "United-States",
+        "country": "USA",
         "name": "DIII-D",
         "address": "San Diego",
         "coordinates": [
@@ -330,7 +330,7 @@
     },
     {
         "name": "HBT-EP",
-        "country": "United-States",
+        "country": "USA",
         "address": "New-York",
         "R": "0.94",
         "r": "0.2",
@@ -420,7 +420,7 @@
         "coordinates":[114.42023268249642, 30.513161413300043]
     },
     {
-        "country": "United-Kingdom",
+        "country": "UK",
         "name": "JET",
         "address": "Abingdon",
         "coordinates": [
@@ -497,7 +497,7 @@
     },
     {
         "name": "LTX-beta",
-        "country": "United-States",
+        "country": "USA",
         "address": "Princeton",
         "R": "0.4",
         "r": "0.26",
@@ -507,7 +507,7 @@
         "coordinates":[-74.60235798535736, 40.34814220939181]
     },
     {
-        "country": "United-Kingdom",
+        "country": "UK",
         "name": "ST40",
         "address": "Abingdon",
         "coordinates": [
@@ -522,7 +522,7 @@
         "IP": "2"
     },
     {
-        "country": "United-Kingdom",
+        "country": "UK",
         "name": "MAST-U",
         "address": "Abingdon",
         "coordinates": [
@@ -591,7 +591,7 @@
         "configuration": "tokamak"
     },
     {
-        "country": "United-States",
+        "country": "USA",
         "name": "NSTX-U",
         "address": "Princeton",
         "coordinates": [
@@ -607,7 +607,7 @@
     },
     {
         "name": "Pegasus-III",
-        "country": "United-States",
+        "country": "USA",
         "address": "Madison",
         "R": "0.45",
         "r": "0.37",
@@ -897,7 +897,7 @@
         "configuration": "alternate_concept"
     },
     {
-        "country": "United-Kingdom",
+        "country": "UK",
         "name": "First Light",
         "address": "Kidlington",
         "coordinates": [
@@ -948,7 +948,7 @@
         "configuration": "alternate_concept"
     },
     {
-        "country": "United-States",
+        "country": "USA",
         "name": "SPARC",
         "address": "Devens MA",
         "coordinates": [
@@ -1021,7 +1021,7 @@
         "configuration": "tokamak"
     },
     {
-        "country": "United-States",
+        "country": "USA",
         "name": "NIF",
         "address": "Livermore",
         "coordinates": [-121.71628283086609, 37.68017876829969],
@@ -1044,14 +1044,14 @@
         "configuration": "alternate_concept"
     },
     {
-        "country": "United-Kingdom",
+        "country": "UK",
         "name": "FDP",
         "address": "Abingdon",
         "coordinates": [-1.2305699355838213, 51.65926166977835],
-        "configuration": "itertial"
+        "configuration": "inertial"
     },
     {
-        "country": "United-States",
+        "country": "USA",
         "name": "Z machine",
         "address": "Albuquerque",
         "coordinates": [-106.55130036031196, 35.317561649738074],
@@ -1059,7 +1059,7 @@
         "website": "https://www.sandia.gov/z-machine/"
     },
     {
-        "country": "United-States",
+        "country": "USA",
         "name": "Fusion Power Core",
         "address": "Albuquerque",
         "coordinates": [-106.55130036031196, 35.317561649738074],

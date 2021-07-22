@@ -45,7 +45,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-States",
+                "country": "USA",
                 "name": "HIDRA",
                 "address": "Urbana",
                 "configuration": "stellarator",
@@ -65,7 +65,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-States",
+                "country": "USA",
                 "name": "HSX",
                 "address": "Madison",
                 "configuration": "stellarator",
@@ -326,7 +326,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-States",
+                "country": "USA",
                 "name": "DIII-D",
                 "address": "San Diego",
                 "configuration": "tokamak",
@@ -527,7 +527,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-States",
+                "country": "USA",
                 "name": "HBT-EP",
                 "address": "New-York",
                 "configuration": "tokamak",
@@ -687,7 +687,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-Kingdom",
+                "country": "UK",
                 "name": "JET",
                 "address": "Abingdon",
                 "configuration": "tokamak",
@@ -808,7 +808,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-States",
+                "country": "USA",
                 "name": "LTX-beta",
                 "address": "Princeton",
                 "configuration": "tokamak",
@@ -828,7 +828,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-Kingdom",
+                "country": "UK",
                 "name": "ST40",
                 "address": "Abingdon",
                 "configuration": "tokamak",
@@ -849,7 +849,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-Kingdom",
+                "country": "UK",
                 "name": "MAST-U",
                 "address": "Abingdon",
                 "configuration": "tokamak",
@@ -951,7 +951,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-States",
+                "country": "USA",
                 "name": "NSTX-U",
                 "address": "Princeton",
                 "configuration": "tokamak",
@@ -972,7 +972,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-States",
+                "country": "USA",
                 "name": "Pegasus-III",
                 "address": "Madison",
                 "configuration": "tokamak",
@@ -1442,7 +1442,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-Kingdom",
+                "country": "UK",
                 "name": "First Light",
                 "address": "Kidlington",
                 "configuration": "inertial",
@@ -1517,7 +1517,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-States",
+                "country": "USA",
                 "name": "SPARC",
                 "address": "Devens MA",
                 "configuration": "tokamak",
@@ -1632,7 +1632,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-States",
+                "country": "USA",
                 "name": "NIF",
                 "address": "Livermore",
                 "configuration": "inertial"
@@ -1682,10 +1682,10 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-Kingdom",
+                "country": "UK",
                 "name": "FDP",
                 "address": "Abingdon",
-                "configuration": "itertial"
+                "configuration": "inertial"
             },
             "geometry": {
                 "type": "Point",
@@ -1698,7 +1698,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-States",
+                "country": "USA",
                 "name": "Z machine",
                 "address": "Albuquerque",
                 "configuration": "alternate_concept",
@@ -1715,7 +1715,7 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "United-States",
+                "country": "USA",
                 "name": "Fusion Power Core",
                 "address": "Albuquerque",
                 "configuration": "alternate_concept",
