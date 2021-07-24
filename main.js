@@ -418,8 +418,12 @@ map.on('baselayerchange', function (eventLayer) {
     }
 });
 
+var nbActiveOverlays = 0;
+
 // removing base layer when adding overlay
 map.on('overlayadd', function (eventoverlay) {
+    // update the number of active overlays
+    nbActiveOverlays += 1;
     this.removeControl(legend_radius);
     this.removeControl(legend_current);
     this.removeControl(legend_field);
@@ -435,6 +439,20 @@ map.on('overlayadd', function (eventoverlay) {
     setTimeout(function() {
         map.removeLayer(based_on_field);
     }, 5);
+});
+
+
+// activate Default when no overlays
+map.on('overlayremove', function (eventoverlay) {
+    // update the number of active overlays
+    nbActiveOverlays = nbActiveOverlays - 1;
+
+    // if no overlays are active, add the default layer
+    if (nbActiveOverlays == 0){
+        setTimeout(function() {
+            default_layer.addTo(map);
+        }, 5);
+    }
 });
 
 
