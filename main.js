@@ -340,7 +340,7 @@ let layerControl = {
 let overlayMaps = {
     "Tokamaks": tokamaks,
     "Stellarators": stellarators,
-    "Interial": inertial,
+    "Inertial": inertial,
     "Others": others
 };
 
