@@ -22,6 +22,14 @@ var stellaratorStyle = {
     fillOpacity: 0.7
 };
 
+var inertialStyle = {
+    fillColor: '#FF7F51',
+    color: '#808080',
+    radius: 7,
+    weight: 1,
+    fillOpacity: 0.7
+};
+
 var othersStyle = {
     fillColor: '#4BA3C3',
     color: '#808080',
@@ -64,6 +72,10 @@ function resetHighlightDefault(e) {
 }
 function resetHighlightStellarator(e) {
     e.target.setStyle(stellaratorStyle);
+    info.update();
+}
+function resetHighlightInertial(e) {
+    e.target.setStyle(inertialStyle);
     info.update();
 }
 function resetHighlightOthers(e) {
@@ -280,6 +292,25 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-lo
                     }
                 }));
 
+let inertial = L.layerGroup()
+fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+    .then(r => r.json())
+    .then(geojson => L.geoJSON(geojson,
+                {
+                    onEachFeature: onEachFeatureAction(inertial, resetHighlightInertial),
+                    pointToLayer: function (feature, latlng) {
+                    
+                        return L.circleMarker(latlng,inertialStyle).bindTooltip(`
+                            <b>${feature.properties.name}</b>
+                            <br>
+                            ${feature.properties.address}
+                        `, {direction: 'top', sticky: true})
+                    },
+                    filter: function(feature, layer) {
+                        return feature.properties.configuration == "inertial"
+                    }
+                }));
+
 let others = L.layerGroup()
 fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
     .then(r => r.json())
@@ -309,6 +340,7 @@ let layerControl = {
 let overlayMaps = {
     "Tokamaks": tokamaks,
     "Stellarators": stellarators,
+    "Interial": inertial,
     "Others": others
 };
 
@@ -398,6 +430,9 @@ map.on('baselayerchange', function (eventLayer) {
     }, 5);
     setTimeout(function() {
         map.removeLayer(others);
+    }, 5);
+    setTimeout(function() {
+        map.removeLayer(inertial);
     }, 5);
     if (eventLayer.name === 'Major radius') {
         legend_radius.addTo(this);
