@@ -21,9 +21,9 @@ var options = {
     // },
     plotOptions: {
         bar: {
-            dataLabels: {
-                enabled: true
-            },
+            // dataLabels: {
+            //     enabled: true
+            // },
         },
         series: {
             dataLabels: {
@@ -52,19 +52,32 @@ async function drawBarChart() {
     var series = [
         {
             name: 'Others',
-            data: []
+            data: [],
+            color: '#4BA3C3',
+            linkedTo: 'mainSeries'
         },
         {
             name: 'Inertial',
-            data: []
+            data: [],
+            color: '#FF7F51',
+            linkedTo: 'mainSeries'
         },
         {
             name: 'Stellarators',
-            data: []
+            data: [],
+            color: '#175676',
+            linkedTo: 'mainSeries'
         },
         {
             name: 'Tokamaks',
-            data: []
+            data: [],
+            color: '#BA324F',
+            id: 'mainSeries',
+            dataSorting: {
+                enabled: true,
+                sortKey: 'y',
+              }
+
         },
 
     ];
@@ -74,16 +87,16 @@ async function drawBarChart() {
         for (var j=0; j<series.length; j++){
             switch (series[j].name) {
                 case 'Tokamaks':
-                    series[j].data.push(current_country.tokamak);
+                    series[j].data.push([current_country.country, current_country.tokamak]);
                     break;
                 case 'Stellarators':
-                    series[j].data.push(current_country.stellarator);
+                    series[j].data.push([current_country.country, current_country.stellarator]);
                     break;
                 case 'Inertial':
-                    series[j].data.push(current_country.inertial);
+                    series[j].data.push([current_country.country, current_country.inertial]);
                     break;
                 case 'Others':
-                    series[j].data.push(current_country.alternate_concept);
+                    series[j].data.push([current_country.country, current_country.alternate_concept]);
                     break;
             }
         }
@@ -91,7 +104,8 @@ async function drawBarChart() {
         
     options.series = series;
     options.xAxis = {
-            categories: countries,
+            // categories: countries,
+            type: 'category',
             title: {
                 text: null
             }
