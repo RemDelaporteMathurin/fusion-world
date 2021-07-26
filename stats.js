@@ -78,20 +78,21 @@ async function drawBarChart() {
 
     ];
     for (var i=0; i < data_countries.length; i++){
-        countries.push(data_countries[i].country);
+        current_country = data_countries[i]
+        countries.push(current_country.country);
         for (var j=0; j<series.length; j++){
             switch (series[j].name) {
                 case 'Tokamaks':
-                    series[j].data.push(data_countries[i].tokamak);
+                    series[j].data.push(current_country.tokamak);
                     break;
                 case 'Stellarators':
-                    series[j].data.push(data_countries[i].stellarator);
+                    series[j].data.push(current_country.stellarator);
                     break;
                 case 'Inertial':
-                    series[j].data.push(data_countries[i].inertial);
+                    series[j].data.push(current_country.inertial);
                     break;
                 case 'Others':
-                    series[j].data.push(data_countries[i].alternate_concept);
+                    series[j].data.push(current_country.alternate_concept);
                     break;
             }
         }
