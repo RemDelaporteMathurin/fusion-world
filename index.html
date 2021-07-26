@@ -118,37 +118,38 @@
 			<span onclick="openFullscreen();">&#x26F6</span>
 		</div>
 
-	</div>
-    <script src="main.js"></script>
-	<div class="github">
-		<a href="https://github.com/RemDelaporteMathurin/fusion-world" target="_blank">
-			<img  src="docs/logo_git.svg" width="60px" />
-		</a>
-		<p><h4>Contribute!</h4></p>
-	</div>
-	<script>
-		var elem = document.getElementById("map");
-		var full_map = false;
-		function openFullscreen() {
-			if (!full_map){
-				elem.style.height = 100 + "%";
-				full_map = true;
-			} else {
-				elem.style.height = 50 + "%";
-				full_map = false;
-			}
-			
-			window.setTimeout(function(){window.map.invalidateSize();}, 10);
-		}
-	</script>
 
+		<script src="main.js"></script>
+		<div class="github">
+			<a href="https://github.com/RemDelaporteMathurin/fusion-world" target="_blank">
+				<img  src="docs/logo_git.svg" width="60px" />
+			</a>
+			<p><h4>Contribute!</h4></p>
+		</div>
+		<script>
+			var elem = document.getElementById("map");
+			var full_map = false;
+			function openFullscreen() {
+				if (!full_map){
+					elem.style.height = 100 + "%";
+					full_map = true;
+				} else {
+					elem.style.height = 50 + "%";
+					full_map = false;
+				}
+				
+				window.setTimeout(function(){window.map.invalidateSize();}, 10);
+			}
+		</script>
+	</div>
 	<figure class="highcharts-figure">
 		<div id="container"></div>
 		<p class="highcharts-description">
 			Description
 		</p>
+		<script src="stats.js"></script>
 	</figure>
-	<script src="stats.js"></script>
+
 
 </body>
 </html>
