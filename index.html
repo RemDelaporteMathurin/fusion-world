@@ -19,15 +19,18 @@
             width: 100%;
         }
 		#map {
-			height: 50%;
+			height: 60%;
 		}
 		#map .title {
 			position: absolute;
-			bottom: -10px;
+			bottom: 5px;
 			left: 750px;
 			z-index: 1000;
 			color: rgb(98, 98, 98);
-			font: 24px/16px Arial, Helvetica, sans-serif;
+			background: rgba(255,255,255,0.8);
+			border-radius: 8px;
+			padding: 6px 8px;
+			font: 24px/0px Arial, Helvetica, sans-serif;
 		}
 		.info {
 			padding: 6px 8px;
@@ -147,7 +150,7 @@
 					elem.style.height = 100 + "%";
 					full_map = true;
 				} else {
-					elem.style.height = 50 + "%";
+					elem.style.height = 60 + "%";
 					full_map = false;
 				}
 				
