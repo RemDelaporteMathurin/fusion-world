@@ -59,7 +59,7 @@ Typically, a machine has the following structure:
 
 Once this is done, run the following [python](https://www.python.org/downloads/) command:
 ```
-python geocode.py
+python make_json.py
 ```
 This will add the changes to the `tokamaks.geojson` file.
 Finally push the changes and [open a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
