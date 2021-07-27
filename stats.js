@@ -95,14 +95,13 @@ async function drawBarChart() {
         sort_array.push(sum_devices);
         current_country.sum_devices = sum_devices;
     }
-    console.log(sort_array.sort(function (a, b){
+    sort_array.sort(function (a, b){
         if (a < b) {
             return 1
         } else {
             return -1
         }
-    }));
-    // console.log(sort_array);
+    });
 
     data_countries_sort = mapOrder(data_countries, sort_array, 'sum_devices');
 
