@@ -44,6 +44,21 @@ var options = {
     },
 };
 
+function mapOrder (array, order, key) {
+  
+    array.sort( function (a, b) {
+      var A = a[key], B = b[key];
+      
+      if (order.indexOf(A) > order.indexOf(B)) {
+        return 1;
+      } else {
+        return -1;
+      }
+      
+    });
+    
+    return array;
+  };
 
 async function drawBarChart() {
     var countries = [];
@@ -54,35 +69,45 @@ async function drawBarChart() {
             name: 'Others',
             data: [],
             color: '#4BA3C3',
-            linkedTo: 'mainSeries'
         },
         {
             name: 'Inertial',
             data: [],
             color: '#FF7F51',
-            linkedTo: 'mainSeries'
         },
         {
             name: 'Stellarators',
             data: [],
             color: '#175676',
-            linkedTo: 'mainSeries'
         },
         {
             name: 'Tokamaks',
             data: [],
             color: '#BA324F',
-            id: 'mainSeries',
-            dataSorting: {
-                enabled: true,
-                sortKey: 'y',
-              }
 
         },
 
     ];
+    var sort_array = [];
     for (var i=0; i < data_countries.length; i++){
-        current_country = data_countries[i]
+        current_country = data_countries[i];
+        sum_devices = current_country.tokamak + current_country.stellarator + current_country.inertial + current_country.alternate_concept;
+        sort_array.push(sum_devices);
+        current_country.sum_devices = sum_devices;
+    }
+    console.log(sort_array.sort(function (a, b){
+        if (a < b) {
+            return 1
+        } else {
+            return -1
+        }
+    }));
+    // console.log(sort_array);
+
+    data_countries_sort = mapOrder(data_countries, sort_array, 'sum_devices');
+
+    for (var i=0; i < data_countries_sort.length; i++){
+        current_country = data_countries_sort[i]
         countries.push(current_country.country);
         for (var j=0; j<series.length; j++){
             switch (series[j].name) {
