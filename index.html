@@ -21,6 +21,14 @@
 		#map {
 			height: 50%;
 		}
+		#map .title {
+			position: absolute;
+			bottom: -10px;
+			left: 750px;
+			z-index: 1000;
+			color: rgb(98, 98, 98);
+			font: 24px/16px Arial, Helvetica, sans-serif;
+		}
 		.info {
 			padding: 6px 8px;
 			font: 14px/16px Arial, Helvetica, sans-serif;
@@ -52,10 +60,12 @@
 			left: 60px;
 			z-index: 1000;
 			font: 14px/16px Arial, Helvetica, sans-serif;
+			color: rgb(98, 98, 98);
 			}
 		.github img {
 			display: block;
 			margin: 0 auto;
+			filter: brightness(0) saturate(100%) invert(33%) sepia(0%) saturate(2188%) hue-rotate(139deg) brightness(104%) contrast(72%);
 		}
 
 		#map .full-button {
@@ -64,6 +74,7 @@
 			bottom: 20px;
 			font-size: 60px;
 			z-index: 100000;
+			color: rgb(98, 98, 98);
 			cursor: pointer;
 		}
     </style>
@@ -143,6 +154,11 @@
 				window.setTimeout(function(){window.map.invalidateSize();}, 10);
 			}
 		</script>
+		<div class="title">
+			<p><h4>Fusion world</h4></p>
+		</div>
+		
+		
 	</div>
 	<figure class="highcharts-figure">
 		<div id="container"></div>
