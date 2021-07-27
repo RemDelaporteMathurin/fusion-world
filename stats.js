@@ -3,13 +3,13 @@ var options = {
         type: 'bar'
     },
     title: {
-        text: 'Country repartition of fusion machines'
+        text: 'Number of fusion devices per country'
     },
 
     yAxis: {
         min: 0,
         title: {
-            text: 'Nb machines',
+            text: 'Nb devices',
             align: 'high'
         },
         labels: {
