@@ -44,21 +44,6 @@ var options = {
     },
 };
 
-function mapOrder (array, order, key) {
-  
-    array.sort( function (a, b) {
-      var A = a[key], B = b[key];
-      
-      if (order.indexOf(A) > order.indexOf(B)) {
-        return 1;
-      } else {
-        return -1;
-      }
-      
-    });
-    
-    return array;
-  };
 
 async function drawBarChart() {
     var countries = [];
@@ -88,25 +73,18 @@ async function drawBarChart() {
         },
 
     ];
-    var sort_array = [];
-    for (var i=0; i < data_countries.length; i++){
-        current_country = data_countries[i];
-        sum_devices = current_country.tokamak + current_country.stellarator + current_country.inertial + current_country.alternate_concept;
-        sort_array.push(sum_devices);
-        current_country.sum_devices = sum_devices;
-    }
-    sort_array.sort(function (a, b){
-        if (a < b) {
+
+    data_countries.sort(function (a, b){
+        sum_a = a.tokamak + a.stellarator + a.inertial + a.alternate_concept;
+        sum_b = b.tokamak + b.stellarator + b.inertial + b.alternate_concept;
+        if (sum_a < sum_b) {
             return 1
         } else {
             return -1
         }
     });
-
-    data_countries_sort = mapOrder(data_countries, sort_array, 'sum_devices');
-
-    for (var i=0; i < data_countries_sort.length; i++){
-        current_country = data_countries_sort[i]
+    for (var i=0; i < data_countries.length; i++){
+        current_country = data_countries[i]
         countries.push(current_country.country);
         for (var j=0; j<series.length; j++){
             switch (series[j].name) {
