@@ -12,7 +12,9 @@
         "configuration": "tokamak",
         "r": "2",
         "TF": "5.3",
-        "IP": "15"
+        "IP": "15",
+        "temperature": 20,
+        "triple_product": 3.00000000e+21
     },
     {
         "name": "CTH",
