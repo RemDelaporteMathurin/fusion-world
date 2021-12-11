@@ -61,7 +61,9 @@
         "TF": "4",
         "IP": "0",
         "configuration": "stellarator",
-        "coordinates": [137.1678128, 35.32565699840918]
+        "coordinates": [137.1678128, 35.32565699840918],
+        "temperature": 9.16780799,
+        "triple_product": 2.11990093e+19
     },
     {
         "country": "Japan",
@@ -140,7 +142,9 @@
         "configuration": "stellarator",
         "r": "0.53",
         "TF": "3",
-        "IP": "0"
+        "IP": "0",
+        "temperature": 3.5,
+        "triple_product": 6.60000000e+19
     },
     {
         "country": "India",
@@ -436,7 +440,9 @@
         "configuration": "tokamak",
         "r": "1.25",
         "TF": "3.4",
-        "IP": "5"
+        "IP": "5",
+        "temperature": 33.7292375,
+        "triple_product": 1.16051029e+21
     },
     {
         "name": "JT-60SA",
