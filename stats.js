@@ -1,4 +1,4 @@
-var options = {
+var options_bar = {
     chart: {
         type: 'bar'
     },
@@ -104,15 +104,15 @@ async function drawBarChart() {
         }
     }
         
-    options.series = series;
-    options.xAxis = {
+    options_bar.series = series;
+    options_bar.xAxis = {
             // categories: countries,
             type: 'category',
             title: {
                 text: null
             }
         };
-    var barChart = Highcharts.chart('container', options);
+    var barChart = Highcharts.chart('container', options_bar);
 }
 
 drawBarChart();
