@@ -43,6 +43,6 @@ def triple_product(Q):
 
 if __name__ == "__main__":
     data = []
-    for x, y in zip(T, triple_product(1)/1e20):
+    for x, y in zip(T, triple_product_infty/1e20):
         data.append([x, y])
     print(data)
