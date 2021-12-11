@@ -1521,7 +1521,11 @@
                 "name": "SPARC",
                 "address": "Devens MA",
                 "configuration": "tokamak",
-                "popupContent": "<a href='https://www.psfc.mit.edu/sparc'> Website </a>"
+                "popupContent": "<a href='https://www.psfc.mit.edu/sparc'> Website </a>",
+                "R": "1.65",
+                "r": "0.5",
+                "TF": "12",
+                "IP": "7.5"
             },
             "geometry": {
                 "type": "Point",

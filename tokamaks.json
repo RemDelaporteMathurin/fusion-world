@@ -956,6 +956,10 @@
             42.54222704578338
         ],
         "configuration": "tokamak",
+        "R": "1.65",
+        "r": "0.5",
+        "TF": "12",
+        "IP": "7.5",
         "website": "https://www.psfc.mit.edu/sparc"
     },
     {
