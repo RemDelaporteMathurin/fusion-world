@@ -62,8 +62,8 @@
         "IP": "0",
         "configuration": "stellarator",
         "coordinates": [137.1678128, 35.32565699840918],
-        "temperature": 9.16780799,
-        "triple_product": 2.11990093e+19
+        "temperature": [1.50931078, 9.16780799],
+        "triple_product": [1.55385139e+19, 2.11990093e+19]
     },
     {
         "country": "Japan",
@@ -143,8 +143,8 @@
         "r": "0.53",
         "TF": "3",
         "IP": "0",
-        "temperature": 3.5,
-        "triple_product": 6.60000000e+19
+        "temperature": [3.5, 1],
+        "triple_product": [6.60000000e+19, 2.00000000e+18]
     },
     {
         "country": "India",
@@ -219,8 +219,8 @@
         "TF": "2.17",
         "IP": "2",
         "configuration": "tokamak",
-        "temperature": 12.6267789,
-        "triple_product": 2.06716580e+20
+        "temperature": [6.33446757, 12.6267789],
+        "triple_product": [1.69728539e+20, 2.06716580e+20]
     },
     {
         "country": "China",
@@ -441,8 +441,8 @@
         "r": "1.25",
         "TF": "3.4",
         "IP": "5",
-        "temperature": 33.7292375,
-        "triple_product": 1.16051029e+21
+        "temperature": [4.42561292, 20.5655601, 28.3716432, 33.7292375],
+        "triple_product": [1.62570081e+20, 7.44951684e+20, 8.82853215e+20, 1.16051029e+21]
     },
     {
         "name": "JT-60SA",
@@ -453,7 +453,9 @@
         "TF": "2.25",
         "IP": "5.5",
         "configuration": "tokamak",
-        "coordinates":[140.0977476097571, 35.67229891749631]
+        "coordinates":[140.0977476097571, 35.67229891749631],
+        "temperature": [6.73158083, 44.9754023, 16.190024, 15.939778],
+        "triple_product": [3.08640860e+19, 1.54281713e+21, 6.63979351e+20, 8.80494689e+20]
     },
     {
         "country": "Korea",
@@ -935,8 +937,8 @@
         "TF": "3.2",
         "IP": "1.4",
         "configuration": "tokamak",
-        "temperature": 11.0294331,
-        "triple_product": 8.37008333e+19
+        "temperature": [4.96777849, 2.2553371, 11.0294331, 3.35038255],
+        "triple_product": [5.39415148e+18, 1.60864212e+19, 8.37008333e+19, 4.47870397e+19]
     },
     {
         "country": "Germany",
