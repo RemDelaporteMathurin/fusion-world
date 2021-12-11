@@ -536,7 +536,9 @@
         "configuration": "tokamak",
         "r": "0.65",
         "TF": "0.52",
-        "IP": "1.3"
+        "IP": "1.3",
+        "temperature": 0.9,
+        "triple_product": 8.10000000e+17
     },
     {
         "country": "Costa Rica",
@@ -962,6 +964,8 @@
         "r": "0.5",
         "TF": "12",
         "IP": "7.5",
+        "temperature": 7,
+        "triple_product": 1.617e+21,
         "website": "https://www.psfc.mit.edu/sparc"
     },
     {
