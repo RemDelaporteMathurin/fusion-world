@@ -115,8 +115,7 @@ var options_scatter = {
 };
 
 async function drawScatterPlot() {
-    // todo: correct branch here
-    const data_devices = await fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/triple_product/tokamaks.json').then((r)=>r.json());
+    const data_devices = await fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/master/tokamaks.json').then((r)=>r.json());
 
     options_scatter.series = [
     ];
