@@ -214,7 +214,9 @@
         "r": "0.6",
         "TF": "2.17",
         "IP": "2",
-        "configuration": "tokamak"
+        "configuration": "tokamak",
+        "temperature": 12.6267789,
+        "triple_product": 2.06716580e+20
     },
     {
         "country": "China",
@@ -814,7 +816,9 @@
         "configuration": "tokamak",
         "r": "0.5",
         "TF": "3.7",
-        "IP": "1"
+        "IP": "1",
+        "temperature": 2.76667723,
+        "triple_product": 3.62231044e+19
     },
     {
         "country": "Czech Republic",
@@ -924,7 +928,9 @@
         "r": "0.5",
         "TF": "3.2",
         "IP": "1.4",
-        "configuration": "tokamak"
+        "configuration": "tokamak",
+        "temperature": 11.0294331,
+        "triple_product": 8.37008333e+19
     },
     {
         "country": "Germany",
@@ -1075,5 +1081,15 @@
         "coordinates": [-106.55130036031196, 35.317561649738074],
         "configuration":"alternate_concept",
         "website": "https://www.sandia.gov/z-machine/"
+    },
+    {
+        "country": "USA",
+        "name": "Alcator C-Mod",
+        "address": "MIT",
+        "coordinates": [-71.09462076437458, 42.359980456591614],
+        "configuration":"tokamak",
+        "temperature": 1.29670285,
+        "triple_product": 9.18858856e+19,
+        "website": "http://www.psfc.mit.edu/research/topics/alcator-c-mod-tokamak"
     }
 ]
