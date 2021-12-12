@@ -218,8 +218,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    11.671373173100747,
-                    48.264022565016305
+                    13.404431640937258,
+                    54.31382372636374
                 ]
             }
         },
@@ -1413,7 +1413,8 @@
                 "country": "France",
                 "name": "Renaissance Fusion",
                 "address": "Fontaine",
-                "configuration": "stellarator"
+                "configuration": "stellarator",
+                "popupContent": "<a href='https://stellarator.energy/'> Website </a>"
             },
             "geometry": {
                 "type": "Point",
@@ -2069,6 +2070,173 @@
                 "coordinates": [
                     -122.33183388646017,
                     47.601972760847616
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Germany",
+                "name": "Marvel Fusion",
+                "address": "M\u00c3\u00bcnchen",
+                "configuration": "inertial",
+                "popupContent": "<a href='https://marvelfusion.com/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.572583671223958,
+                    48.133329810911036
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "GAMMA PDX-SC",
+                "address": "University of Tsukuba",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://www.prc.tsukuba.ac.jp/en/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.0966237114321,
+                    36.11119582596991
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "GAMMA 10/PDX",
+                "address": "University of Tsukuba",
+                "configuration": "alternate_concept"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    140.09724598387302,
+                    36.111421182088115
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "UH-MCPG1",
+                "address": "University of Hyogo",
+                "configuration": "alternate_concept"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.05190857514796,
+                    34.67829799473259
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "RT-1",
+                "address": "Tokyo",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='http://www.ppl.k.u-tokyo.ac.jp/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.7629947201784,
+                    35.71291341094129
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "LFEX",
+                "address": "Osaka",
+                "configuration": "inertial",
+                "popupContent": "<a href='https://www.ile.osaka-u.ac.jp/eng/facilities/lfex/index.html'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.5236208114072,
+                    34.820453944176826
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "GEKKO XII",
+                "address": "Osaka",
+                "configuration": "inertial",
+                "popupContent": "<a href='https://www.ile.osaka-u.ac.jp/eng/facilities/gxii/index.html'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.52532392792943,
+                    34.823161782122135
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "FAT-CM",
+                "address": "Nihon University",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='http://www.phys.cst.nihon-u.ac.jp/~plasma/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.73439057159504,
+                    35.68968557980659
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "UH-CTI",
+                "address": "Kyushu",
+                "configuration": "alternate_concept"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.42413440568808,
+                    33.62468110070906
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Japan",
+                "name": "PLATO",
+                "address": "Kyushu",
+                "configuration": "tokamak",
+                "popupContent": "<a href='http://tokusui.riam.kyushu-u.ac.jp/PLATO_project/index-e.html'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.43386933963268,
+                    33.620258420782676
                 ]
             }
         }
