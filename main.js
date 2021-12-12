@@ -198,7 +198,7 @@ function pointToLayer_field(feature, latlng) {
 }
 
 let default_layer = L.layerGroup().addTo( map )
-geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -207,7 +207,7 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-m
                 }));
 
 let based_on_radius = L.layerGroup()
-geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -225,7 +225,7 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-m
                 }));
 
 let based_on_current = L.layerGroup()
-geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -244,7 +244,7 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-m
 
 
 let based_on_field = L.layerGroup()
-fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -262,7 +262,7 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-lo
                 }));
 
 let tokamaks = L.layerGroup()
-geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -274,7 +274,7 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-m
                 }));
 
 let stellarators = L.layerGroup()
-fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -293,7 +293,7 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-lo
                 }));
 
 let inertial = L.layerGroup()
-fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -312,7 +312,7 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-lo
                 }));
 
 let others = L.layerGroup()
-fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-machines-locations/main/tokamaks.geojson')
+fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
