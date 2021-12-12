@@ -1247,5 +1247,13 @@
         "configuration": "alternate_concept",
         "coordinates": [-122.33183388646017, 47.601972760847616],
         "website": "https://www.zapenergyinc.com/"
+    },
+    {
+        "country": "Germany",
+        "name": "Marvel Fusion",
+        "address": "München",
+        "coordinates": [11.572583671223958, 48.133329810911036],
+        "configuration": "inertial",
+        "website": "https://marvelfusion.com/"
     }
 ]
