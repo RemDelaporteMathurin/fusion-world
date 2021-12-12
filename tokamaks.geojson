@@ -1723,13 +1723,352 @@
                 "name": "Fusion Power Core",
                 "address": "Albuquerque",
                 "configuration": "alternate_concept",
-                "popupContent": "<a href='https://www.sandia.gov/z-machine/'> Website </a>"
+                "popupContent": "<a href='https://www.compactfusionsystems.com/'> Website </a>"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -106.55130036031196,
                     35.317561649738074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "Alcator C-Mod",
+                "address": "MIT",
+                "configuration": "tokamak",
+                "popupContent": "<a href='http://www.psfc.mit.edu/research/topics/alcator-c-mod-tokamak'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.09462076437458,
+                    42.359980456591614
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "AGNI",
+                "address": "AGNI Energy Inc.",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://www.fusionenergybase.com/organization/agni-fusion-energy'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.8234404712091,
+                    47.041086998365365
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "IDCD",
+                "address": "Seattle",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://ctfusion.net/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.34434545452042,
+                    47.62501922801757
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "Helicity Drive",
+                "address": "Berkeley",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://www.helicityspace.com/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.26706038853268,
+                    37.87030721424899
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "Trenta",
+                "address": "Everett",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://www.helionenergy.com/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.2537579017688,
+                    47.93228102192798
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "Polaris",
+                "address": "Everett",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://www.helionenergy.com/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.25225764634312,
+                    47.93086488557961
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "Horne Hybrid Reactor",
+                "address": "Elliston",
+                "configuration": "inertial",
+                "popupContent": "<a href='https://www.hornetechnologies.com/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.4305203576514,
+                    46.56101902624272
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "PJMIF",
+                "address": "Chantilly",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='http://hyperjetfusion.com/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.43347273967717,
+                    38.91301110731298
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "Innoven Energy",
+                "address": "Colorado Springs",
+                "configuration": "inertial",
+                "popupContent": "<a href='https://innoven-energy.com/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.81143467316949,
+                    38.93533014399852
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "Focus Fusion",
+                "address": "Middlesex",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://lppfusion.com/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.50366657505937,
+                    40.59481630595168
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "CFR",
+                "address": "Lancaster",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://www.lockheedmartin.com/en-us/products/compact-fusion.html'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.1092389660677,
+                    34.622096513082425
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "MIFTI",
+                "address": "Tustin",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://miftec.com/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.80911092261661,
+                    33.73491719287058
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "PFRC",
+                "address": "Plainsboro Township",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://www.princetonfusionsystems.com/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.59246658848005,
+                    40.3357880566386
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "IVR-3",
+                "address": "Urbana",
+                "configuration": "alternate_concept"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.20199864615522,
+                    40.11567749063939
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "C2-W",
+                "address": "Lake Forest",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://tae.com/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.65126597327308,
+                    33.67640550606564
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "Zebra",
+                "address": "Reno",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://www.unr.edu/physics/zppl'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.88253113082455,
+                    39.65229652846936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "OMEGA",
+                "address": "Rochester",
+                "configuration": "inertial",
+                "popupContent": "<a href='https://www.lle.rochester.edu/index.php/omega-laser-facility-2/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.63201927492257,
+                    43.11318958566518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "MST",
+                "address": "Madison",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://wippl.wisc.edu/madison-symmetric-torus/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.4054505730771,
+                    43.07399898455457
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "Pegasus-III",
+                "address": "Madison",
+                "configuration": "tokamak",
+                "popupContent": "<a href='https://pegasus.ep.wisc.edu/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.4050965215159,
+                    43.07360712744605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "USA",
+                "name": "ZAP ENERGY",
+                "address": "Seattle",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://www.zapenergyinc.com/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33183388646017,
+                    47.601972760847616
                 ]
             }
         }

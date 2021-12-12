@@ -1088,7 +1088,7 @@
         "address": "Albuquerque",
         "coordinates": [-106.55130036031196, 35.317561649738074],
         "configuration":"alternate_concept",
-        "website": "https://www.sandia.gov/z-machine/"
+        "website": "https://www.compactfusionsystems.com/"
     },
     {
         "country": "USA",
@@ -1099,5 +1099,156 @@
         "temperature": 1.29670285,
         "triple_product": 9.18858856e+19,
         "website": "http://www.psfc.mit.edu/research/topics/alcator-c-mod-tokamak"
+    },
+    {
+        "country": "USA",
+        "address": "AGNI Energy Inc.",
+        "name": "AGNI",
+        "configuration": "alternate_concept",
+        "coordinates": [-122.8234404712091, 47.041086998365365],
+        "website": "https://www.fusionenergybase.com/organization/agni-fusion-energy"
+    },
+    {
+        "country": "USA",
+        "address": "Seattle",
+        "name": "IDCD",
+        "configuration": "alternate_concept",
+        "website": "https://ctfusion.net/",
+        "coordinates": [-122.34434545452042, 47.62501922801757]
+    },
+    {
+        "country": "USA",
+        "address": "Berkeley",
+        "name": "Helicity Drive",
+        "configuration": "alternate_concept",
+        "website": "https://www.helicityspace.com/",
+        "coordinates": [-122.26706038853268, 37.87030721424899]
+    },
+    {
+        "country": "USA",
+        "name": "Trenta",
+        "address": "Everett",
+        "website": "https://www.helionenergy.com/",
+        "coordinates": [-122.2537579017688, 47.93228102192798],
+        "configuration": "alternate_concept"
+    },
+    {
+        "country": "USA",
+        "name": "Polaris",
+        "address": "Everett",
+        "website": "https://www.helionenergy.com/",
+        "coordinates": [-122.25225764634312, 47.93086488557961],
+        "configuration": "alternate_concept"
+    },
+    {
+        "country": "USA",
+        "name": "Horne Hybrid Reactor",
+        "address": "Elliston",
+        "coordinates": [-112.4305203576514, 46.56101902624272],
+        "website": "https://www.hornetechnologies.com/",
+        "configuration": "inertial"
+    },
+    {
+        "country": "USA",
+        "name": "PJMIF",
+        "address": "Chantilly",
+        "website": "http://hyperjetfusion.com/",
+        "coordinates": [-77.43347273967717, 38.91301110731298],
+        "configuration":"alternate_concept"
+    },
+    {
+        "country": "USA",
+        "name": "Innoven Energy",
+        "address": "Colorado Springs",
+        "coordinates": [-104.81143467316949, 38.93533014399852],
+        "website": "https://innoven-energy.com/",
+        "configuration": "inertial"
+    },
+    {
+        "country": "USA",
+        "name": "Focus Fusion",
+        "address": "Middlesex",
+        "coordinates": [-74.50366657505937, 40.59481630595168],
+        "website": "https://lppfusion.com/",
+        "configuration": "alternate_concept"
+    },
+    {
+        "country": "USA",
+        "name": "CFR",
+        "address": "Lancaster",
+        "coordinates": [-118.1092389660677, 34.622096513082425],
+        "configuration": "alternate_concept",
+        "website": "https://www.lockheedmartin.com/en-us/products/compact-fusion.html"
+    },
+    {
+        "country": "USA",
+        "name": "MIFTI",
+        "address": "Tustin",
+        "website": "https://miftec.com/",
+        "coordinates": [-117.80911092261661, 33.73491719287058],
+        "configuration": "alternate_concept"
+    },
+    {
+        "country": "USA",
+        "name": "PFRC",
+        "address": "Plainsboro Township",
+        "coordinates": [-74.59246658848005, 40.3357880566386],
+        "configuration": "alternate_concept",
+        "website": "https://www.princetonfusionsystems.com/"
+    },
+    {
+        "country": "USA",
+        "name": "IVR-3",
+        "address": "Urbana",
+        "coordinates": [-88.20199864615522, 40.11567749063939],
+        "configuration": "alternate_concept"
+    },
+    {
+        "country": "USA",
+        "name": "C2-W",
+        "address": "Lake Forest",
+        "coordinates": [-117.65126597327308, 33.67640550606564],
+        "configuration": "alternate_concept",
+        "website": "https://tae.com/"
+    },
+    {
+        "country": "USA",
+        "name": "Zebra",
+        "address": "Reno",
+        "coordinates": [-119.88253113082455, 39.65229652846936],
+        "configuration": "alternate_concept",
+        "website": "https://www.unr.edu/physics/zppl"
+    },
+    {
+        "country": "USA",
+        "address": "Rochester",
+        "coordinates": [-77.63201927492257, 43.11318958566518],
+        "name": "OMEGA",
+        "configuration": "inertial",
+        "website": "https://www.lle.rochester.edu/index.php/omega-laser-facility-2/"
+    },
+    {
+        "country": "USA",
+        "name": "MST",
+        "address": "Madison",
+        "coordinates": [-89.4054505730771, 43.07399898455457],
+        "configuration": "alternate_concept",
+        "website": "https://wippl.wisc.edu/madison-symmetric-torus/"
+    },
+    {
+        "country": "USA",
+        "name": "Pegasus-III",
+        "address": "Madison",
+        "coordinates": [-89.4050965215159, 43.07360712744605],
+        "configuration": "tokamak",
+        "website": "https://pegasus.ep.wisc.edu/"
+    },
+    {
+        "country": "USA",
+        "name": "ZAP ENERGY",
+        "address": "Seattle",
+        "configuration": "alternate_concept",
+        "coordinates": [-122.33183388646017, 47.601972760847616],
+        "website": "https://www.zapenergyinc.com/"
     }
 ]
