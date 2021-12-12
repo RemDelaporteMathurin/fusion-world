@@ -897,7 +897,8 @@
             5.67483256527124,
             45.19592767645715
         ],
-        "configuration": "stellarator"
+        "configuration": "stellarator",
+        "website": "https://stellarator.energy/"
     },
     {
         "country": "France",
