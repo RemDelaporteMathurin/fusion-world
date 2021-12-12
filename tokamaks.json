@@ -897,7 +897,8 @@
             5.67483256527124,
             45.19592767645715
         ],
-        "configuration": "stellarator"
+        "configuration": "stellarator",
+        "website": "https://stellarator.energy/"
     },
     {
         "country": "France",
@@ -1247,5 +1248,125 @@
         "configuration": "alternate_concept",
         "coordinates": [-122.33183388646017, 47.601972760847616],
         "website": "https://www.zapenergyinc.com/"
+    },
+    {
+        "country": "Germany",
+        "name": "Marvel Fusion",
+        "address": "München",
+        "coordinates": [11.572583671223958, 48.133329810911036],
+        "configuration": "inertial",
+        "website": "https://marvelfusion.com/"
+    },
+    {
+        "country": "Japan",
+        "name": "GAMMA PDX-SC",
+        "address": "University of Tsukuba",
+        "configuration": "alternate_concept",
+        "coordinates": [140.0966237114321, 36.11119582596991],
+        "website": "https://www.prc.tsukuba.ac.jp/en/"
+    },
+    {
+        "country": "Japan",
+        "name": "GAMMA 10/PDX",
+        "address": "University of Tsukuba",
+        "configuration": "alternate_concept",
+        "coordinates": [140.09724598387302, 36.111421182088115]
+    },
+    {
+        "country": "Japan",
+        "name": "UH-MCPG1",
+        "configuration": "alternate_concept",
+        "address": "University of Hyogo",
+        "coordinates": [135.05190857514796, 34.67829799473259]
+    },
+    {
+        "country": "Japan",
+        "name": "RT-1",
+        "address": "Tokyo",
+        "configuration": "alternate_concept",
+        "coordinates": [139.7629947201784, 35.71291341094129],
+        "website": "http://www.ppl.k.u-tokyo.ac.jp/"
+    },
+    {
+        "country": "Japan",
+        "name": "LFEX",
+        "address": "Osaka",
+        "configuration": "inertial",
+        "coordinates": [135.5236208114072, 34.820453944176826],
+        "website": "https://www.ile.osaka-u.ac.jp/eng/facilities/lfex/index.html"
+    },
+    {
+        "country": "Japan",
+        "name": "GEKKO XII",
+        "address": "Osaka",
+        "configuration": "inertial",
+        "coordinates": [135.52532392792943, 34.823161782122135],
+        "website": "https://www.ile.osaka-u.ac.jp/eng/facilities/gxii/index.html"
+    },
+    {
+        "country": "Japan",
+        "name": "FAT-CM",
+        "address": "Nihon University",
+        "configuration": "alternate_concept",
+        "coordinates": [139.73439057159504, 35.68968557980659],
+        "website": "http://www.phys.cst.nihon-u.ac.jp/~plasma/"
+    },
+    {
+        "country": "Japan",
+        "name": "UH-CTI",
+        "configuration": "alternate_concept",
+        "address": "Kyushu",
+        "coordinates": [130.42413440568808, 33.62468110070906]
+    },
+    {
+        "country": "Japan",
+        "name": "PLATO",
+        "configuration": "tokamak",
+        "address": "Kyushu",
+        "coordinates": [130.43386933963268, 33.620258420782676],
+        "website": "http://tokusui.riam.kyushu-u.ac.jp/PLATO_project/index-e.html"
+    },
+    {
+        "country": "Russia",
+        "name": "CAT",
+        "configuration": "alternate_concept",
+        "address": "Budker Institute of Nuclear Physics",
+        "coordinates": [83.11088480450746, 54.84884963426675]
+    },
+    {
+        "country": "Russia",
+        "name": "GDMT",
+        "address": "Budker Institute of Nuclear Physics",
+        "configuration": "alternate_concept",
+        "coordinates": [83.1121937224004, 54.84969587039274]
+    },
+    {
+        "country": "Russia",
+        "name": "GDT",
+        "address": "Budker Institute of Nuclear Physics",
+        "configuration": "alternate_concept",
+        "coordinates": [83.11349191145818, 54.8490287660226]
+    },
+    {
+        "country": "Russia",
+        "name": "GOL-NB",
+        "address": "Budker Institute of Nuclear Physics",
+        "configuration": "alternate_concept",
+        "coordinates": [83.1141190644502, 54.84747749284412]
+    },
+    {
+        "country": "Russia",
+        "name": "SMOLA",
+        "configuration": "alternate_concept",
+        "address": "Budker Institute of Nuclear Physics",
+        "coordinates": [83.1073083997944, 54.85193683797478]
+    },
+    {
+        "country": "Switzerland",
+        "name": "TORPEX",
+        "configuration": "alternate_concept",
+        "address": "Swiss Plasma Center",
+        "coordinates": [6.564144308543534, 46.51806261691262],
+        "website": "https://www.epfl.ch/research/domains/swiss-plasma-center/research/research_basic_plasmas/research_basic_plasmas_torpex/research_basic_plasmas_torpex_parameters/"
     }
 ]
