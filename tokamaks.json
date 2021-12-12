@@ -1324,7 +1324,11 @@
         "configuration": "tokamak",
         "address": "Kyushu",
         "coordinates": [130.43386933963268, 33.620258420782676],
-        "website": "http://tokusui.riam.kyushu-u.ac.jp/PLATO_project/index-e.html"
+        "website": "http://tokusui.riam.kyushu-u.ac.jp/PLATO_project/index-e.html",
+        "R": 0.7,
+        "r": 0.2,
+        "TF": 0.3,
+        "IP": 0.04
     },
     {
         "country": "Russia",

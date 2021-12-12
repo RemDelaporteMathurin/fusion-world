@@ -2230,7 +2230,11 @@
                 "name": "PLATO",
                 "address": "Kyushu",
                 "configuration": "tokamak",
-                "popupContent": "<a href='http://tokusui.riam.kyushu-u.ac.jp/PLATO_project/index-e.html'> Website </a>"
+                "popupContent": "<a href='http://tokusui.riam.kyushu-u.ac.jp/PLATO_project/index-e.html'> Website </a>",
+                "R": 0.7,
+                "r": 0.2,
+                "TF": 0.3,
+                "IP": 0.04
             },
             "geometry": {
                 "type": "Point",
