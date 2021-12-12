@@ -133,10 +133,7 @@
         "country": "Germany",
         "name": "Wendelstein 7-X",
         "address": "Garching",
-        "coordinates": [
-            11.671373173100747,
-            48.264022565016305
-        ],
+        "coordinates": [13.404431640937258, 54.31382372636374],
         "website": "https://www.ipp.mpg.de/w7x",
         "R": "5.5",
         "configuration": "stellarator",
