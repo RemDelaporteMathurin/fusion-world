@@ -2319,6 +2319,23 @@
                     54.85193683797478
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Switzerland",
+                "name": "TORPEX",
+                "address": "Swiss Plasma Center",
+                "configuration": "alternate_concept",
+                "popupContent": "<a href='https://www.epfl.ch/research/domains/swiss-plasma-center/research/research_basic_plasmas/research_basic_plasmas_torpex/research_basic_plasmas_torpex_parameters/'> Website </a>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.564144308543534,
+                    46.51806261691262
+                ]
+            }
         }
     ]
 }

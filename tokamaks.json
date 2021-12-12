@@ -1360,5 +1360,13 @@
         "configuration": "alternate_concept",
         "address": "Budker Institute of Nuclear Physics",
         "coordinates": [83.1073083997944, 54.85193683797478]
+    },
+    {
+        "country": "Switzerland",
+        "name": "TORPEX",
+        "configuration": "alternate_concept",
+        "address": "Swiss Plasma Center",
+        "coordinates": [6.564144308543534, 46.51806261691262],
+        "website": "https://www.epfl.ch/research/domains/swiss-plasma-center/research/research_basic_plasmas/research_basic_plasmas_torpex/research_basic_plasmas_torpex_parameters/"
     }
 ]
