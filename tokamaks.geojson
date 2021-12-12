@@ -2239,6 +2239,86 @@
                     33.620258420782676
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Russia",
+                "name": "CAT",
+                "address": "Budker Institute of Nuclear Physics",
+                "configuration": "alternate_concept"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.11088480450746,
+                    54.84884963426675
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Russia",
+                "name": "GDMT",
+                "address": "Budker Institute of Nuclear Physics",
+                "configuration": "alternate_concept"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.1121937224004,
+                    54.84969587039274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Russia",
+                "name": "GDT",
+                "address": "Budker Institute of Nuclear Physics",
+                "configuration": "alternate_concept"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.11349191145818,
+                    54.8490287660226
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Russia",
+                "name": "GOL-NB",
+                "address": "Budker Institute of Nuclear Physics",
+                "configuration": "alternate_concept"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.1141190644502,
+                    54.84747749284412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "Russia",
+                "name": "SMOLA",
+                "address": "Budker Institute of Nuclear Physics",
+                "configuration": "alternate_concept"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.1073083997944,
+                    54.85193683797478
+                ]
+            }
         }
     ]
 }
