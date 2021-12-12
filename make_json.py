@@ -68,4 +68,4 @@ def make_json_by_country():
 
 if __name__ == "__main__":
     make_geojson()
-    make_json_by_country
+    make_json_by_country()

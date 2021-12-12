@@ -66,7 +66,7 @@
         "country": "Germany",
         "tokamak": 1,
         "stellarator": 2,
-        "inertial": 0,
+        "inertial": 1,
         "alternate_concept": 0
     },
     {
@@ -92,10 +92,10 @@
     },
     {
         "country": "Japan",
-        "tokamak": 11,
+        "tokamak": 12,
         "stellarator": 2,
-        "inertial": 0,
-        "alternate_concept": 1
+        "inertial": 2,
+        "alternate_concept": 7
     },
     {
         "country": "Kazakhstan",
@@ -137,7 +137,7 @@
         "tokamak": 6,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 5
     },
     {
         "country": "Spain",
@@ -151,7 +151,7 @@
         "tokamak": 1,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 1
     },
     {
         "country": "Thailand",
@@ -169,10 +169,10 @@
     },
     {
         "country": "USA",
-        "tokamak": 6,
+        "tokamak": 8,
         "stellarator": 3,
-        "inertial": 1,
-        "alternate_concept": 2
+        "inertial": 4,
+        "alternate_concept": 17
     },
     {
         "country": "Ukraine",
