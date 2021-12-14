@@ -85,9 +85,11 @@
 
 	<script src="https://code.highcharts.com/highcharts.js"></script>
 	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/modules/data.js"></script>
 	<script src="https://code.highcharts.com/modules/export-data.js"></script>
+	<script src="https://code.highcharts.com/modules/drilldown.js"></script>
 	<script src="https://code.highcharts.com/modules/accessibility.js"></script>
-	<script src="https://code.highcharts.com/modules/annotations.js"></script>
+	<!-- <script src="https://code.highcharts.com/modules/annotations.js"></script> -->
 	<script src="scatter.js"></script>
 	<script src="stats.js"></script>
 	<style>
@@ -106,6 +108,11 @@
 			width: 700px;
 			height: 700px;
 			float:left;
+		}
+		#container_pie_chart {
+			width: 700px;
+			height: 700px;
+			float:right;
 		}
 	</style>
 </head>
@@ -145,7 +152,11 @@
 		
 	</div>
 	<div id="container"></div>
+	<div id="container_pie_chart"></div>
+
 	<div id="container2"></div>
 	<div id="container_private_public"></div>
+	<script src="pie_chart.js"></script>
+
 </body>
 </html>
