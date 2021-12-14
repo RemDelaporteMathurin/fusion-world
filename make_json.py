@@ -19,7 +19,8 @@ def make_geojson():
                     'country': store['country'],
                     'name': store['name'],
                     'address': store['address'],
-                    "configuration": store["configuration"]
+                    "configuration": store["configuration"],
+                    'ownership': store["ownership"]
                 },
                 'geometry': {
                     'type': 'Point',
