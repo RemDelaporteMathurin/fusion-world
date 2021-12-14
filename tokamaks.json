@@ -3,6 +3,7 @@
         "country": "France",
         "name": "ITER",
         "address": "St-Paul-lez-Durance",
+        "ownership": "public",
         "coordinates": [
             5.777038831078966,
             43.70879000045666
@@ -20,6 +21,7 @@
         "country": "USA",
         "name": "CTH",
         "address": "Auburn",
+        "ownership": "public",
         "coordinates": [
             -85.49508141184504,
             32.59506710233563
@@ -34,6 +36,7 @@
         "country": "USA",
         "name": "HIDRA",
         "address": "Urbana",
+        "ownership": "public",
         "coordinates": [
             -88.22872477539707,
             40.11007671413551
@@ -48,6 +51,7 @@
         "country": "USA",
         "name": "HSX",
         "address": "Madison",
+        "ownership": "public",
         "coordinates": [
             -89.41263087442712,
             43.078859941654926
@@ -62,6 +66,7 @@
         "country": "Japan",
         "name": "LHD",
         "address": "Toki",
+        "ownership": "public",
         "coordinates": [
             137.1678128,
             35.32565699840918
@@ -84,6 +89,7 @@
         "country": "Japan",
         "name": "Heliotron J",
         "address": "Kyoto",
+        "ownership": "public",
         "coordinates": [
             135.78086998987203,
             35.02646991574031
@@ -98,6 +104,7 @@
         "country": "Costa Rica",
         "name": "SCR-1",
         "address": "Cartago",
+        "ownership": "public",
         "coordinates": [
             -83.91238030711098,
             9.856706690590785
@@ -112,6 +119,7 @@
         "country": "Spain",
         "name": "TJ-II",
         "address": "Madrid",
+        "ownership": "public",
         "coordinates": [
             -3.728997406392373,
             40.454386165022335
@@ -126,6 +134,7 @@
         "country": "Ukraine",
         "name": "Uragan-2M",
         "address": "Kharkov",
+        "ownership": "public",
         "coordinates": [
             36.252426592155494,
             50.08688514839137
@@ -140,6 +149,7 @@
         "country": "Ukraine",
         "name": "Uragan-3M",
         "address": "Kharkov",
+        "ownership": "public",
         "coordinates": [
             36.24771686773435,
             50.091214402548815
@@ -154,6 +164,7 @@
         "country": "Germany",
         "name": "Wendelstein 7-X",
         "address": "Garching",
+        "ownership": "public",
         "coordinates": [
             13.404431640937258,
             54.31382372636374
@@ -177,6 +188,7 @@
         "country": "India",
         "name": "ADITYA-U",
         "address": "Gujarat",
+        "ownership": "public",
         "coordinates": [
             72.62504900244637,
             23.098684664631392
@@ -191,6 +203,7 @@
         "country": "Iran",
         "name": "Alvand",
         "address": "Teheran",
+        "ownership": "public",
         "coordinates": [
             51.40946511376906,
             35.703761905133454
@@ -205,6 +218,7 @@
         "country": "Iran",
         "name": "IR-T1",
         "address": "Teheran",
+        "ownership": "public",
         "coordinates": [
             51.4696688711306,
             35.67631465416959
@@ -219,6 +233,7 @@
         "country": "Czech Republic",
         "name": "COMPASS",
         "address": "Prague",
+        "ownership": "public",
         "coordinates": [
             14.435958075652815,
             50.08099417779581
@@ -233,6 +248,7 @@
         "country": "Iran",
         "name": "Damavand",
         "address": "Teheran",
+        "ownership": "public",
         "coordinates": [
             51.3880330688036,
             35.7393684858733
@@ -247,6 +263,7 @@
         "country": "USA",
         "name": "DIII-D",
         "address": "San Diego",
+        "ownership": "public",
         "coordinates": [
             -117.23677839176327,
             32.89524918966554
@@ -270,6 +287,7 @@
         "country": "China",
         "name": "EAST",
         "address": "Hefei",
+        "ownership": "public",
         "coordinates": [
             117.1711244555299,
             31.857641122096826
@@ -284,6 +302,7 @@
         "country": "Egypt",
         "name": "EGYPTOR",
         "address": "Alexandria",
+        "ownership": "public",
         "coordinates": [
             29.944445441425476,
             31.255478324106356
@@ -298,6 +317,7 @@
         "country": "Brazil",
         "name": "ETE",
         "address": "Sao Jos\u00c3\u00a9 dos Campos",
+        "ownership": "public",
         "coordinates": [
             -45.860201592872386,
             -23.20676278738629
@@ -312,6 +332,7 @@
         "country": "China",
         "name": "EXL-50",
         "address": "Heibei",
+        "ownership": "private",
         "coordinates": [
             116.73533333916788,
             39.560976913258614
@@ -326,6 +347,7 @@
         "country": "Russia",
         "name": "FT-2",
         "address": "St-Petersburg",
+        "ownership": "public",
         "coordinates": [
             30.372538772590566,
             60.007625769468554
@@ -340,6 +362,7 @@
         "country": "Pakistan",
         "name": "GLAST-III",
         "address": "Islamabad",
+        "ownership": "public",
         "coordinates": [
             73.02427309550254,
             33.663533871077156
@@ -354,6 +377,7 @@
         "country": "Russia",
         "name": "Globus-M2",
         "address": "St-Petersburg",
+        "ownership": "public",
         "coordinates": [
             30.378326939335714,
             60.00872494242375
@@ -368,6 +392,7 @@
         "country": "Czech Republic",
         "name": "GOLEM",
         "address": "Prague",
+        "ownership": "public",
         "coordinates": [
             14.391359200111388,
             50.10318777376735
@@ -382,6 +407,7 @@
         "country": "Russia",
         "name": "GUTTA",
         "address": "St-Petersburg",
+        "ownership": "public",
         "coordinates": [
             30.298767513127014,
             59.94218841508222
@@ -396,6 +422,7 @@
         "country": "USA",
         "name": "HBT-EP",
         "address": "New-York",
+        "ownership": "public",
         "coordinates": [
             -73.95143414514969,
             40.82233625022625
@@ -410,6 +437,7 @@
         "country": "Japan",
         "name": "HIST",
         "address": "Hyogo",
+        "ownership": "public",
         "coordinates": [
             134.88718387417916,
             34.75784798047062
@@ -424,6 +452,7 @@
         "country": "China",
         "name": "HL-2M",
         "address": "Chengdu",
+        "ownership": "public",
         "coordinates": [
             104.03004615446031,
             30.632447185744073
@@ -438,6 +467,7 @@
         "country": "China",
         "name": "HL-2A",
         "address": "Chengdu",
+        "ownership": "public",
         "coordinates": [
             104.09790975068603,
             30.64249852182921
@@ -452,6 +482,7 @@
         "country": "China",
         "name": "HT-7",
         "address": "Hefei",
+        "ownership": "public",
         "coordinates": [
             117.1711244555299,
             31.857641122096826
@@ -466,6 +497,7 @@
         "country": "Japan",
         "name": "HYBTOK-II",
         "address": "Nagoya",
+        "ownership": "public",
         "coordinates": [
             136.96869075779102,
             35.156193787837346
@@ -480,6 +512,7 @@
         "country": "Portugal",
         "name": "ISTTOK",
         "address": "Lisbon",
+        "ownership": "public",
         "coordinates": [
             -9.138696002984,
             38.737094000078514
@@ -494,6 +527,7 @@
         "country": "China",
         "name": "J-TEXT",
         "address": "Wuhan",
+        "ownership": "public",
         "coordinates": [
             114.42023268249642,
             30.513161413300043
@@ -508,6 +542,7 @@
         "country": "UK",
         "name": "JET",
         "address": "Abingdon",
+        "ownership": "public",
         "coordinates": [
             -1.225019945107592,
             51.65934962924273
@@ -535,6 +570,7 @@
         "country": "Japan",
         "name": "JT-60SA",
         "address": "Tokyo",
+        "ownership": "public",
         "coordinates": [
             140.0977476097571,
             35.67229891749631
@@ -561,6 +597,7 @@
         "country": "Korea",
         "name": "KSTAR",
         "address": "Daejeon",
+        "ownership": "public",
         "coordinates": [
             127.35195757861905,
             36.37266478029253
@@ -575,6 +612,7 @@
         "country": "Kazakhstan",
         "name": "KTM",
         "address": "Kurchatov",
+        "ownership": "public",
         "coordinates": [
             78.50769985601123,
             50.81628751621313
@@ -589,6 +627,7 @@
         "country": "Japan",
         "name": "LATE",
         "address": "Kyoto",
+        "ownership": "public",
         "coordinates": [
             135.80037018143938,
             34.9105088579678
@@ -603,6 +642,7 @@
         "country": "Libya",
         "name": "LIBTOR",
         "address": "Tripoli",
+        "ownership": "public",
         "coordinates": [
             13.378669412165532,
             32.83543529236914
@@ -617,6 +657,7 @@
         "country": "USA",
         "name": "LTX-beta",
         "address": "Princeton",
+        "ownership": "public",
         "coordinates": [
             -74.60235798535736,
             40.34814220939181
@@ -631,6 +672,7 @@
         "country": "UK",
         "name": "ST40",
         "address": "Abingdon",
+        "ownership": "private",
         "coordinates": [
             -1.281794045869338,
             51.623251899457706
@@ -646,6 +688,7 @@
         "country": "UK",
         "name": "MAST-U",
         "address": "Abingdon",
+        "ownership": "public",
         "coordinates": [
             -1.2295439295543145,
             51.658000352826996
@@ -663,6 +706,7 @@
         "country": "Costa Rica",
         "name": "MEDUSA-CR",
         "address": "Cartago",
+        "ownership": "public",
         "coordinates": [
             -83.91244621661976,
             9.856522484302424
@@ -677,6 +721,7 @@
         "country": "Pakistan",
         "name": "MT-1",
         "address": "Dera Ghazi Khan",
+        "ownership": "public",
         "coordinates": [
             70.66465645475284,
             30.093819783673688
@@ -691,6 +736,7 @@
         "country": "Denmark",
         "name": "NORTH",
         "address": "Kongens Lyngby",
+        "ownership": "public",
         "coordinates": [
             12.5216351393253,
             55.78536970233601
@@ -706,6 +752,7 @@
         "country": "Brazil",
         "name": "NOVA-FURG",
         "address": "Vitoria",
+        "ownership": "public",
         "coordinates": [
             -40.20363948880572,
             -19.012103417010753
@@ -720,6 +767,7 @@
         "country": "USA",
         "name": "NSTX-U",
         "address": "Princeton",
+        "ownership": "public",
         "coordinates": [
             -74.60305535964459,
             40.35022723814888
@@ -735,6 +783,7 @@
         "country": "USA",
         "name": "Pegasus-III",
         "address": "Madison",
+        "ownership": "public",
         "coordinates": [
             -89.40383502610601,
             43.07543327740595
@@ -749,6 +798,7 @@
         "country": "Japan",
         "name": "PHiX",
         "address": "Tokyo",
+        "ownership": "public",
         "coordinates": [
             139.6831175956234,
             35.606782075443284
@@ -763,6 +813,7 @@
         "country": "Japan",
         "name": "QUEST",
         "address": "Kyushu",
+        "ownership": "public",
         "coordinates": [
             130.42529969435358,
             33.623181894454575
@@ -777,6 +828,7 @@
         "country": "India",
         "name": "SST-1",
         "address": "Gujarat",
+        "ownership": "public",
         "coordinates": [
             72.62239375120585,
             23.097163401418662
@@ -791,6 +843,7 @@
         "country": "Canada",
         "name": "STOR-M",
         "address": "Saskatchewan",
+        "ownership": "public",
         "coordinates": [
             -106.63480279413353,
             52.15379223628213
@@ -805,6 +858,7 @@
         "country": "China",
         "name": "SUNIST",
         "address": "Tsinghua",
+        "ownership": "public",
         "coordinates": [
             116.32654660505905,
             40.00016493671451
@@ -819,6 +873,7 @@
         "country": "Russia",
         "name": "T-11M",
         "address": "Moscow",
+        "ownership": "public",
         "coordinates": [
             37.304515352539504,
             55.48695225963987
@@ -833,6 +888,7 @@
         "country": "Brazil",
         "name": "TCABR",
         "address": "Sao Paulo",
+        "ownership": "public",
         "coordinates": [
             -46.731308062011756,
             -23.56146460186351
@@ -847,6 +903,7 @@
         "country": "Switzerland",
         "name": "TCV",
         "address": "Ecublens",
+        "ownership": "public",
         "coordinates": [
             6.564788038654824,
             46.51778945301607
@@ -861,6 +918,7 @@
         "country": "Japan",
         "name": "TOKASTAR-2",
         "address": "Nagoya",
+        "ownership": "public",
         "coordinates": [
             136.99741420054,
             35.26986636362017
@@ -875,6 +933,7 @@
         "country": "Japan",
         "name": "TS-4U",
         "address": "Tokyo",
+        "ownership": "public",
         "coordinates": [
             139.7635617708173,
             35.71162306461253
@@ -889,6 +948,7 @@
         "country": "Japan",
         "name": "TS-6",
         "address": "Tokyo",
+        "ownership": "public",
         "coordinates": [
             139.76313738524476,
             35.71448364385392
@@ -903,6 +963,7 @@
         "country": "Japan",
         "name": "TST-2",
         "address": "Tokyo",
+        "ownership": "public",
         "coordinates": [
             139.7587738732024,
             35.7117798114651
@@ -917,6 +978,7 @@
         "country": "Russia",
         "name": "TUMAN-3M",
         "address": "St-Petersburg",
+        "ownership": "public",
         "coordinates": [
             30.39306786038113,
             60.00460626895757
@@ -931,6 +993,7 @@
         "country": "Japan",
         "name": "UTST",
         "address": "Tokyo",
+        "ownership": "public",
         "coordinates": [
             139.7582252444953,
             35.714255738150634
@@ -945,6 +1008,7 @@
         "country": "Korea",
         "name": "VEST",
         "address": "Seoul",
+        "ownership": "public",
         "coordinates": [
             126.95008611338027,
             37.4568736825987
@@ -959,6 +1023,7 @@
         "country": "France",
         "name": "WEST",
         "address": "Cadarache",
+        "ownership": "public",
         "coordinates": [
             5.763735075034328,
             43.704788050141296
@@ -976,6 +1041,7 @@
         "country": "Czech Republic",
         "name": "COMPASS-U",
         "address": "Prague",
+        "ownership": "public",
         "coordinates": [
             14.394294432566214,
             50.10497085179941
@@ -990,6 +1056,7 @@
         "country": "Pakistan",
         "name": "MT-2",
         "address": "Dera Ghazi Khan",
+        "ownership": "public",
         "coordinates": [
             70.6052391297637,
             30.017292808100674
@@ -1004,6 +1071,7 @@
         "country": "Russia",
         "name": "T-15MD",
         "address": "Moscow",
+        "ownership": "public",
         "coordinates": [
             37.476996083085425,
             55.80129195026851
@@ -1018,6 +1086,7 @@
         "country": "Thailand",
         "name": "TT-1",
         "address": "Bangkok",
+        "ownership": "public",
         "coordinates": [
             100.56643118231219,
             13.854748041090069
@@ -1032,6 +1101,7 @@
         "country": "France",
         "name": "LMJ",
         "address": "Le Barp",
+        "ownership": "public",
         "coordinates": [
             -0.8074136680055679,
             44.658605567060874
@@ -1043,6 +1113,7 @@
         "country": "France",
         "name": "Renaissance Fusion",
         "address": "Fontaine",
+        "ownership": "private",
         "coordinates": [
             5.67483256527124,
             45.19592767645715
@@ -1054,6 +1125,7 @@
         "country": "France",
         "name": "ToriX",
         "address": "Palaiseau",
+        "ownership": "public",
         "coordinates": [
             2.21129169809826,
             48.714410343730435
@@ -1064,6 +1136,7 @@
         "country": "UK",
         "name": "First Light",
         "address": "Kidlington",
+        "ownership": "private",
         "coordinates": [
             -1.3001906859764691,
             51.805036645983655
@@ -1075,6 +1148,7 @@
         "country": "Germany",
         "name": "ASDEX Upgrade",
         "address": "Garching",
+        "ownership": "public",
         "coordinates": [
             11.671764353853556,
             48.26295113080633
@@ -1102,6 +1176,7 @@
         "country": "Germany",
         "name": "TJ-K",
         "address": "Stuttgart",
+        "ownership": "public",
         "coordinates": [
             9.17365141088079,
             48.78188166139253
@@ -1117,6 +1192,7 @@
         "country": "Japan",
         "name": "RELAX",
         "address": "Kyoto",
+        "ownership": "public",
         "coordinates": [
             135.78211483557752,
             35.050320110307794
@@ -1127,6 +1203,7 @@
         "country": "USA",
         "name": "SPARC",
         "address": "Devens MA",
+        "ownership": "private",
         "coordinates": [
             -71.61180064645845,
             42.54222704578338
@@ -1144,6 +1221,7 @@
         "country": "Canada",
         "name": "General Fusion",
         "address": "Burnaby",
+        "ownership": "private",
         "coordinates": [
             -122.91537454408733,
             49.252004059432664
@@ -1155,6 +1233,7 @@
         "country": "China",
         "name": "CFQS",
         "address": "Shanghai",
+        "ownership": "public",
         "coordinates": [
             121.43196100765981,
             31.198475788344112
@@ -1169,6 +1248,7 @@
         "country": "Italy",
         "name": "DTT",
         "address": "Roma",
+        "ownership": "public",
         "coordinates": [
             12.67276703033901,
             41.821031065163126
@@ -1184,6 +1264,7 @@
         "country": "Italy",
         "name": "FTU",
         "address": "Roma",
+        "ownership": "public",
         "coordinates": [
             12.662124025832343,
             41.82051935341014
@@ -1198,6 +1279,7 @@
         "country": "Spain",
         "name": "SMART",
         "address": "Seville",
+        "ownership": "public",
         "coordinates": [
             -5.991069769509132,
             37.38074935450412
@@ -1212,6 +1294,7 @@
         "country": "USA",
         "name": "NIF",
         "address": "Livermore",
+        "ownership": "public",
         "coordinates": [
             -121.71628283086609,
             37.68017876829969
@@ -1222,6 +1305,7 @@
         "country": "Australia",
         "name": "HB11 Energy",
         "address": "Sidney",
+        "ownership": "private",
         "coordinates": [
             151.2289472749941,
             -33.87246036455869
@@ -1233,6 +1317,7 @@
         "country": "Italy",
         "name": "RFX",
         "address": "Padua",
+        "ownership": "public",
         "coordinates": [
             11.87050513999025,
             45.39882359345374
@@ -1244,6 +1329,7 @@
         "country": "UK",
         "name": "FDP",
         "address": "Abingdon",
+        "ownership": "public",
         "coordinates": [
             -1.2305699355838213,
             51.65926166977835
@@ -1254,6 +1340,7 @@
         "country": "USA",
         "name": "Z machine",
         "address": "Albuquerque",
+        "ownership": "public",
         "coordinates": [
             -106.55130036031196,
             35.317561649738074
@@ -1265,6 +1352,7 @@
         "country": "USA",
         "name": "Fusion Power Core",
         "address": "Albuquerque",
+        "ownership": "private",
         "coordinates": [
             -106.55130036031196,
             35.317561649738074
@@ -1276,6 +1364,7 @@
         "country": "USA",
         "name": "Alcator C-Mod",
         "address": "MIT",
+        "ownership": "public",
         "coordinates": [
             -71.09462076437458,
             42.359980456591614
@@ -1289,6 +1378,7 @@
         "country": "USA",
         "name": "AGNI",
         "address": "AGNI Energy Inc.",
+        "ownership": "private",
         "coordinates": [
             -122.8234404712091,
             47.041086998365365
@@ -1300,6 +1390,7 @@
         "country": "USA",
         "name": "IDCD",
         "address": "Seattle",
+        "ownership": "public",
         "coordinates": [
             -122.34434545452042,
             47.62501922801757
@@ -1311,6 +1402,7 @@
         "country": "USA",
         "name": "Helicity Drive",
         "address": "Berkeley",
+        "ownership": "private",
         "coordinates": [
             -122.26706038853268,
             37.87030721424899
@@ -1322,6 +1414,7 @@
         "country": "USA",
         "name": "Trenta",
         "address": "Everett",
+        "ownership": "public",
         "coordinates": [
             -122.2537579017688,
             47.93228102192798
@@ -1333,6 +1426,7 @@
         "country": "USA",
         "name": "Polaris",
         "address": "Everett",
+        "ownership": "private",
         "coordinates": [
             -122.25225764634312,
             47.93086488557961
@@ -1344,6 +1438,7 @@
         "country": "USA",
         "name": "Horne Hybrid Reactor",
         "address": "Elliston",
+        "ownership": "public",
         "coordinates": [
             -112.4305203576514,
             46.56101902624272
@@ -1355,6 +1450,7 @@
         "country": "USA",
         "name": "PJMIF",
         "address": "Chantilly",
+        "ownership": "private",
         "coordinates": [
             -77.43347273967717,
             38.91301110731298
@@ -1366,6 +1462,7 @@
         "country": "USA",
         "name": "Innoven Energy",
         "address": "Colorado Springs",
+        "ownership": "private",
         "coordinates": [
             -104.81143467316949,
             38.93533014399852
@@ -1377,6 +1474,7 @@
         "country": "USA",
         "name": "Focus Fusion",
         "address": "Middlesex",
+        "ownership": "private",
         "coordinates": [
             -74.50366657505937,
             40.59481630595168
@@ -1388,6 +1486,7 @@
         "country": "USA",
         "name": "CFR",
         "address": "Lancaster",
+        "ownership": "public",
         "coordinates": [
             -118.1092389660677,
             34.622096513082425
@@ -1399,6 +1498,7 @@
         "country": "USA",
         "name": "MIFTI",
         "address": "Tustin",
+        "ownership": "public",
         "coordinates": [
             -117.80911092261661,
             33.73491719287058
@@ -1410,6 +1510,7 @@
         "country": "USA",
         "name": "PFRC",
         "address": "Plainsboro Township",
+        "ownership": "private",
         "coordinates": [
             -74.59246658848005,
             40.3357880566386
@@ -1421,6 +1522,7 @@
         "country": "USA",
         "name": "IVR-3",
         "address": "Urbana",
+        "ownership": "public",
         "coordinates": [
             -88.20199864615522,
             40.11567749063939
@@ -1431,6 +1533,7 @@
         "country": "USA",
         "name": "C2-W",
         "address": "Lake Forest",
+        "ownership": "private",
         "coordinates": [
             -117.65126597327308,
             33.67640550606564
@@ -1442,6 +1545,7 @@
         "country": "USA",
         "name": "Zebra",
         "address": "Reno",
+        "ownership": "public",
         "coordinates": [
             -119.88253113082455,
             39.65229652846936
@@ -1453,6 +1557,7 @@
         "country": "USA",
         "name": "OMEGA",
         "address": "Rochester",
+        "ownership": "public",
         "coordinates": [
             -77.63201927492257,
             43.11318958566518
@@ -1464,6 +1569,7 @@
         "country": "USA",
         "name": "MST",
         "address": "Madison",
+        "ownership": "public",
         "coordinates": [
             -89.4054505730771,
             43.07399898455457
@@ -1475,6 +1581,7 @@
         "country": "USA",
         "name": "Pegasus-III",
         "address": "Madison",
+        "ownership": "public",
         "coordinates": [
             -89.4050965215159,
             43.07360712744605
@@ -1486,6 +1593,7 @@
         "country": "USA",
         "name": "ZAP ENERGY",
         "address": "Seattle",
+        "ownership": "private",
         "coordinates": [
             -122.33183388646017,
             47.601972760847616
@@ -1497,6 +1605,7 @@
         "country": "Germany",
         "name": "Marvel Fusion",
         "address": "M\u00c3\u00bcnchen",
+        "ownership": "private",
         "coordinates": [
             11.572583671223958,
             48.133329810911036
@@ -1508,6 +1617,7 @@
         "country": "Japan",
         "name": "GAMMA PDX-SC",
         "address": "University of Tsukuba",
+        "ownership": "public",
         "coordinates": [
             140.0966237114321,
             36.11119582596991
@@ -1519,6 +1629,7 @@
         "country": "Japan",
         "name": "GAMMA 10/PDX",
         "address": "University of Tsukuba",
+        "ownership": "public",
         "coordinates": [
             140.09724598387302,
             36.111421182088115
@@ -1529,6 +1640,7 @@
         "country": "Japan",
         "name": "UH-MCPG1",
         "address": "University of Hyogo",
+        "ownership": "public",
         "coordinates": [
             135.05190857514796,
             34.67829799473259
@@ -1539,6 +1651,7 @@
         "country": "Japan",
         "name": "RT-1",
         "address": "Tokyo",
+        "ownership": "public",
         "coordinates": [
             139.7629947201784,
             35.71291341094129
@@ -1550,6 +1663,7 @@
         "country": "Japan",
         "name": "LFEX",
         "address": "Osaka",
+        "ownership": "public",
         "coordinates": [
             135.5236208114072,
             34.820453944176826
@@ -1561,6 +1675,7 @@
         "country": "Japan",
         "name": "GEKKO XII",
         "address": "Osaka",
+        "ownership": "public",
         "coordinates": [
             135.52532392792943,
             34.823161782122135
@@ -1572,6 +1687,7 @@
         "country": "Japan",
         "name": "FAT-CM",
         "address": "Nihon University",
+        "ownership": "private",
         "coordinates": [
             139.73439057159504,
             35.68968557980659
@@ -1583,6 +1699,7 @@
         "country": "Japan",
         "name": "UH-CTI",
         "address": "Kyushu",
+        "ownership": "public",
         "coordinates": [
             130.42413440568808,
             33.62468110070906
@@ -1593,6 +1710,7 @@
         "country": "Japan",
         "name": "PLATO",
         "address": "Kyushu",
+        "ownership": "public",
         "coordinates": [
             130.43386933963268,
             33.620258420782676
@@ -1608,6 +1726,7 @@
         "country": "Russia",
         "name": "CAT",
         "address": "Budker Institute of Nuclear Physics",
+        "ownership": "public",
         "coordinates": [
             83.11088480450746,
             54.84884963426675
@@ -1618,6 +1737,7 @@
         "country": "Russia",
         "name": "GDMT",
         "address": "Budker Institute of Nuclear Physics",
+        "ownership": "public",
         "coordinates": [
             83.1121937224004,
             54.84969587039274
@@ -1628,6 +1748,7 @@
         "country": "Russia",
         "name": "GDT",
         "address": "Budker Institute of Nuclear Physics",
+        "ownership": "public",
         "coordinates": [
             83.11349191145818,
             54.8490287660226
@@ -1638,6 +1759,7 @@
         "country": "Russia",
         "name": "GOL-NB",
         "address": "Budker Institute of Nuclear Physics",
+        "ownership": "public",
         "coordinates": [
             83.1141190644502,
             54.84747749284412
@@ -1648,6 +1770,7 @@
         "country": "Russia",
         "name": "SMOLA",
         "address": "Budker Institute of Nuclear Physics",
+        "ownership": "public",
         "coordinates": [
             83.1073083997944,
             54.85193683797478
@@ -1658,6 +1781,7 @@
         "country": "Switzerland",
         "name": "TORPEX",
         "address": "Swiss Plasma Center",
+        "ownership": "public",
         "coordinates": [
             6.564144308543534,
             46.51806261691262
