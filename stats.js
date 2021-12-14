@@ -116,3 +116,61 @@ async function drawBarChart() {
 }
 
 drawBarChart();
+
+async function drawBarChartPrivatePublic() {
+    var countries = [];
+    const data_countries = await fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/machines_by_country.json').then((r)=>r.json());
+    // waits until the request completes...
+    var series = [
+        {
+            name: 'Private',
+            data: [],
+            color: '#A799B7',
+        },
+        {
+            name: 'Public',
+            data: [],
+            color: '#B5C2B7',
+        },
+
+
+
+    ];
+
+    data_countries.sort(function (a, b){
+        sum_a = a.public + a.private;
+        sum_b = b.public + b.private;
+        if (sum_a < sum_b) {
+            return 1
+        } else {
+            return -1
+        }
+    });
+    for (var i=0; i < data_countries.length; i++){
+        current_country = data_countries[i]
+        countries.push(current_country.country);
+        for (var j=0; j<series.length; j++){
+            switch (series[j].name) {
+                case 'Public':
+                    series[j].data.push([current_country.country, current_country.public]);
+                    break;
+                case 'Private':
+                    series[j].data.push([current_country.country, current_country.private]);
+                    break;
+
+            }
+        }
+    }
+    console.log(series)
+    options_bar.series = series;
+    options_bar.xAxis = {
+            // categories: countries,
+            type: 'category',
+            title: {
+                text: null
+            }
+        };
+    var barChart = Highcharts.chart('container_private_public', options_bar);
+}
+
+drawBarChartPrivatePublic();
