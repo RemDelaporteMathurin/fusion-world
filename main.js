@@ -197,8 +197,10 @@ function pointToLayer_field(feature, latlng) {
     `, {direction: 'top', sticky: true})
 }
 
+const path_to_geojson = 'https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson'
+
 let default_layer = L.layerGroup().addTo( map )
-geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+geojson = fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -207,7 +209,7 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-w
                 }));
 
 let based_on_radius = L.layerGroup()
-geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+geojson = fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -225,7 +227,7 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-w
                 }));
 
 let based_on_current = L.layerGroup()
-geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+geojson = fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -244,7 +246,7 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-w
 
 
 let based_on_field = L.layerGroup()
-fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -262,7 +264,7 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/
                 }));
 
 let tokamaks = L.layerGroup()
-geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+geojson = fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -274,7 +276,7 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-w
                 }));
 
 let stellarators = L.layerGroup()
-fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -293,7 +295,7 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/
                 }));
 
 let inertial = L.layerGroup()
-fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -312,7 +314,7 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/
                 }));
 
 let others = L.layerGroup()
-fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -503,7 +505,7 @@ info.onAdd = function (map) {
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
     properties_string = (props ?
-        '<b>' + props.name + '</b>' + '<br />' + props.configuration:
+        '<b>' + props.name + '</b>' + '<br />' + props.configuration + '<br />' + props.ownership:
         'Hover over a reactor');
     
     // if tokamak or stellarator, display parameters
