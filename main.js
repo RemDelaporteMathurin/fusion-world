@@ -197,7 +197,7 @@ function pointToLayer_field(feature, latlng) {
     `, {direction: 'top', sticky: true})
 }
 
-const path_to_geojson = 'https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/private_public/tokamaks.geojson'
+const path_to_geojson = 'https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson'
 
 let default_layer = L.layerGroup().addTo( map )
 geojson = fetch(path_to_geojson)
