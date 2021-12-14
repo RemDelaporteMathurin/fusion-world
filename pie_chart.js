@@ -75,7 +75,7 @@ async function drawPieChart() {
             data_drilldown_others.push([current_country.country, current_country.alternate_concept])
         }
     }
-    console.log(tokamaks)
+
     options_pie.series[0].data = [
         {
             name: "Tokamaks",
