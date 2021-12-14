@@ -47,7 +47,7 @@ var options_bar = {
 
 async function drawBarChart() {
     var countries = [];
-    const data_countries = await fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/master/machines_by_country.json').then((r)=>r.json());
+    const data_countries = await fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/machines_by_country.json').then((r)=>r.json());
     // waits until the request completes...
     var series = [
         {
