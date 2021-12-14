@@ -55,12 +55,20 @@ def make_json_by_country():
             "tokamak": 0,
             "stellarator": 0,
             "inertial": 0,
-            "alternate_concept": 0
+            "alternate_concept": 0,
+            "public": 0,
+            "private": 0
         })
         for type_machine in types_machine:
             data_out[-1][type_machine] += len(
                     [machine for machine in machines
                      if machine["configuration"] == type_machine and
+                        machine["country"] == country])
+
+        for ownership in ["public", "private"]:
+            data_out[-1][ownership] += len(
+                    [machine for machine in machines
+                     if machine["ownership"] == ownership and
                         machine["country"] == country])
 
     with open('machines_by_country.json', 'w') as f:

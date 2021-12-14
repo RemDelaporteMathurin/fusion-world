@@ -4,181 +4,233 @@
         "tokamak": 0,
         "stellarator": 0,
         "inertial": 1,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 0,
+        "private": 1
     },
     {
         "country": "Brazil",
         "tokamak": 3,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 3,
+        "private": 0
     },
     {
         "country": "Canada",
         "tokamak": 1,
         "stellarator": 0,
         "inertial": 1,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 1,
+        "private": 1
     },
     {
         "country": "China",
         "tokamak": 7,
         "stellarator": 1,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 7,
+        "private": 1
     },
     {
         "country": "Costa Rica",
         "tokamak": 1,
         "stellarator": 1,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 2,
+        "private": 0
     },
     {
         "country": "Czech Republic",
         "tokamak": 3,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 3,
+        "private": 0
     },
     {
         "country": "Denmark",
         "tokamak": 1,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 1,
+        "private": 0
     },
     {
         "country": "Egypt",
         "tokamak": 1,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 1,
+        "private": 0
     },
     {
         "country": "France",
         "tokamak": 2,
         "stellarator": 1,
         "inertial": 1,
-        "alternate_concept": 1
+        "alternate_concept": 1,
+        "public": 4,
+        "private": 1
     },
     {
         "country": "Germany",
         "tokamak": 1,
         "stellarator": 2,
         "inertial": 1,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 3,
+        "private": 1
     },
     {
         "country": "India",
         "tokamak": 2,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 2,
+        "private": 0
     },
     {
         "country": "Iran",
         "tokamak": 3,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 3,
+        "private": 0
     },
     {
         "country": "Italy",
         "tokamak": 2,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 1
+        "alternate_concept": 1,
+        "public": 3,
+        "private": 0
     },
     {
         "country": "Japan",
         "tokamak": 12,
         "stellarator": 2,
         "inertial": 2,
-        "alternate_concept": 7
+        "alternate_concept": 7,
+        "public": 22,
+        "private": 1
     },
     {
         "country": "Kazakhstan",
         "tokamak": 1,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 1,
+        "private": 0
     },
     {
         "country": "Korea",
         "tokamak": 2,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 2,
+        "private": 0
     },
     {
         "country": "Libya",
         "tokamak": 1,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 1,
+        "private": 0
     },
     {
         "country": "Pakistan",
         "tokamak": 3,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 3,
+        "private": 0
     },
     {
         "country": "Portugal",
         "tokamak": 1,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 1,
+        "private": 0
     },
     {
         "country": "Russia",
         "tokamak": 6,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 5
+        "alternate_concept": 5,
+        "public": 11,
+        "private": 0
     },
     {
         "country": "Spain",
         "tokamak": 1,
         "stellarator": 1,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 2,
+        "private": 0
     },
     {
         "country": "Switzerland",
         "tokamak": 1,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 1
+        "alternate_concept": 1,
+        "public": 2,
+        "private": 0
     },
     {
         "country": "Thailand",
         "tokamak": 1,
         "stellarator": 0,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 1,
+        "private": 0
     },
     {
         "country": "UK",
         "tokamak": 3,
         "stellarator": 0,
         "inertial": 2,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 3,
+        "private": 2
     },
     {
         "country": "USA",
         "tokamak": 8,
         "stellarator": 3,
         "inertial": 4,
-        "alternate_concept": 17
+        "alternate_concept": 17,
+        "public": 21,
+        "private": 11
     },
     {
         "country": "Ukraine",
         "tokamak": 0,
         "stellarator": 2,
         "inertial": 0,
-        "alternate_concept": 0
+        "alternate_concept": 0,
+        "public": 2,
+        "private": 0
     }
 ]
