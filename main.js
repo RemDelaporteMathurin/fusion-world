@@ -38,6 +38,22 @@ var othersStyle = {
     fillOpacity: 0.7
 };
 
+var publicStyle = {
+    fillColor: '#B5C2B7',
+    color: '#808080',
+    radius: 7,
+    weight: 1,
+    fillOpacity: 0.7
+}
+
+var privateStyle = {
+    fillColor: '#A799B7',
+    color: '#808080',
+    radius: 7,
+    weight: 1,
+    fillOpacity: 0.7
+}
+
 
 function highlightFeature(e) {
     var layer = e.target;
@@ -80,6 +96,14 @@ function resetHighlightInertial(e) {
 }
 function resetHighlightOthers(e) {
     e.target.setStyle(othersStyle);
+    info.update();
+}
+function resetHighlightPublic(e) {
+    e.target.setStyle(publicStyle);
+    info.update();
+}
+function resetHighlightPrivate(e) {
+    e.target.setStyle(privateStyle);
     info.update();
 }
 function onEachFeatureAction(base_layer, resetHighlithFunction) {
@@ -337,10 +361,10 @@ fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
-                    onEachFeature: onEachFeatureAction(public, resetHighlightOthers),
+                    onEachFeature: onEachFeatureAction(public, resetHighlightPublic),
                     pointToLayer: function (feature, latlng) {
                     
-                        return L.circleMarker(latlng,tokamakStyle).bindTooltip(`
+                        return L.circleMarker(latlng,publicStyle).bindTooltip(`
                             <b>${feature.properties.name}</b>
                             <br>
                             ${feature.properties.address}
@@ -357,10 +381,10 @@ fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
-                    onEachFeature: onEachFeatureAction(private, resetHighlightOthers),
+                    onEachFeature: onEachFeatureAction(private, resetHighlightPrivate),
                     pointToLayer: function (feature, latlng) {
                     
-                        return L.circleMarker(latlng,othersStyle).bindTooltip(`
+                        return L.circleMarker(latlng,privateStyle).bindTooltip(`
                             <b>${feature.properties.name}</b>
                             <br>
                             ${feature.properties.address}
