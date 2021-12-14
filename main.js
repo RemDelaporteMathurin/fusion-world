@@ -38,6 +38,22 @@ var othersStyle = {
     fillOpacity: 0.7
 };
 
+var publicStyle = {
+    fillColor: '#B5C2B7',
+    color: '#808080',
+    radius: 7,
+    weight: 1,
+    fillOpacity: 0.7
+}
+
+var privateStyle = {
+    fillColor: '#A799B7',
+    color: '#808080',
+    radius: 7,
+    weight: 1,
+    fillOpacity: 0.7
+}
+
 
 function highlightFeature(e) {
     var layer = e.target;
@@ -80,6 +96,14 @@ function resetHighlightInertial(e) {
 }
 function resetHighlightOthers(e) {
     e.target.setStyle(othersStyle);
+    info.update();
+}
+function resetHighlightPublic(e) {
+    e.target.setStyle(publicStyle);
+    info.update();
+}
+function resetHighlightPrivate(e) {
+    e.target.setStyle(privateStyle);
     info.update();
 }
 function onEachFeatureAction(base_layer, resetHighlithFunction) {
@@ -197,8 +221,10 @@ function pointToLayer_field(feature, latlng) {
     `, {direction: 'top', sticky: true})
 }
 
+const path_to_geojson = 'https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson'
+
 let default_layer = L.layerGroup().addTo( map )
-geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+geojson = fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -207,7 +233,7 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-w
                 }));
 
 let based_on_radius = L.layerGroup()
-geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+geojson = fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -225,7 +251,7 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-w
                 }));
 
 let based_on_current = L.layerGroup()
-geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+geojson = fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -244,7 +270,7 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-w
 
 
 let based_on_field = L.layerGroup()
-fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -262,7 +288,7 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/
                 }));
 
 let tokamaks = L.layerGroup()
-geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+geojson = fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -274,7 +300,7 @@ geojson = fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-w
                 }));
 
 let stellarators = L.layerGroup()
-fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -293,7 +319,7 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/
                 }));
 
 let inertial = L.layerGroup()
-fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -312,7 +338,7 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/
                 }));
 
 let others = L.layerGroup()
-fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/tokamaks.geojson')
+fetch(path_to_geojson)
     .then(r => r.json())
     .then(geojson => L.geoJSON(geojson,
                 {
@@ -329,6 +355,45 @@ fetch('https://raw.githubusercontent.com/RemDelaporteMathurin/fusion-world/main/
                         return feature.properties.configuration == "alternate_concept"
                     }
                 }));
+
+let public = L.layerGroup()
+fetch(path_to_geojson)
+    .then(r => r.json())
+    .then(geojson => L.geoJSON(geojson,
+                {
+                    onEachFeature: onEachFeatureAction(public, resetHighlightPublic),
+                    pointToLayer: function (feature, latlng) {
+                    
+                        return L.circleMarker(latlng,publicStyle).bindTooltip(`
+                            <b>${feature.properties.name}</b>
+                            <br>
+                            ${feature.properties.address}
+                        `, {direction: 'top', sticky: true})
+                    },
+                    filter: function(feature, layer) {
+                        return feature.properties.ownership == "public"
+                    }
+                }));   
+
+
+let private = L.layerGroup()
+fetch(path_to_geojson)
+    .then(r => r.json())
+    .then(geojson => L.geoJSON(geojson,
+                {
+                    onEachFeature: onEachFeatureAction(private, resetHighlightPrivate),
+                    pointToLayer: function (feature, latlng) {
+                    
+                        return L.circleMarker(latlng,privateStyle).bindTooltip(`
+                            <b>${feature.properties.name}</b>
+                            <br>
+                            ${feature.properties.address}
+                        `, {direction: 'top', sticky: true})
+                    },
+                    filter: function(feature, layer) {
+                        return feature.properties.ownership == "private"
+                    }
+                }));   
 /* Create layer control */
 let layerControl = {
     "Default": default_layer,
@@ -338,13 +403,19 @@ let layerControl = {
 }
 
 let overlayMaps = {
-    "Tokamaks": tokamaks,
-    "Stellarators": stellarators,
-    "Inertial": inertial,
-    "Others": others
+    "<b> Configuration </b>": {
+        "Tokamaks": tokamaks,
+        "Stellarators": stellarators,
+        "Inertial": inertial,
+        "Others": others
+    },
+    "<b> Ownership </b>": {
+        "Public": public,
+        "Private": private,
+    }
 };
 
-controllayers = L.control.layers(layerControl, overlayMaps, {collapsed:false}).addTo( map );
+controllayers = L.control.groupedLayers(layerControl, overlayMaps, {collapsed:false}).addTo( map );
 
 
 // add legends
@@ -419,9 +490,10 @@ div.innerHTML = labels.join('<br>');
 return div;
 };
 
-
+var ActiveBaseLayer = true;
 // make the legend appear or disappear
 map.on('baselayerchange', function (eventLayer) {
+    ActiveBaseLayer = true;
     setTimeout(function() {
         map.removeLayer(tokamaks);
     }, 5);
@@ -434,6 +506,13 @@ map.on('baselayerchange', function (eventLayer) {
     setTimeout(function() {
         map.removeLayer(inertial);
     }, 5);
+    setTimeout(function() {
+        map.removeLayer(public);
+    }, 5);
+    setTimeout(function() {
+        map.removeLayer(private);
+    }, 5);
+
     if (eventLayer.name === 'Major radius') {
         legend_radius.addTo(this);
         this.removeControl(legend_current);
@@ -457,6 +536,7 @@ var nbActiveOverlays = 0;
 
 // removing base layer when adding overlay
 map.on('overlayadd', function (eventoverlay) {
+    ActiveBaseLayer = false;
     // update the number of active overlays
     nbActiveOverlays += 1;
     this.removeControl(legend_radius);
@@ -474,6 +554,31 @@ map.on('overlayadd', function (eventoverlay) {
     setTimeout(function() {
         map.removeLayer(based_on_field);
     }, 5);
+    // remove configuration overlays if ownership
+    if (eventoverlay.name === 'Public' ||  eventoverlay.name === 'Private'){
+        setTimeout(function() {
+            map.removeLayer(tokamaks);
+        }, 5);
+        setTimeout(function() {
+            map.removeLayer(stellarators);
+        }, 5);
+        setTimeout(function() {
+            map.removeLayer(inertial);
+        }, 5);
+        setTimeout(function() {
+            map.removeLayer(others);
+        }, 5);
+    }
+    // remove ownership overlays if configuration
+    if (eventoverlay.name === 'Tokamaks' ||  eventoverlay.name === 'Stellarators' || eventoverlay.name === 'Inertial' || eventoverlay.name === 'Others'){
+        setTimeout(function() {
+            map.removeLayer(public);
+        }, 5);
+        setTimeout(function() {
+            map.removeLayer(private);
+        }, 5);
+
+    }
 });
 
 
@@ -482,8 +587,8 @@ map.on('overlayremove', function (eventoverlay) {
     // update the number of active overlays
     nbActiveOverlays = nbActiveOverlays - 1;
 
-    // if no overlays are active, add the default layer
-    if (nbActiveOverlays == 0){
+    // if no overlays or baselayers are active, add the default layer
+    if (nbActiveOverlays == 0 && !ActiveBaseLayer){
         setTimeout(function() {
             default_layer.addTo(map);
         }, 5);
@@ -503,7 +608,7 @@ info.onAdd = function (map) {
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
     properties_string = (props ?
-        '<b>' + props.name + '</b>' + '<br />' + props.configuration:
+        '<b>' + props.name + '</b>' + '<br />' + props.configuration + '<br />' + props.ownership:
         'Hover over a reactor');
     
     // if tokamak or stellarator, display parameters

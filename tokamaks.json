@@ -3,78 +3,99 @@
         "country": "France",
         "name": "ITER",
         "address": "St-Paul-lez-Durance",
+        "ownership": "public",
         "coordinates": [
             5.777038831078966,
             43.70879000045666
         ],
+        "configuration": "tokamak",
         "website": "https://iter.org/",
         "R": "6.2",
-        "configuration": "tokamak",
         "r": "2",
         "TF": "5.3",
         "IP": "15",
         "temperature": 20,
-        "triple_product": 3.00000000e+21
+        "triple_product": 3e+21
     },
     {
-        "name": "CTH",
         "country": "USA",
+        "name": "CTH",
         "address": "Auburn",
-        "R": "0.75",
-        "r": "0.29",
-        "TF": "0.7",
-        "IP": "0.08",
-        "configuration": "stellarator",
+        "ownership": "public",
         "coordinates": [
             -85.49508141184504,
             32.59506710233563
-        ]
+        ],
+        "configuration": "stellarator",
+        "R": "0.75",
+        "r": "0.29",
+        "TF": "0.7",
+        "IP": "0.08"
     },
     {
-        "name": "HIDRA",
         "country": "USA",
+        "name": "HIDRA",
         "address": "Urbana",
+        "ownership": "public",
+        "coordinates": [
+            -88.22872477539707,
+            40.11007671413551
+        ],
+        "configuration": "stellarator",
         "R": "0.72",
         "r": "0.19",
         "TF": "0.5",
-        "IP": "0",
-        "configuration": "stellarator",
-        "coordinates": [-88.22872477539707, 40.11007671413551]
+        "IP": "0"
     },
     {
-        "name": "HSX",
         "country": "USA",
+        "name": "HSX",
         "address": "Madison",
+        "ownership": "public",
+        "coordinates": [
+            -89.41263087442712,
+            43.078859941654926
+        ],
+        "configuration": "stellarator",
         "R": "1.2",
         "r": "0.15",
         "TF": "1.25",
-        "IP": "0.0134",
-        "configuration": "stellarator",
-        "coordinates": [-89.41263087442712, 43.078859941654926]
+        "IP": "0.0134"
     },
     {
-        "name": "LHD",
         "country": "Japan",
+        "name": "LHD",
         "address": "Toki",
+        "ownership": "public",
+        "coordinates": [
+            137.1678128,
+            35.32565699840918
+        ],
+        "configuration": "stellarator",
         "R": "3.9",
         "r": "0.65",
         "TF": "4",
         "IP": "0",
-        "configuration": "stellarator",
-        "coordinates": [137.1678128, 35.32565699840918],
-        "temperature": [1.50931078, 9.16780799],
-        "triple_product": [1.55385139e+19, 2.11990093e+19]
+        "temperature": [
+            1.50931078,
+            9.16780799
+        ],
+        "triple_product": [
+            1.55385139e+19,
+            2.11990093e+19
+        ]
     },
     {
         "country": "Japan",
         "name": "Heliotron J",
         "address": "Kyoto",
+        "ownership": "public",
         "coordinates": [
             135.78086998987203,
             35.02646991574031
         ],
-        "R": "1.2",
         "configuration": "stellarator",
+        "R": "1.2",
         "r": "0.1",
         "TF": "1.5",
         "IP": "0.2"
@@ -83,449 +104,582 @@
         "country": "Costa Rica",
         "name": "SCR-1",
         "address": "Cartago",
+        "ownership": "public",
         "coordinates": [
             -83.91238030711098,
             9.856706690590785
         ],
+        "configuration": "stellarator",
         "R": "0.238",
         "r": "0.042",
         "TF": "0.0878",
-        "IP": "0.04",
-        "configuration": "stellarator"
+        "IP": "0.04"
     },
     {
         "country": "Spain",
         "name": "TJ-II",
         "address": "Madrid",
+        "ownership": "public",
         "coordinates": [
             -3.728997406392373,
             40.454386165022335
         ],
+        "configuration": "stellarator",
         "R": "1.5",
         "r": "0.22",
         "TF": "0.95",
-        "IP": "0",
-        "configuration": "stellarator"
+        "IP": "0"
     },
     {
-        "name": "Uragan-2M",
         "country": "Ukraine",
+        "name": "Uragan-2M",
         "address": "Kharkov",
+        "ownership": "public",
+        "coordinates": [
+            36.252426592155494,
+            50.08688514839137
+        ],
+        "configuration": "stellarator",
         "R": "1.7",
         "r": "0.22",
         "TF": "2.4",
-        "IP": "0",
-        "configuration": "stellarator",
-        "coordinates": [36.252426592155494, 50.08688514839137]
+        "IP": "0"
     },
     {
-        "name": "Uragan-3M",
         "country": "Ukraine",
+        "name": "Uragan-3M",
         "address": "Kharkov",
+        "ownership": "public",
+        "coordinates": [
+            36.24771686773435,
+            50.091214402548815
+        ],
+        "configuration": "stellarator",
         "R": "1",
         "r": "0.12",
         "TF": "0.7",
-        "IP": "0",
-        "configuration": "stellarator",
-        "coordinates":[36.24771686773435, 50.091214402548815]
+        "IP": "0"
     },
     {
         "country": "Germany",
         "name": "Wendelstein 7-X",
         "address": "Garching",
-        "coordinates": [13.404431640937258, 54.31382372636374],
+        "ownership": "public",
+        "coordinates": [
+            13.404431640937258,
+            54.31382372636374
+        ],
+        "configuration": "stellarator",
         "website": "https://www.ipp.mpg.de/w7x",
         "R": "5.5",
-        "configuration": "stellarator",
         "r": "0.53",
         "TF": "3",
         "IP": "0",
-        "temperature": [3.5, 1],
-        "triple_product": [6.60000000e+19, 2.00000000e+18]
+        "temperature": [
+            3.5,
+            1
+        ],
+        "triple_product": [
+            6.6e+19,
+            2e+18
+        ]
     },
     {
         "country": "India",
         "name": "ADITYA-U",
         "address": "Gujarat",
+        "ownership": "public",
         "coordinates": [
             72.62504900244637,
             23.098684664631392
         ],
+        "configuration": "tokamak",
         "R": "0.75",
         "r": "0.25",
         "TF": "1.5",
-        "IP": "0.25",
-        "configuration": "tokamak"
+        "IP": "0.25"
     },
     {
+        "country": "Iran",
         "name": "Alvand",
-        "country": "Iran",
         "address": "Teheran",
+        "ownership": "public",
+        "coordinates": [
+            51.40946511376906,
+            35.703761905133454
+        ],
+        "configuration": "tokamak",
         "R": "0.456",
         "r": "0.126",
         "TF": "0.8",
-        "IP": "0.035",
-        "configuration": "tokamak",
-        "coordinates": [51.40946511376906, 35.703761905133454]
+        "IP": "0.035"
     },
     {
+        "country": "Iran",
         "name": "IR-T1",
-        "country": "Iran",
         "address": "Teheran",
+        "ownership": "public",
+        "coordinates": [
+            51.4696688711306,
+            35.67631465416959
+        ],
+        "configuration": "tokamak",
         "R": "0.456",
         "r": "0.126",
         "TF": "0.8",
-        "IP": "0.035",
-        "configuration": "tokamak",
-        "coordinates": [51.4696688711306, 35.67631465416959]
+        "IP": "0.035"
     },
-
     {
+        "country": "Czech Republic",
         "name": "COMPASS",
         "address": "Prague",
-        "country": "Czech Republic",
+        "ownership": "public",
+        "coordinates": [
+            14.435958075652815,
+            50.08099417779581
+        ],
+        "configuration": "tokamak",
         "R": "0.56",
         "r": "0.2",
         "TF": "2.1",
-        "IP": "0.4",
-        "configuration": "tokamak",
-        "coordinates": [14.435958075652815, 50.08099417779581]
+        "IP": "0.4"
     },
     {
+        "country": "Iran",
         "name": "Damavand",
         "address": "Teheran",
-        "country": "Iran",
+        "ownership": "public",
+        "coordinates": [
+            51.3880330688036,
+            35.7393684858733
+        ],
+        "configuration": "tokamak",
         "R": "0.362",
         "r": "0.077",
         "TF": "0.9",
-        "IP": "0.03",
-        "configuration": "tokamak",
-        "coordinates":[51.3880330688036, 35.7393684858733]
+        "IP": "0.03"
     },
     {
         "country": "USA",
         "name": "DIII-D",
         "address": "San Diego",
+        "ownership": "public",
         "coordinates": [
             -117.23677839176327,
             32.89524918966554
         ],
+        "configuration": "tokamak",
         "website": "https://www.ga.com/magnetic-fusion/diii-d",
         "R": "1.7",
         "r": "0.6",
         "TF": "2.17",
         "IP": "2",
-        "configuration": "tokamak",
-        "temperature": [6.33446757, 12.6267789],
-        "triple_product": [1.69728539e+20, 2.06716580e+20]
+        "temperature": [
+            6.33446757,
+            12.6267789
+        ],
+        "triple_product": [
+            1.69728539e+20,
+            2.0671658e+20
+        ]
     },
     {
         "country": "China",
         "name": "EAST",
         "address": "Hefei",
+        "ownership": "public",
         "coordinates": [
             117.1711244555299,
             31.857641122096826
         ],
+        "configuration": "tokamak",
         "R": "1.7",
         "r": "0.4",
         "TF": "3.5",
-        "IP": "0.5",
-        "configuration": "tokamak"
+        "IP": "0.5"
     },
     {
         "country": "Egypt",
         "name": "EGYPTOR",
         "address": "Alexandria",
+        "ownership": "public",
         "coordinates": [
             29.944445441425476,
             31.255478324106356
         ],
+        "configuration": "tokamak",
         "R": "0.3",
         "r": "0.1",
         "TF": "1.2",
-        "IP": "0.05",
-        "configuration": "tokamak"
+        "IP": "0.05"
     },
     {
         "country": "Brazil",
         "name": "ETE",
-        "address": "Sao José dos Campos",
+        "address": "Sao Jos\u00c3\u00a9 dos Campos",
+        "ownership": "public",
         "coordinates": [
             -45.860201592872386,
             -23.20676278738629
         ],
+        "configuration": "tokamak",
         "R": "0.3",
         "r": "0.2",
         "TF": "0.4",
-        "IP": "0.045",
-        "configuration": "tokamak"
+        "IP": "0.045"
     },
     {
         "country": "China",
         "name": "EXL-50",
         "address": "Heibei",
+        "ownership": "private",
         "coordinates": [
             116.73533333916788,
             39.560976913258614
         ],
+        "configuration": "tokamak",
         "R": "0.58",
         "r": "0.41",
         "TF": "0.402",
-        "IP": "0.05",
-        "configuration": "tokamak"
+        "IP": "0.05"
     },
     {
-        "name": "FT-2",
         "country": "Russia",
+        "name": "FT-2",
         "address": "St-Petersburg",
+        "ownership": "public",
+        "coordinates": [
+            30.372538772590566,
+            60.007625769468554
+        ],
+        "configuration": "tokamak",
         "R": "0.55",
         "r": "0.087",
         "TF": "2.3",
-        "IP": "0.04",
-        "configuration": "tokamak",
-        "coordinates": [30.372538772590566, 60.007625769468554]
+        "IP": "0.04"
     },
     {
-        "name": "GLAST-III",
         "country": "Pakistan",
+        "name": "GLAST-III",
         "address": "Islamabad",
+        "ownership": "public",
+        "coordinates": [
+            73.02427309550254,
+            33.663533871077156
+        ],
+        "configuration": "tokamak",
         "R": "0.2",
         "r": "0.1",
         "TF": "0.0875",
-        "IP": "0.002",
-        "configuration": "tokamak",
-        "coordinates": [73.02427309550254, 33.663533871077156]
+        "IP": "0.002"
     },
     {
-        "name": "Globus-M2",
         "country": "Russia",
+        "name": "Globus-M2",
         "address": "St-Petersburg",
+        "ownership": "public",
+        "coordinates": [
+            30.378326939335714,
+            60.00872494242375
+        ],
+        "configuration": "tokamak",
         "R": "0.36",
         "r": "0.24",
         "TF": "1",
-        "IP": "0.5",
-        "configuration": "tokamak",
-        "coordinates":[30.378326939335714, 60.00872494242375]
+        "IP": "0.5"
     },
     {
         "country": "Czech Republic",
         "name": "GOLEM",
         "address": "Prague",
+        "ownership": "public",
         "coordinates": [
             14.391359200111388,
             50.10318777376735
         ],
+        "configuration": "tokamak",
         "R": "0.4",
         "r": "0.085",
         "TF": "0.8",
-        "IP": "0.008",
-        "configuration": "tokamak"
+        "IP": "0.008"
     },
     {
-        "name": "GUTTA",
         "country": "Russia",
+        "name": "GUTTA",
         "address": "St-Petersburg",
+        "ownership": "public",
+        "coordinates": [
+            30.298767513127014,
+            59.94218841508222
+        ],
+        "configuration": "tokamak",
         "R": "0.16",
         "r": "0.08",
         "TF": "1.5",
-        "IP": "0.15",
-        "configuration": "tokamak",
-        "coordinates":[30.298767513127014, 59.94218841508222]
+        "IP": "0.15"
     },
     {
-        "name": "HBT-EP",
         "country": "USA",
+        "name": "HBT-EP",
         "address": "New-York",
+        "ownership": "public",
+        "coordinates": [
+            -73.95143414514969,
+            40.82233625022625
+        ],
+        "configuration": "tokamak",
         "R": "0.94",
         "r": "0.2",
         "TF": "0.3",
-        "IP": "0.032",
-        "configuration": "tokamak",
-        "coordinates": [-73.95143414514969, 40.82233625022625]
+        "IP": "0.032"
     },
     {
-        "name": "HIST",
         "country": "Japan",
+        "name": "HIST",
         "address": "Hyogo",
+        "ownership": "public",
+        "coordinates": [
+            134.88718387417916,
+            34.75784798047062
+        ],
+        "configuration": "tokamak",
         "R": "0.3",
         "r": "0.24",
         "TF": "0.2",
-        "IP": "0.1",
-        "configuration": "tokamak",
-        "coordinates":[134.88718387417916, 34.75784798047062]
+        "IP": "0.1"
     },
     {
-        "name": "HL-2M",
         "country": "China",
+        "name": "HL-2M",
         "address": "Chengdu",
+        "ownership": "public",
+        "coordinates": [
+            104.03004615446031,
+            30.632447185744073
+        ],
+        "configuration": "tokamak",
         "R": "1.78",
         "r": "0.65",
         "TF": "2.2",
-        "IP": "2.5",
-        "configuration": "tokamak",
-        "coordinates":[104.03004615446031, 30.632447185744073]
+        "IP": "2.5"
     },
     {
-        "name": "HL-2A",
         "country": "China",
+        "name": "HL-2A",
         "address": "Chengdu",
+        "ownership": "public",
+        "coordinates": [
+            104.09790975068603,
+            30.64249852182921
+        ],
+        "configuration": "tokamak",
         "R": "1.65",
         "r": "0.4",
         "TF": "2.8",
-        "IP": "0.8",
-        "configuration": "tokamak",
-        "coordinates":[104.09790975068603, 30.64249852182921]
+        "IP": "0.8"
     },
     {
         "country": "China",
         "name": "HT-7",
         "address": "Hefei",
+        "ownership": "public",
         "coordinates": [
             117.1711244555299,
             31.857641122096826
         ],
+        "configuration": "tokamak",
         "R": "1.75",
         "r": "0.4",
         "TF": "3.5",
-        "IP": "1",
-        "configuration": "tokamak"
+        "IP": "1"
     },
     {
-        "name": "HYBTOK-II",
         "country": "Japan",
+        "name": "HYBTOK-II",
         "address": "Nagoya",
+        "ownership": "public",
+        "coordinates": [
+            136.96869075779102,
+            35.156193787837346
+        ],
+        "configuration": "tokamak",
         "R": "0.4",
         "r": "0.128",
         "TF": "0.5",
-        "IP": "0.015",
-        "configuration": "tokamak",
-        "coordinates":[136.96869075779102, 35.156193787837346]
+        "IP": "0.015"
     },
     {
-        "name": "ISTTOK",
         "country": "Portugal",
+        "name": "ISTTOK",
         "address": "Lisbon",
+        "ownership": "public",
+        "coordinates": [
+            -9.138696002984,
+            38.737094000078514
+        ],
+        "configuration": "tokamak",
         "R": "0.46",
         "r": "0.085",
         "TF": "2.8",
-        "IP": "0.007",
-        "configuration": "tokamak",
-        "coordinates":[-9.138696002984, 38.737094000078514]
+        "IP": "0.007"
     },
     {
-        "name": "J-TEXT",
         "country": "China",
+        "name": "J-TEXT",
         "address": "Wuhan",
+        "ownership": "public",
+        "coordinates": [
+            114.42023268249642,
+            30.513161413300043
+        ],
+        "configuration": "tokamak",
         "R": "1.05",
         "r": "0.25",
         "TF": "2",
-        "IP": "0.2",
-        "configuration": "tokamak",
-        "coordinates":[114.42023268249642, 30.513161413300043]
+        "IP": "0.2"
     },
     {
         "country": "UK",
         "name": "JET",
         "address": "Abingdon",
+        "ownership": "public",
         "coordinates": [
             -1.225019945107592,
             51.65934962924273
         ],
+        "configuration": "tokamak",
         "website": "https://ccfe.ukaea.uk/research/joint-european-torus/",
         "R": "2.96",
-        "configuration": "tokamak",
         "r": "1.25",
         "TF": "3.4",
         "IP": "5",
-        "temperature": [4.42561292, 20.5655601, 28.3716432, 33.7292375],
-        "triple_product": [1.62570081e+20, 7.44951684e+20, 8.82853215e+20, 1.16051029e+21]
+        "temperature": [
+            4.42561292,
+            20.5655601,
+            28.3716432,
+            33.7292375
+        ],
+        "triple_product": [
+            1.62570081e+20,
+            7.44951684e+20,
+            8.82853215e+20,
+            1.16051029e+21
+        ]
     },
     {
-        "name": "JT-60SA",
         "country": "Japan",
-        "address":"Tokyo",
+        "name": "JT-60SA",
+        "address": "Tokyo",
+        "ownership": "public",
+        "coordinates": [
+            140.0977476097571,
+            35.67229891749631
+        ],
+        "configuration": "tokamak",
         "R": "2.96",
         "r": "1.18",
         "TF": "2.25",
         "IP": "5.5",
-        "configuration": "tokamak",
-        "coordinates":[140.0977476097571, 35.67229891749631],
-        "temperature": [6.73158083, 44.9754023, 16.190024, 15.939778],
-        "triple_product": [3.08640860e+19, 1.54281713e+21, 6.63979351e+20, 8.80494689e+20]
+        "temperature": [
+            6.73158083,
+            44.9754023,
+            16.190024,
+            15.939778
+        ],
+        "triple_product": [
+            3.0864086e+19,
+            1.54281713e+21,
+            6.63979351e+20,
+            8.80494689e+20
+        ]
     },
     {
         "country": "Korea",
         "name": "KSTAR",
         "address": "Daejeon",
+        "ownership": "public",
         "coordinates": [
             127.35195757861905,
             36.37266478029253
         ],
+        "configuration": "tokamak",
         "R": "1.8",
         "r": "0.5",
         "TF": "3.5",
-        "IP": "2",
-        "configuration": "tokamak"
+        "IP": "2"
     },
     {
-        "name": "KTM",
         "country": "Kazakhstan",
+        "name": "KTM",
         "address": "Kurchatov",
+        "ownership": "public",
+        "coordinates": [
+            78.50769985601123,
+            50.81628751621313
+        ],
+        "configuration": "tokamak",
         "R": "0.86",
         "r": "0.43",
         "TF": "1",
-        "IP": "0.75",
-        "configuration": "tokamak",
-        "coordinates":[78.50769985601123, 50.81628751621313]
+        "IP": "0.75"
     },
     {
         "country": "Japan",
         "name": "LATE",
         "address": "Kyoto",
+        "ownership": "public",
         "coordinates": [
             135.80037018143938,
             34.9105088579678
         ],
-        "R": "0.2",
         "configuration": "tokamak",
+        "R": "0.2",
         "r": "0.14",
         "TF": "0.18",
         "IP": "0.05"
     },
     {
-        "name": "LIBTOR",
         "country": "Libya",
+        "name": "LIBTOR",
         "address": "Tripoli",
+        "ownership": "public",
+        "coordinates": [
+            13.378669412165532,
+            32.83543529236914
+        ],
+        "configuration": "tokamak",
         "R": "0.53",
         "r": "0.115",
         "TF": "4",
-        "IP": "0.12",
-        "configuration": "tokamak",
-        "coordinates": [13.378669412165532, 32.83543529236914]
+        "IP": "0.12"
     },
     {
-        "name": "LTX-beta",
         "country": "USA",
+        "name": "LTX-beta",
         "address": "Princeton",
+        "ownership": "public",
+        "coordinates": [
+            -74.60235798535736,
+            40.34814220939181
+        ],
+        "configuration": "tokamak",
         "R": "0.4",
         "r": "0.26",
         "TF": "3.7",
-        "IP": "0.175",
-        "configuration": "tokamak",
-        "coordinates":[-74.60235798535736, 40.34814220939181]
+        "IP": "0.175"
     },
     {
         "country": "UK",
         "name": "ST40",
         "address": "Abingdon",
+        "ownership": "private",
         "coordinates": [
             -1.281794045869338,
             51.623251899457706
         ],
+        "configuration": "tokamak",
         "website": "https://www.tokamakenergy.co.uk/",
         "R": "0.5",
-        "configuration": "tokamak",
         "r": "0.3",
         "TF": "3",
         "IP": "2"
@@ -534,114 +688,132 @@
         "country": "UK",
         "name": "MAST-U",
         "address": "Abingdon",
+        "ownership": "public",
         "coordinates": [
             -1.2295439295543145,
             51.658000352826996
         ],
+        "configuration": "tokamak",
         "website": "https://ccfe.ukaea.uk/research/mast-upgrade/",
         "R": "0.85",
-        "configuration": "tokamak",
         "r": "0.65",
         "TF": "0.52",
         "IP": "1.3",
         "temperature": 0.9,
-        "triple_product": 8.10000000e+17
+        "triple_product": 8.1e+17
     },
     {
         "country": "Costa Rica",
         "name": "MEDUSA-CR",
         "address": "Cartago",
+        "ownership": "public",
         "coordinates": [
             -83.91244621661976,
             9.856522484302424
         ],
+        "configuration": "tokamak",
         "R": "0.14",
         "r": "0.1",
         "TF": "0.5",
-        "IP": "0.04",
-        "configuration": "tokamak"
+        "IP": "0.04"
     },
     {
-        "name": "MT-1",
         "country": "Pakistan",
+        "name": "MT-1",
         "address": "Dera Ghazi Khan",
+        "ownership": "public",
+        "coordinates": [
+            70.66465645475284,
+            30.093819783673688
+        ],
+        "configuration": "tokamak",
         "R": "0.25",
         "r": "0.1",
         "TF": "0",
-        "IP": "0.015",
-        "configuration": "tokamak",
-        "coordinates":[70.66465645475284, 30.093819783673688]
+        "IP": "0.015"
     },
     {
         "country": "Denmark",
         "name": "NORTH",
         "address": "Kongens Lyngby",
+        "ownership": "public",
         "coordinates": [
             12.5216351393253,
             55.78536970233601
         ],
+        "configuration": "tokamak",
         "website": "https://www.iter.org/newsline/-/3330",
         "R": "0.25",
         "r": "0",
         "TF": "0.3",
-        "IP": "0",
-        "configuration": "tokamak"
+        "IP": "0"
     },
     {
         "country": "Brazil",
         "name": "NOVA-FURG",
         "address": "Vitoria",
+        "ownership": "public",
         "coordinates": [
             -40.20363948880572,
             -19.012103417010753
         ],
+        "configuration": "tokamak",
         "R": "0.3",
         "r": "0.06",
         "TF": "1.5",
-        "IP": "0.01",
-        "configuration": "tokamak"
+        "IP": "0.01"
     },
     {
         "country": "USA",
         "name": "NSTX-U",
         "address": "Princeton",
+        "ownership": "public",
         "coordinates": [
             -74.60305535964459,
             40.35022723814888
         ],
+        "configuration": "tokamak",
         "website": "https://www.pppl.gov/nstx",
         "R": "0.934",
         "r": "0.68",
         "TF": "1",
-        "IP": "2",
-        "configuration": "tokamak"
+        "IP": "2"
     },
     {
-        "name": "Pegasus-III",
         "country": "USA",
+        "name": "Pegasus-III",
         "address": "Madison",
+        "ownership": "public",
+        "coordinates": [
+            -89.40383502610601,
+            43.07543327740595
+        ],
+        "configuration": "tokamak",
         "R": "0.45",
         "r": "0.37",
         "TF": "0.58",
-        "IP": "1",
-        "configuration": "tokamak",
-        "coordinates":[-89.40383502610601, 43.07543327740595]
+        "IP": "1"
     },
     {
-        "name": "PHiX",
         "country": "Japan",
+        "name": "PHiX",
         "address": "Tokyo",
+        "ownership": "public",
+        "coordinates": [
+            139.6831175956234,
+            35.606782075443284
+        ],
+        "configuration": "tokamak",
         "R": "0.33",
         "r": "0.09",
         "TF": "0.091",
-        "IP": "0",
-        "configuration": "tokamak",
-        "coordinates":[139.6831175956234, 35.606782075443284]
+        "IP": "0"
     },
     {
         "country": "Japan",
         "name": "QUEST",
         "address": "Kyushu",
+        "ownership": "public",
         "coordinates": [
             130.42529969435358,
             33.623181894454575
@@ -656,169 +828,209 @@
         "country": "India",
         "name": "SST-1",
         "address": "Gujarat",
+        "ownership": "public",
         "coordinates": [
             72.62239375120585,
             23.097163401418662
         ],
+        "configuration": "tokamak",
         "R": "1.1",
         "r": "0.2",
         "TF": "3",
-        "IP": "0.2",
-        "configuration": "tokamak"
+        "IP": "0.2"
     },
     {
         "country": "Canada",
         "name": "STOR-M",
         "address": "Saskatchewan",
+        "ownership": "public",
         "coordinates": [
             -106.63480279413353,
             52.15379223628213
         ],
+        "configuration": "tokamak",
         "R": "0.46",
         "r": "0.125",
         "TF": "0.7",
-        "IP": "0.06",
-        "configuration": "tokamak"
+        "IP": "0.06"
     },
     {
-        "name": "SUNIST",
         "country": "China",
+        "name": "SUNIST",
         "address": "Tsinghua",
+        "ownership": "public",
+        "coordinates": [
+            116.32654660505905,
+            40.00016493671451
+        ],
+        "configuration": "tokamak",
         "R": "0.3",
         "r": "0.23",
         "TF": "0.27",
-        "IP": "0.1",
-        "configuration": "tokamak",
-        "coordinates":[116.32654660505905, 40.00016493671451]
+        "IP": "0.1"
     },
     {
-        "name": "T-11M",
         "country": "Russia",
+        "name": "T-11M",
         "address": "Moscow",
+        "ownership": "public",
+        "coordinates": [
+            37.304515352539504,
+            55.48695225963987
+        ],
+        "configuration": "tokamak",
         "R": "0.7",
         "r": "0.2",
         "TF": "1",
-        "IP": "0.1",
-        "configuration": "tokamak",
-        "coordinates":[37.304515352539504, 55.48695225963987]
+        "IP": "0.1"
     },
     {
         "country": "Brazil",
         "name": "TCABR",
         "address": "Sao Paulo",
+        "ownership": "public",
         "coordinates": [
             -46.731308062011756,
             -23.56146460186351
         ],
+        "configuration": "tokamak",
         "R": "0.61",
         "r": "0.18",
         "TF": "1.07",
-        "IP": "0.1",
-        "configuration": "tokamak"
+        "IP": "0.1"
     },
     {
-        "name": "TCV",
         "country": "Switzerland",
+        "name": "TCV",
         "address": "Ecublens",
+        "ownership": "public",
+        "coordinates": [
+            6.564788038654824,
+            46.51778945301607
+        ],
+        "configuration": "tokamak",
         "R": "0.89",
         "r": "0.25",
         "TF": "1.54",
-        "IP": "1.2",
-        "configuration": "tokamak",
-        "coordinates":[6.564788038654824, 46.51778945301607]
+        "IP": "1.2"
     },
     {
-        "name": "TOKASTAR-2",
         "country": "Japan",
+        "name": "TOKASTAR-2",
         "address": "Nagoya",
+        "ownership": "public",
+        "coordinates": [
+            136.99741420054,
+            35.26986636362017
+        ],
+        "configuration": "tokamak",
         "R": "0.1",
         "r": "0.04",
         "TF": "0.1",
-        "IP": "1",
-        "configuration": "tokamak",
-        "coordinates":[136.99741420054, 35.26986636362017]
+        "IP": "1"
     },
     {
-        "name": "TS-4U",
         "country": "Japan",
+        "name": "TS-4U",
         "address": "Tokyo",
+        "ownership": "public",
+        "coordinates": [
+            139.7635617708173,
+            35.71162306461253
+        ],
+        "configuration": "tokamak",
         "R": "0.5",
         "r": "0.3",
         "TF": "0.1",
-        "IP": "0.1",
-        "configuration": "tokamak",
-        "coordinates":[139.7635617708173, 35.71162306461253]
+        "IP": "0.1"
     },
     {
-        "name": "TS-6",
         "country": "Japan",
+        "name": "TS-6",
         "address": "Tokyo",
+        "ownership": "public",
+        "coordinates": [
+            139.76313738524476,
+            35.71448364385392
+        ],
+        "configuration": "tokamak",
         "R": "0.2",
         "r": "0.15",
         "TF": "0.1",
-        "IP": "0",
-        "configuration": "tokamak",
-        "coordinates":[139.76313738524476, 35.71448364385392]
-
+        "IP": "0"
     },
     {
-        "name": "TST-2",
         "country": "Japan",
+        "name": "TST-2",
         "address": "Tokyo",
+        "ownership": "public",
+        "coordinates": [
+            139.7587738732024,
+            35.7117798114651
+        ],
+        "configuration": "tokamak",
         "R": "0.37",
         "r": "0.23",
         "TF": "0.4",
-        "IP": "0.4",
-        "configuration": "tokamak",
-        "coordinates":[139.7587738732024, 35.7117798114651]
+        "IP": "0.4"
     },
     {
-        "name": "TUMAN-3M",
         "country": "Russia",
+        "name": "TUMAN-3M",
         "address": "St-Petersburg",
+        "ownership": "public",
+        "coordinates": [
+            30.39306786038113,
+            60.00460626895757
+        ],
+        "configuration": "tokamak",
         "R": "0.53",
         "r": "0.22",
         "TF": "1.2",
-        "IP": "0.18",
-        "configuration": "tokamak",
-        "coordinates":[30.39306786038113, 60.00460626895757]
+        "IP": "0.18"
     },
     {
-        "name": "UTST",
         "country": "Japan",
+        "name": "UTST",
         "address": "Tokyo",
+        "ownership": "public",
+        "coordinates": [
+            139.7582252444953,
+            35.714255738150634
+        ],
+        "configuration": "tokamak",
         "R": "0.39",
         "r": "0.24",
         "TF": "0.3",
-        "IP": "0.2",
-        "configuration": "tokamak",
-        "coordinates":[139.7582252444953, 35.714255738150634]
+        "IP": "0.2"
     },
     {
         "country": "Korea",
         "name": "VEST",
         "address": "Seoul",
+        "ownership": "public",
         "coordinates": [
             126.95008611338027,
             37.4568736825987
         ],
+        "configuration": "tokamak",
         "R": "0.45",
         "r": "0.33",
         "TF": "0.1",
-        "IP": "0.1",
-        "configuration": "tokamak"
+        "IP": "0.1"
     },
     {
         "country": "France",
         "name": "WEST",
         "address": "Cadarache",
+        "ownership": "public",
         "coordinates": [
             5.763735075034328,
             43.704788050141296
         ],
+        "configuration": "tokamak",
         "website": "https://irfm.cea.fr/en/west/",
         "R": "2.5",
-        "configuration": "tokamak",
         "r": "0.5",
         "TF": "3.7",
         "IP": "1",
@@ -829,70 +1041,79 @@
         "country": "Czech Republic",
         "name": "COMPASS-U",
         "address": "Prague",
+        "ownership": "public",
         "coordinates": [
             14.394294432566214,
             50.10497085179941
         ],
+        "configuration": "tokamak",
         "R": "0",
         "r": "0",
         "TF": "0",
-        "IP": "0",
-        "configuration": "tokamak"
+        "IP": "0"
     },
     {
-        "name": "MT-2",
         "country": "Pakistan",
+        "name": "MT-2",
         "address": "Dera Ghazi Khan",
-        "R": "0",
-        "r": "0",
-        "TF": "0",
-        "IP": "0",
-        "configuration": "tokamak",
+        "ownership": "public",
         "coordinates": [
             70.6052391297637,
             30.017292808100674
-        ]
+        ],
+        "configuration": "tokamak",
+        "R": "0",
+        "r": "0",
+        "TF": "0",
+        "IP": "0"
     },
     {
-        "name": "T-15MD",
         "country": "Russia",
+        "name": "T-15MD",
         "address": "Moscow",
-        "R": "2.43",
-        "r": "0.42",
-        "TF": "3.5",
-        "IP": "1",
-        "configuration": "tokamak",
+        "ownership": "public",
         "coordinates": [
             37.476996083085425,
             55.80129195026851
-        ]
+        ],
+        "configuration": "tokamak",
+        "R": "2.43",
+        "r": "0.42",
+        "TF": "3.5",
+        "IP": "1"
     },
     {
-        "name": "TT-1",
         "country": "Thailand",
+        "name": "TT-1",
         "address": "Bangkok",
+        "ownership": "public",
+        "coordinates": [
+            100.56643118231219,
+            13.854748041090069
+        ],
+        "configuration": "tokamak",
         "R": "0.65",
         "r": "0.2",
         "TF": "1.52",
-        "IP": "0.1",
-        "configuration": "tokamak",
-        "coordinates": [100.56643118231219, 13.854748041090069]
+        "IP": "0.1"
     },
     {
         "country": "France",
         "name": "LMJ",
         "address": "Le Barp",
+        "ownership": "public",
         "coordinates": [
             -0.8074136680055679,
             44.658605567060874
         ],
-        "website": "https://www-lmj.cea.fr/",
-        "configuration": "inertial"
+        "configuration": "inertial",
+        "website": "https://www-lmj.cea.fr/"
     },
     {
         "country": "France",
         "name": "Renaissance Fusion",
         "address": "Fontaine",
+        "ownership": "private",
         "coordinates": [
             5.67483256527124,
             45.19592767645715
@@ -904,6 +1125,7 @@
         "country": "France",
         "name": "ToriX",
         "address": "Palaiseau",
+        "ownership": "public",
         "coordinates": [
             2.21129169809826,
             48.714410343730435
@@ -914,41 +1136,54 @@
         "country": "UK",
         "name": "First Light",
         "address": "Kidlington",
+        "ownership": "private",
         "coordinates": [
             -1.3001906859764691,
             51.805036645983655
         ],
-        "website": "https://firstlightfusion.com/",
-        "configuration": "inertial"
+        "configuration": "inertial",
+        "website": "https://firstlightfusion.com/"
     },
     {
         "country": "Germany",
         "name": "ASDEX Upgrade",
         "address": "Garching",
+        "ownership": "public",
         "coordinates": [
             11.671764353853556,
             48.26295113080633
         ],
+        "configuration": "tokamak",
         "website": "https://www.ipp.mpg.de/16195/asdex",
         "R": "1.65",
         "r": "0.5",
         "TF": "3.2",
         "IP": "1.4",
-        "configuration": "tokamak",
-        "temperature": [4.96777849, 2.2553371, 11.0294331, 3.35038255],
-        "triple_product": [5.39415148e+18, 1.60864212e+19, 8.37008333e+19, 4.47870397e+19]
+        "temperature": [
+            4.96777849,
+            2.2553371,
+            11.0294331,
+            3.35038255
+        ],
+        "triple_product": [
+            5.39415148e+18,
+            1.60864212e+19,
+            8.37008333e+19,
+            4.47870397e+19
+        ]
     },
     {
         "country": "Germany",
         "name": "TJ-K",
         "address": "Stuttgart",
+        "ownership": "public",
         "coordinates": [
             9.17365141088079,
             48.78188166139253
         ],
+        "configuration": "stellarator",
         "website": "https://www.igvp.uni-stuttgart.de/en/research/plasma-dynamics-and-diagnostics/experiments/TJ-K/",
         "R": "0.6",
-        "configuration": "stellarator",
         "r": "0.1",
         "TF": "0.5",
         "IP": "0.003"
@@ -957,6 +1192,7 @@
         "country": "Japan",
         "name": "RELAX",
         "address": "Kyoto",
+        "ownership": "public",
         "coordinates": [
             135.78211483557752,
             35.050320110307794
@@ -967,214 +1203,294 @@
         "country": "USA",
         "name": "SPARC",
         "address": "Devens MA",
+        "ownership": "private",
         "coordinates": [
             -71.61180064645845,
             42.54222704578338
         ],
         "configuration": "tokamak",
+        "website": "https://www.psfc.mit.edu/sparc",
         "R": "1.65",
         "r": "0.5",
         "TF": "12",
         "IP": "7.5",
         "temperature": 10,
-        "triple_product": 2.31e+21,
-        "website": "https://www.psfc.mit.edu/sparc"
+        "triple_product": 2.31e+21
     },
     {
         "country": "Canada",
         "name": "General Fusion",
         "address": "Burnaby",
+        "ownership": "private",
         "coordinates": [
             -122.91537454408733,
             49.252004059432664
         ],
-        "configuration":"inertial",
+        "configuration": "inertial",
         "website": "https://generalfusion.com/technology-magnetized-target-fusion/"
     },
     {
         "country": "China",
         "name": "CFQS",
         "address": "Shanghai",
-        "configuration":"stellarator",
-        "R": 1,
-        "r": 0,
-        "TF": 1,
-        "IP": 0,
+        "ownership": "public",
         "coordinates": [
             121.43196100765981,
             31.198475788344112
-        ]
+        ],
+        "configuration": "stellarator",
+        "R": 1,
+        "r": 0,
+        "TF": 1,
+        "IP": 0
     },
     {
         "country": "Italy",
         "name": "DTT",
+        "address": "Roma",
+        "ownership": "public",
+        "coordinates": [
+            12.67276703033901,
+            41.821031065163126
+        ],
+        "configuration": "tokamak",
+        "website": "https://www.dtt-project.it/",
         "R": 2.14,
         "r": 0.65,
-        "IP": 5.5,
         "TF": 6,
-        "address": "Roma",
-        "coordinates": [12.67276703033901, 41.821031065163126],
-        "website": "https://www.dtt-project.it/",
-        "configuration": "tokamak"
+        "IP": 5.5
     },
     {
-        "name": "FTU",
         "country": "Italy",
+        "name": "FTU",
         "address": "Roma",
+        "ownership": "public",
+        "coordinates": [
+            12.662124025832343,
+            41.82051935341014
+        ],
+        "configuration": "tokamak",
         "R": "0.935",
         "r": "0.3",
         "TF": "8",
-        "IP": "1.6",
-        "configuration": "tokamak",
-        "coordinates": [12.662124025832343, 41.82051935341014]
+        "IP": "1.6"
     },
     {
         "country": "Spain",
         "name": "SMART",
         "address": "Seville",
+        "ownership": "public",
         "coordinates": [
             -5.991069769509132,
             37.38074935450412
         ],
+        "configuration": "tokamak",
         "R": 0.4,
         "r": 0.2,
-        "IP": 0.5,
         "TF": 1,
-        "configuration": "tokamak"
+        "IP": 0.5
     },
     {
         "country": "USA",
         "name": "NIF",
         "address": "Livermore",
-        "coordinates": [-121.71628283086609, 37.68017876829969],
-        "configuration":"inertial"
+        "ownership": "public",
+        "coordinates": [
+            -121.71628283086609,
+            37.68017876829969
+        ],
+        "configuration": "inertial"
     },
     {
         "country": "Australia",
         "name": "HB11 Energy",
         "address": "Sidney",
-        "website": "https://hb11.energy/",
-        "coordinates": [151.2289472749941, -33.87246036455869],
-        "configuration": "inertial"
+        "ownership": "private",
+        "coordinates": [
+            151.2289472749941,
+            -33.87246036455869
+        ],
+        "configuration": "inertial",
+        "website": "https://hb11.energy/"
     },
     {
         "country": "Italy",
         "name": "RFX",
         "address": "Padua",
-        "website": "https://www.igi.cnr.it/?q=content%2Fexperiment-introduction",
-        "coordinates": [11.87050513999025, 45.39882359345374],
-        "configuration": "alternate_concept"
+        "ownership": "public",
+        "coordinates": [
+            11.87050513999025,
+            45.39882359345374
+        ],
+        "configuration": "alternate_concept",
+        "website": "https://www.igi.cnr.it/?q=content%2Fexperiment-introduction"
     },
     {
         "country": "UK",
         "name": "FDP",
         "address": "Abingdon",
-        "coordinates": [-1.2305699355838213, 51.65926166977835],
+        "ownership": "public",
+        "coordinates": [
+            -1.2305699355838213,
+            51.65926166977835
+        ],
         "configuration": "inertial"
     },
     {
         "country": "USA",
         "name": "Z machine",
         "address": "Albuquerque",
-        "coordinates": [-106.55130036031196, 35.317561649738074],
-        "configuration":"alternate_concept",
+        "ownership": "public",
+        "coordinates": [
+            -106.55130036031196,
+            35.317561649738074
+        ],
+        "configuration": "alternate_concept",
         "website": "https://www.sandia.gov/z-machine/"
     },
     {
         "country": "USA",
         "name": "Fusion Power Core",
         "address": "Albuquerque",
-        "coordinates": [-106.55130036031196, 35.317561649738074],
-        "configuration":"alternate_concept",
+        "ownership": "private",
+        "coordinates": [
+            -106.55130036031196,
+            35.317561649738074
+        ],
+        "configuration": "alternate_concept",
         "website": "https://www.compactfusionsystems.com/"
     },
     {
         "country": "USA",
         "name": "Alcator C-Mod",
         "address": "MIT",
-        "coordinates": [-71.09462076437458, 42.359980456591614],
-        "configuration":"tokamak",
+        "ownership": "public",
+        "coordinates": [
+            -71.09462076437458,
+            42.359980456591614
+        ],
+        "configuration": "tokamak",
+        "website": "http://www.psfc.mit.edu/research/topics/alcator-c-mod-tokamak",
         "temperature": 1.29670285,
-        "triple_product": 9.18858856e+19,
-        "website": "http://www.psfc.mit.edu/research/topics/alcator-c-mod-tokamak"
+        "triple_product": 9.18858856e+19
     },
     {
         "country": "USA",
-        "address": "AGNI Energy Inc.",
         "name": "AGNI",
+        "address": "AGNI Energy Inc.",
+        "ownership": "private",
+        "coordinates": [
+            -122.8234404712091,
+            47.041086998365365
+        ],
         "configuration": "alternate_concept",
-        "coordinates": [-122.8234404712091, 47.041086998365365],
         "website": "https://www.fusionenergybase.com/organization/agni-fusion-energy"
     },
     {
         "country": "USA",
-        "address": "Seattle",
         "name": "IDCD",
+        "address": "Seattle",
+        "ownership": "public",
+        "coordinates": [
+            -122.34434545452042,
+            47.62501922801757
+        ],
         "configuration": "alternate_concept",
-        "website": "https://ctfusion.net/",
-        "coordinates": [-122.34434545452042, 47.62501922801757]
+        "website": "https://ctfusion.net/"
     },
     {
         "country": "USA",
-        "address": "Berkeley",
         "name": "Helicity Drive",
+        "address": "Berkeley",
+        "ownership": "private",
+        "coordinates": [
+            -122.26706038853268,
+            37.87030721424899
+        ],
         "configuration": "alternate_concept",
-        "website": "https://www.helicityspace.com/",
-        "coordinates": [-122.26706038853268, 37.87030721424899]
+        "website": "https://www.helicityspace.com/"
     },
     {
         "country": "USA",
         "name": "Trenta",
         "address": "Everett",
-        "website": "https://www.helionenergy.com/",
-        "coordinates": [-122.2537579017688, 47.93228102192798],
-        "configuration": "alternate_concept"
+        "ownership": "public",
+        "coordinates": [
+            -122.2537579017688,
+            47.93228102192798
+        ],
+        "configuration": "alternate_concept",
+        "website": "https://www.helionenergy.com/"
     },
     {
         "country": "USA",
         "name": "Polaris",
         "address": "Everett",
-        "website": "https://www.helionenergy.com/",
-        "coordinates": [-122.25225764634312, 47.93086488557961],
-        "configuration": "alternate_concept"
+        "ownership": "private",
+        "coordinates": [
+            -122.25225764634312,
+            47.93086488557961
+        ],
+        "configuration": "alternate_concept",
+        "website": "https://www.helionenergy.com/"
     },
     {
         "country": "USA",
         "name": "Horne Hybrid Reactor",
         "address": "Elliston",
-        "coordinates": [-112.4305203576514, 46.56101902624272],
-        "website": "https://www.hornetechnologies.com/",
-        "configuration": "inertial"
+        "ownership": "public",
+        "coordinates": [
+            -112.4305203576514,
+            46.56101902624272
+        ],
+        "configuration": "inertial",
+        "website": "https://www.hornetechnologies.com/"
     },
     {
         "country": "USA",
         "name": "PJMIF",
         "address": "Chantilly",
-        "website": "http://hyperjetfusion.com/",
-        "coordinates": [-77.43347273967717, 38.91301110731298],
-        "configuration":"alternate_concept"
+        "ownership": "private",
+        "coordinates": [
+            -77.43347273967717,
+            38.91301110731298
+        ],
+        "configuration": "alternate_concept",
+        "website": "http://hyperjetfusion.com/"
     },
     {
         "country": "USA",
         "name": "Innoven Energy",
         "address": "Colorado Springs",
-        "coordinates": [-104.81143467316949, 38.93533014399852],
-        "website": "https://innoven-energy.com/",
-        "configuration": "inertial"
+        "ownership": "private",
+        "coordinates": [
+            -104.81143467316949,
+            38.93533014399852
+        ],
+        "configuration": "inertial",
+        "website": "https://innoven-energy.com/"
     },
     {
         "country": "USA",
         "name": "Focus Fusion",
         "address": "Middlesex",
-        "coordinates": [-74.50366657505937, 40.59481630595168],
-        "website": "https://lppfusion.com/",
-        "configuration": "alternate_concept"
+        "ownership": "private",
+        "coordinates": [
+            -74.50366657505937,
+            40.59481630595168
+        ],
+        "configuration": "alternate_concept",
+        "website": "https://lppfusion.com/"
     },
     {
         "country": "USA",
         "name": "CFR",
         "address": "Lancaster",
-        "coordinates": [-118.1092389660677, 34.622096513082425],
+        "ownership": "public",
+        "coordinates": [
+            -118.1092389660677,
+            34.622096513082425
+        ],
         "configuration": "alternate_concept",
         "website": "https://www.lockheedmartin.com/en-us/products/compact-fusion.html"
     },
@@ -1182,15 +1498,23 @@
         "country": "USA",
         "name": "MIFTI",
         "address": "Tustin",
-        "website": "https://miftec.com/",
-        "coordinates": [-117.80911092261661, 33.73491719287058],
-        "configuration": "alternate_concept"
+        "ownership": "public",
+        "coordinates": [
+            -117.80911092261661,
+            33.73491719287058
+        ],
+        "configuration": "alternate_concept",
+        "website": "https://miftec.com/"
     },
     {
         "country": "USA",
         "name": "PFRC",
         "address": "Plainsboro Township",
-        "coordinates": [-74.59246658848005, 40.3357880566386],
+        "ownership": "private",
+        "coordinates": [
+            -74.59246658848005,
+            40.3357880566386
+        ],
         "configuration": "alternate_concept",
         "website": "https://www.princetonfusionsystems.com/"
     },
@@ -1198,14 +1522,22 @@
         "country": "USA",
         "name": "IVR-3",
         "address": "Urbana",
-        "coordinates": [-88.20199864615522, 40.11567749063939],
+        "ownership": "public",
+        "coordinates": [
+            -88.20199864615522,
+            40.11567749063939
+        ],
         "configuration": "alternate_concept"
     },
     {
         "country": "USA",
         "name": "C2-W",
         "address": "Lake Forest",
-        "coordinates": [-117.65126597327308, 33.67640550606564],
+        "ownership": "private",
+        "coordinates": [
+            -117.65126597327308,
+            33.67640550606564
+        ],
         "configuration": "alternate_concept",
         "website": "https://tae.com/"
     },
@@ -1213,15 +1545,23 @@
         "country": "USA",
         "name": "Zebra",
         "address": "Reno",
-        "coordinates": [-119.88253113082455, 39.65229652846936],
+        "ownership": "public",
+        "coordinates": [
+            -119.88253113082455,
+            39.65229652846936
+        ],
         "configuration": "alternate_concept",
         "website": "https://www.unr.edu/physics/zppl"
     },
     {
         "country": "USA",
-        "address": "Rochester",
-        "coordinates": [-77.63201927492257, 43.11318958566518],
         "name": "OMEGA",
+        "address": "Rochester",
+        "ownership": "public",
+        "coordinates": [
+            -77.63201927492257,
+            43.11318958566518
+        ],
         "configuration": "inertial",
         "website": "https://www.lle.rochester.edu/index.php/omega-laser-facility-2/"
     },
@@ -1229,7 +1569,11 @@
         "country": "USA",
         "name": "MST",
         "address": "Madison",
-        "coordinates": [-89.4054505730771, 43.07399898455457],
+        "ownership": "public",
+        "coordinates": [
+            -89.4054505730771,
+            43.07399898455457
+        ],
         "configuration": "alternate_concept",
         "website": "https://wippl.wisc.edu/madison-symmetric-torus/"
     },
@@ -1237,7 +1581,11 @@
         "country": "USA",
         "name": "Pegasus-III",
         "address": "Madison",
-        "coordinates": [-89.4050965215159, 43.07360712744605],
+        "ownership": "public",
+        "coordinates": [
+            -89.4050965215159,
+            43.07360712744605
+        ],
         "configuration": "tokamak",
         "website": "https://pegasus.ep.wisc.edu/"
     },
@@ -1245,15 +1593,23 @@
         "country": "USA",
         "name": "ZAP ENERGY",
         "address": "Seattle",
+        "ownership": "private",
+        "coordinates": [
+            -122.33183388646017,
+            47.601972760847616
+        ],
         "configuration": "alternate_concept",
-        "coordinates": [-122.33183388646017, 47.601972760847616],
         "website": "https://www.zapenergyinc.com/"
     },
     {
         "country": "Germany",
         "name": "Marvel Fusion",
-        "address": "München",
-        "coordinates": [11.572583671223958, 48.133329810911036],
+        "address": "M\u00c3\u00bcnchen",
+        "ownership": "private",
+        "coordinates": [
+            11.572583671223958,
+            48.133329810911036
+        ],
         "configuration": "inertial",
         "website": "https://marvelfusion.com/"
     },
@@ -1261,69 +1617,105 @@
         "country": "Japan",
         "name": "GAMMA PDX-SC",
         "address": "University of Tsukuba",
+        "ownership": "public",
+        "coordinates": [
+            140.0966237114321,
+            36.11119582596991
+        ],
         "configuration": "alternate_concept",
-        "coordinates": [140.0966237114321, 36.11119582596991],
         "website": "https://www.prc.tsukuba.ac.jp/en/"
     },
     {
         "country": "Japan",
         "name": "GAMMA 10/PDX",
         "address": "University of Tsukuba",
-        "configuration": "alternate_concept",
-        "coordinates": [140.09724598387302, 36.111421182088115]
+        "ownership": "public",
+        "coordinates": [
+            140.09724598387302,
+            36.111421182088115
+        ],
+        "configuration": "alternate_concept"
     },
     {
         "country": "Japan",
         "name": "UH-MCPG1",
-        "configuration": "alternate_concept",
         "address": "University of Hyogo",
-        "coordinates": [135.05190857514796, 34.67829799473259]
+        "ownership": "public",
+        "coordinates": [
+            135.05190857514796,
+            34.67829799473259
+        ],
+        "configuration": "alternate_concept"
     },
     {
         "country": "Japan",
         "name": "RT-1",
         "address": "Tokyo",
+        "ownership": "public",
+        "coordinates": [
+            139.7629947201784,
+            35.71291341094129
+        ],
         "configuration": "alternate_concept",
-        "coordinates": [139.7629947201784, 35.71291341094129],
         "website": "http://www.ppl.k.u-tokyo.ac.jp/"
     },
     {
         "country": "Japan",
         "name": "LFEX",
         "address": "Osaka",
+        "ownership": "public",
+        "coordinates": [
+            135.5236208114072,
+            34.820453944176826
+        ],
         "configuration": "inertial",
-        "coordinates": [135.5236208114072, 34.820453944176826],
         "website": "https://www.ile.osaka-u.ac.jp/eng/facilities/lfex/index.html"
     },
     {
         "country": "Japan",
         "name": "GEKKO XII",
         "address": "Osaka",
+        "ownership": "public",
+        "coordinates": [
+            135.52532392792943,
+            34.823161782122135
+        ],
         "configuration": "inertial",
-        "coordinates": [135.52532392792943, 34.823161782122135],
         "website": "https://www.ile.osaka-u.ac.jp/eng/facilities/gxii/index.html"
     },
     {
         "country": "Japan",
         "name": "FAT-CM",
         "address": "Nihon University",
+        "ownership": "private",
+        "coordinates": [
+            139.73439057159504,
+            35.68968557980659
+        ],
         "configuration": "alternate_concept",
-        "coordinates": [139.73439057159504, 35.68968557980659],
         "website": "http://www.phys.cst.nihon-u.ac.jp/~plasma/"
     },
     {
         "country": "Japan",
         "name": "UH-CTI",
-        "configuration": "alternate_concept",
         "address": "Kyushu",
-        "coordinates": [130.42413440568808, 33.62468110070906]
+        "ownership": "public",
+        "coordinates": [
+            130.42413440568808,
+            33.62468110070906
+        ],
+        "configuration": "alternate_concept"
     },
     {
         "country": "Japan",
         "name": "PLATO",
-        "configuration": "tokamak",
         "address": "Kyushu",
-        "coordinates": [130.43386933963268, 33.620258420782676],
+        "ownership": "public",
+        "coordinates": [
+            130.43386933963268,
+            33.620258420782676
+        ],
+        "configuration": "tokamak",
         "website": "http://tokusui.riam.kyushu-u.ac.jp/PLATO_project/index-e.html",
         "R": 0.7,
         "r": 0.2,
@@ -1333,44 +1725,68 @@
     {
         "country": "Russia",
         "name": "CAT",
-        "configuration": "alternate_concept",
         "address": "Budker Institute of Nuclear Physics",
-        "coordinates": [83.11088480450746, 54.84884963426675]
+        "ownership": "public",
+        "coordinates": [
+            83.11088480450746,
+            54.84884963426675
+        ],
+        "configuration": "alternate_concept"
     },
     {
         "country": "Russia",
         "name": "GDMT",
         "address": "Budker Institute of Nuclear Physics",
-        "configuration": "alternate_concept",
-        "coordinates": [83.1121937224004, 54.84969587039274]
+        "ownership": "public",
+        "coordinates": [
+            83.1121937224004,
+            54.84969587039274
+        ],
+        "configuration": "alternate_concept"
     },
     {
         "country": "Russia",
         "name": "GDT",
         "address": "Budker Institute of Nuclear Physics",
-        "configuration": "alternate_concept",
-        "coordinates": [83.11349191145818, 54.8490287660226]
+        "ownership": "public",
+        "coordinates": [
+            83.11349191145818,
+            54.8490287660226
+        ],
+        "configuration": "alternate_concept"
     },
     {
         "country": "Russia",
         "name": "GOL-NB",
         "address": "Budker Institute of Nuclear Physics",
-        "configuration": "alternate_concept",
-        "coordinates": [83.1141190644502, 54.84747749284412]
+        "ownership": "public",
+        "coordinates": [
+            83.1141190644502,
+            54.84747749284412
+        ],
+        "configuration": "alternate_concept"
     },
     {
         "country": "Russia",
         "name": "SMOLA",
-        "configuration": "alternate_concept",
         "address": "Budker Institute of Nuclear Physics",
-        "coordinates": [83.1073083997944, 54.85193683797478]
+        "ownership": "public",
+        "coordinates": [
+            83.1073083997944,
+            54.85193683797478
+        ],
+        "configuration": "alternate_concept"
     },
     {
         "country": "Switzerland",
         "name": "TORPEX",
-        "configuration": "alternate_concept",
         "address": "Swiss Plasma Center",
-        "coordinates": [6.564144308543534, 46.51806261691262],
+        "ownership": "public",
+        "coordinates": [
+            6.564144308543534,
+            46.51806261691262
+        ],
+        "configuration": "alternate_concept",
         "website": "https://www.epfl.ch/research/domains/swiss-plasma-center/research/research_basic_plasmas/research_basic_plasmas_torpex/research_basic_plasmas_torpex_parameters/"
     }
 ]

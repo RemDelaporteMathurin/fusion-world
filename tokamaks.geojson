@@ -8,6 +8,7 @@
                 "name": "ITER",
                 "address": "St-Paul-lez-Durance",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "popupContent": "<a href='https://iter.org/'> Website </a>",
                 "R": "6.2",
                 "r": "2",
@@ -29,6 +30,7 @@
                 "name": "CTH",
                 "address": "Auburn",
                 "configuration": "stellarator",
+                "ownership": "public",
                 "R": "0.75",
                 "r": "0.29",
                 "TF": "0.7",
@@ -49,6 +51,7 @@
                 "name": "HIDRA",
                 "address": "Urbana",
                 "configuration": "stellarator",
+                "ownership": "public",
                 "R": "0.72",
                 "r": "0.19",
                 "TF": "0.5",
@@ -69,6 +72,7 @@
                 "name": "HSX",
                 "address": "Madison",
                 "configuration": "stellarator",
+                "ownership": "public",
                 "R": "1.2",
                 "r": "0.15",
                 "TF": "1.25",
@@ -89,6 +93,7 @@
                 "name": "LHD",
                 "address": "Toki",
                 "configuration": "stellarator",
+                "ownership": "public",
                 "R": "3.9",
                 "r": "0.65",
                 "TF": "4",
@@ -109,6 +114,7 @@
                 "name": "Heliotron J",
                 "address": "Kyoto",
                 "configuration": "stellarator",
+                "ownership": "public",
                 "R": "1.2",
                 "r": "0.1",
                 "TF": "1.5",
@@ -129,6 +135,7 @@
                 "name": "SCR-1",
                 "address": "Cartago",
                 "configuration": "stellarator",
+                "ownership": "public",
                 "R": "0.238",
                 "r": "0.042",
                 "TF": "0.0878",
@@ -149,6 +156,7 @@
                 "name": "TJ-II",
                 "address": "Madrid",
                 "configuration": "stellarator",
+                "ownership": "public",
                 "R": "1.5",
                 "r": "0.22",
                 "TF": "0.95",
@@ -169,6 +177,7 @@
                 "name": "Uragan-2M",
                 "address": "Kharkov",
                 "configuration": "stellarator",
+                "ownership": "public",
                 "R": "1.7",
                 "r": "0.22",
                 "TF": "2.4",
@@ -189,6 +198,7 @@
                 "name": "Uragan-3M",
                 "address": "Kharkov",
                 "configuration": "stellarator",
+                "ownership": "public",
                 "R": "1",
                 "r": "0.12",
                 "TF": "0.7",
@@ -209,6 +219,7 @@
                 "name": "Wendelstein 7-X",
                 "address": "Garching",
                 "configuration": "stellarator",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.ipp.mpg.de/w7x'> Website </a>",
                 "R": "5.5",
                 "r": "0.53",
@@ -230,6 +241,7 @@
                 "name": "ADITYA-U",
                 "address": "Gujarat",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.75",
                 "r": "0.25",
                 "TF": "1.5",
@@ -250,6 +262,7 @@
                 "name": "Alvand",
                 "address": "Teheran",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.456",
                 "r": "0.126",
                 "TF": "0.8",
@@ -270,6 +283,7 @@
                 "name": "IR-T1",
                 "address": "Teheran",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.456",
                 "r": "0.126",
                 "TF": "0.8",
@@ -290,6 +304,7 @@
                 "name": "COMPASS",
                 "address": "Prague",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.56",
                 "r": "0.2",
                 "TF": "2.1",
@@ -310,6 +325,7 @@
                 "name": "Damavand",
                 "address": "Teheran",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.362",
                 "r": "0.077",
                 "TF": "0.9",
@@ -330,6 +346,7 @@
                 "name": "DIII-D",
                 "address": "San Diego",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.ga.com/magnetic-fusion/diii-d'> Website </a>",
                 "R": "1.7",
                 "r": "0.6",
@@ -351,6 +368,7 @@
                 "name": "EAST",
                 "address": "Hefei",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "1.7",
                 "r": "0.4",
                 "TF": "3.5",
@@ -371,6 +389,7 @@
                 "name": "EGYPTOR",
                 "address": "Alexandria",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.3",
                 "r": "0.1",
                 "TF": "1.2",
@@ -391,6 +410,7 @@
                 "name": "ETE",
                 "address": "Sao Jos\u00c3\u00a9 dos Campos",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.3",
                 "r": "0.2",
                 "TF": "0.4",
@@ -411,6 +431,7 @@
                 "name": "EXL-50",
                 "address": "Heibei",
                 "configuration": "tokamak",
+                "ownership": "private",
                 "R": "0.58",
                 "r": "0.41",
                 "TF": "0.402",
@@ -431,6 +452,7 @@
                 "name": "FT-2",
                 "address": "St-Petersburg",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.55",
                 "r": "0.087",
                 "TF": "2.3",
@@ -451,6 +473,7 @@
                 "name": "GLAST-III",
                 "address": "Islamabad",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.2",
                 "r": "0.1",
                 "TF": "0.0875",
@@ -471,6 +494,7 @@
                 "name": "Globus-M2",
                 "address": "St-Petersburg",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.36",
                 "r": "0.24",
                 "TF": "1",
@@ -491,6 +515,7 @@
                 "name": "GOLEM",
                 "address": "Prague",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.4",
                 "r": "0.085",
                 "TF": "0.8",
@@ -511,6 +536,7 @@
                 "name": "GUTTA",
                 "address": "St-Petersburg",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.16",
                 "r": "0.08",
                 "TF": "1.5",
@@ -531,6 +557,7 @@
                 "name": "HBT-EP",
                 "address": "New-York",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.94",
                 "r": "0.2",
                 "TF": "0.3",
@@ -551,6 +578,7 @@
                 "name": "HIST",
                 "address": "Hyogo",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.3",
                 "r": "0.24",
                 "TF": "0.2",
@@ -571,6 +599,7 @@
                 "name": "HL-2M",
                 "address": "Chengdu",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "1.78",
                 "r": "0.65",
                 "TF": "2.2",
@@ -591,6 +620,7 @@
                 "name": "HL-2A",
                 "address": "Chengdu",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "1.65",
                 "r": "0.4",
                 "TF": "2.8",
@@ -611,6 +641,7 @@
                 "name": "HT-7",
                 "address": "Hefei",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "1.75",
                 "r": "0.4",
                 "TF": "3.5",
@@ -631,6 +662,7 @@
                 "name": "HYBTOK-II",
                 "address": "Nagoya",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.4",
                 "r": "0.128",
                 "TF": "0.5",
@@ -651,6 +683,7 @@
                 "name": "ISTTOK",
                 "address": "Lisbon",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.46",
                 "r": "0.085",
                 "TF": "2.8",
@@ -671,6 +704,7 @@
                 "name": "J-TEXT",
                 "address": "Wuhan",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "1.05",
                 "r": "0.25",
                 "TF": "2",
@@ -691,6 +725,7 @@
                 "name": "JET",
                 "address": "Abingdon",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "popupContent": "<a href='https://ccfe.ukaea.uk/research/joint-european-torus/'> Website </a>",
                 "R": "2.96",
                 "r": "1.25",
@@ -712,6 +747,7 @@
                 "name": "JT-60SA",
                 "address": "Tokyo",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "2.96",
                 "r": "1.18",
                 "TF": "2.25",
@@ -732,6 +768,7 @@
                 "name": "KSTAR",
                 "address": "Daejeon",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "1.8",
                 "r": "0.5",
                 "TF": "3.5",
@@ -752,6 +789,7 @@
                 "name": "KTM",
                 "address": "Kurchatov",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.86",
                 "r": "0.43",
                 "TF": "1",
@@ -772,6 +810,7 @@
                 "name": "LATE",
                 "address": "Kyoto",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.2",
                 "r": "0.14",
                 "TF": "0.18",
@@ -792,6 +831,7 @@
                 "name": "LIBTOR",
                 "address": "Tripoli",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.53",
                 "r": "0.115",
                 "TF": "4",
@@ -812,6 +852,7 @@
                 "name": "LTX-beta",
                 "address": "Princeton",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.4",
                 "r": "0.26",
                 "TF": "3.7",
@@ -832,6 +873,7 @@
                 "name": "ST40",
                 "address": "Abingdon",
                 "configuration": "tokamak",
+                "ownership": "private",
                 "popupContent": "<a href='https://www.tokamakenergy.co.uk/'> Website </a>",
                 "R": "0.5",
                 "r": "0.3",
@@ -853,6 +895,7 @@
                 "name": "MAST-U",
                 "address": "Abingdon",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "popupContent": "<a href='https://ccfe.ukaea.uk/research/mast-upgrade/'> Website </a>",
                 "R": "0.85",
                 "r": "0.65",
@@ -874,6 +917,7 @@
                 "name": "MEDUSA-CR",
                 "address": "Cartago",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.14",
                 "r": "0.1",
                 "TF": "0.5",
@@ -894,6 +938,7 @@
                 "name": "MT-1",
                 "address": "Dera Ghazi Khan",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.25",
                 "r": "0.1",
                 "TF": "0",
@@ -914,6 +959,7 @@
                 "name": "NORTH",
                 "address": "Kongens Lyngby",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.iter.org/newsline/-/3330'> Website </a>",
                 "R": "0.25",
                 "r": "0",
@@ -935,6 +981,7 @@
                 "name": "NOVA-FURG",
                 "address": "Vitoria",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.3",
                 "r": "0.06",
                 "TF": "1.5",
@@ -955,6 +1002,7 @@
                 "name": "NSTX-U",
                 "address": "Princeton",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.pppl.gov/nstx'> Website </a>",
                 "R": "0.934",
                 "r": "0.68",
@@ -976,6 +1024,7 @@
                 "name": "Pegasus-III",
                 "address": "Madison",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.45",
                 "r": "0.37",
                 "TF": "0.58",
@@ -996,6 +1045,7 @@
                 "name": "PHiX",
                 "address": "Tokyo",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.33",
                 "r": "0.09",
                 "TF": "0.091",
@@ -1016,6 +1066,7 @@
                 "name": "QUEST",
                 "address": "Kyushu",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.68",
                 "r": "0.4",
                 "TF": "0.25",
@@ -1036,6 +1087,7 @@
                 "name": "SST-1",
                 "address": "Gujarat",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "1.1",
                 "r": "0.2",
                 "TF": "3",
@@ -1056,6 +1108,7 @@
                 "name": "STOR-M",
                 "address": "Saskatchewan",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.46",
                 "r": "0.125",
                 "TF": "0.7",
@@ -1076,6 +1129,7 @@
                 "name": "SUNIST",
                 "address": "Tsinghua",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.3",
                 "r": "0.23",
                 "TF": "0.27",
@@ -1096,6 +1150,7 @@
                 "name": "T-11M",
                 "address": "Moscow",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.7",
                 "r": "0.2",
                 "TF": "1",
@@ -1116,6 +1171,7 @@
                 "name": "TCABR",
                 "address": "Sao Paulo",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.61",
                 "r": "0.18",
                 "TF": "1.07",
@@ -1136,6 +1192,7 @@
                 "name": "TCV",
                 "address": "Ecublens",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.89",
                 "r": "0.25",
                 "TF": "1.54",
@@ -1156,6 +1213,7 @@
                 "name": "TOKASTAR-2",
                 "address": "Nagoya",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.1",
                 "r": "0.04",
                 "TF": "0.1",
@@ -1176,6 +1234,7 @@
                 "name": "TS-4U",
                 "address": "Tokyo",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.5",
                 "r": "0.3",
                 "TF": "0.1",
@@ -1196,6 +1255,7 @@
                 "name": "TS-6",
                 "address": "Tokyo",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.2",
                 "r": "0.15",
                 "TF": "0.1",
@@ -1216,6 +1276,7 @@
                 "name": "TST-2",
                 "address": "Tokyo",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.37",
                 "r": "0.23",
                 "TF": "0.4",
@@ -1236,6 +1297,7 @@
                 "name": "TUMAN-3M",
                 "address": "St-Petersburg",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.53",
                 "r": "0.22",
                 "TF": "1.2",
@@ -1256,6 +1318,7 @@
                 "name": "UTST",
                 "address": "Tokyo",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.39",
                 "r": "0.24",
                 "TF": "0.3",
@@ -1276,6 +1339,7 @@
                 "name": "VEST",
                 "address": "Seoul",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.45",
                 "r": "0.33",
                 "TF": "0.1",
@@ -1296,6 +1360,7 @@
                 "name": "WEST",
                 "address": "Cadarache",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "popupContent": "<a href='https://irfm.cea.fr/en/west/'> Website </a>",
                 "R": "2.5",
                 "r": "0.5",
@@ -1317,6 +1382,7 @@
                 "name": "COMPASS-U",
                 "address": "Prague",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0",
                 "r": "0",
                 "TF": "0",
@@ -1337,6 +1403,7 @@
                 "name": "MT-2",
                 "address": "Dera Ghazi Khan",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0",
                 "r": "0",
                 "TF": "0",
@@ -1357,6 +1424,7 @@
                 "name": "T-15MD",
                 "address": "Moscow",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "2.43",
                 "r": "0.42",
                 "TF": "3.5",
@@ -1377,6 +1445,7 @@
                 "name": "TT-1",
                 "address": "Bangkok",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.65",
                 "r": "0.2",
                 "TF": "1.52",
@@ -1397,6 +1466,7 @@
                 "name": "LMJ",
                 "address": "Le Barp",
                 "configuration": "inertial",
+                "ownership": "public",
                 "popupContent": "<a href='https://www-lmj.cea.fr/'> Website </a>"
             },
             "geometry": {
@@ -1414,6 +1484,7 @@
                 "name": "Renaissance Fusion",
                 "address": "Fontaine",
                 "configuration": "stellarator",
+                "ownership": "private",
                 "popupContent": "<a href='https://stellarator.energy/'> Website </a>"
             },
             "geometry": {
@@ -1430,7 +1501,8 @@
                 "country": "France",
                 "name": "ToriX",
                 "address": "Palaiseau",
-                "configuration": "alternate_concept"
+                "configuration": "alternate_concept",
+                "ownership": "public"
             },
             "geometry": {
                 "type": "Point",
@@ -1447,6 +1519,7 @@
                 "name": "First Light",
                 "address": "Kidlington",
                 "configuration": "inertial",
+                "ownership": "private",
                 "popupContent": "<a href='https://firstlightfusion.com/'> Website </a>"
             },
             "geometry": {
@@ -1464,6 +1537,7 @@
                 "name": "ASDEX Upgrade",
                 "address": "Garching",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.ipp.mpg.de/16195/asdex'> Website </a>",
                 "R": "1.65",
                 "r": "0.5",
@@ -1485,6 +1559,7 @@
                 "name": "TJ-K",
                 "address": "Stuttgart",
                 "configuration": "stellarator",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.igvp.uni-stuttgart.de/en/research/plasma-dynamics-and-diagnostics/experiments/TJ-K/'> Website </a>",
                 "R": "0.6",
                 "r": "0.1",
@@ -1505,7 +1580,8 @@
                 "country": "Japan",
                 "name": "RELAX",
                 "address": "Kyoto",
-                "configuration": "alternate_concept"
+                "configuration": "alternate_concept",
+                "ownership": "public"
             },
             "geometry": {
                 "type": "Point",
@@ -1522,6 +1598,7 @@
                 "name": "SPARC",
                 "address": "Devens MA",
                 "configuration": "tokamak",
+                "ownership": "private",
                 "popupContent": "<a href='https://www.psfc.mit.edu/sparc'> Website </a>",
                 "R": "1.65",
                 "r": "0.5",
@@ -1543,6 +1620,7 @@
                 "name": "General Fusion",
                 "address": "Burnaby",
                 "configuration": "inertial",
+                "ownership": "private",
                 "popupContent": "<a href='https://generalfusion.com/technology-magnetized-target-fusion/'> Website </a>"
             },
             "geometry": {
@@ -1560,6 +1638,7 @@
                 "name": "CFQS",
                 "address": "Shanghai",
                 "configuration": "stellarator",
+                "ownership": "public",
                 "R": 1,
                 "r": 0,
                 "TF": 1,
@@ -1580,6 +1659,7 @@
                 "name": "DTT",
                 "address": "Roma",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.dtt-project.it/'> Website </a>",
                 "R": 2.14,
                 "r": 0.65,
@@ -1601,6 +1681,7 @@
                 "name": "FTU",
                 "address": "Roma",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": "0.935",
                 "r": "0.3",
                 "TF": "8",
@@ -1621,6 +1702,7 @@
                 "name": "SMART",
                 "address": "Seville",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "R": 0.4,
                 "r": 0.2,
                 "TF": 1,
@@ -1640,7 +1722,8 @@
                 "country": "USA",
                 "name": "NIF",
                 "address": "Livermore",
-                "configuration": "inertial"
+                "configuration": "inertial",
+                "ownership": "public"
             },
             "geometry": {
                 "type": "Point",
@@ -1657,6 +1740,7 @@
                 "name": "HB11 Energy",
                 "address": "Sidney",
                 "configuration": "inertial",
+                "ownership": "private",
                 "popupContent": "<a href='https://hb11.energy/'> Website </a>"
             },
             "geometry": {
@@ -1674,6 +1758,7 @@
                 "name": "RFX",
                 "address": "Padua",
                 "configuration": "alternate_concept",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.igi.cnr.it/?q=content%2Fexperiment-introduction'> Website </a>"
             },
             "geometry": {
@@ -1690,7 +1775,8 @@
                 "country": "UK",
                 "name": "FDP",
                 "address": "Abingdon",
-                "configuration": "inertial"
+                "configuration": "inertial",
+                "ownership": "public"
             },
             "geometry": {
                 "type": "Point",
@@ -1707,6 +1793,7 @@
                 "name": "Z machine",
                 "address": "Albuquerque",
                 "configuration": "alternate_concept",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.sandia.gov/z-machine/'> Website </a>"
             },
             "geometry": {
@@ -1724,6 +1811,7 @@
                 "name": "Fusion Power Core",
                 "address": "Albuquerque",
                 "configuration": "alternate_concept",
+                "ownership": "private",
                 "popupContent": "<a href='https://www.compactfusionsystems.com/'> Website </a>"
             },
             "geometry": {
@@ -1741,6 +1829,7 @@
                 "name": "Alcator C-Mod",
                 "address": "MIT",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "popupContent": "<a href='http://www.psfc.mit.edu/research/topics/alcator-c-mod-tokamak'> Website </a>"
             },
             "geometry": {
@@ -1758,6 +1847,7 @@
                 "name": "AGNI",
                 "address": "AGNI Energy Inc.",
                 "configuration": "alternate_concept",
+                "ownership": "private",
                 "popupContent": "<a href='https://www.fusionenergybase.com/organization/agni-fusion-energy'> Website </a>"
             },
             "geometry": {
@@ -1775,6 +1865,7 @@
                 "name": "IDCD",
                 "address": "Seattle",
                 "configuration": "alternate_concept",
+                "ownership": "public",
                 "popupContent": "<a href='https://ctfusion.net/'> Website </a>"
             },
             "geometry": {
@@ -1792,6 +1883,7 @@
                 "name": "Helicity Drive",
                 "address": "Berkeley",
                 "configuration": "alternate_concept",
+                "ownership": "private",
                 "popupContent": "<a href='https://www.helicityspace.com/'> Website </a>"
             },
             "geometry": {
@@ -1809,6 +1901,7 @@
                 "name": "Trenta",
                 "address": "Everett",
                 "configuration": "alternate_concept",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.helionenergy.com/'> Website </a>"
             },
             "geometry": {
@@ -1826,6 +1919,7 @@
                 "name": "Polaris",
                 "address": "Everett",
                 "configuration": "alternate_concept",
+                "ownership": "private",
                 "popupContent": "<a href='https://www.helionenergy.com/'> Website </a>"
             },
             "geometry": {
@@ -1843,6 +1937,7 @@
                 "name": "Horne Hybrid Reactor",
                 "address": "Elliston",
                 "configuration": "inertial",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.hornetechnologies.com/'> Website </a>"
             },
             "geometry": {
@@ -1860,6 +1955,7 @@
                 "name": "PJMIF",
                 "address": "Chantilly",
                 "configuration": "alternate_concept",
+                "ownership": "private",
                 "popupContent": "<a href='http://hyperjetfusion.com/'> Website </a>"
             },
             "geometry": {
@@ -1877,6 +1973,7 @@
                 "name": "Innoven Energy",
                 "address": "Colorado Springs",
                 "configuration": "inertial",
+                "ownership": "private",
                 "popupContent": "<a href='https://innoven-energy.com/'> Website </a>"
             },
             "geometry": {
@@ -1894,6 +1991,7 @@
                 "name": "Focus Fusion",
                 "address": "Middlesex",
                 "configuration": "alternate_concept",
+                "ownership": "private",
                 "popupContent": "<a href='https://lppfusion.com/'> Website </a>"
             },
             "geometry": {
@@ -1911,6 +2009,7 @@
                 "name": "CFR",
                 "address": "Lancaster",
                 "configuration": "alternate_concept",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.lockheedmartin.com/en-us/products/compact-fusion.html'> Website </a>"
             },
             "geometry": {
@@ -1928,6 +2027,7 @@
                 "name": "MIFTI",
                 "address": "Tustin",
                 "configuration": "alternate_concept",
+                "ownership": "public",
                 "popupContent": "<a href='https://miftec.com/'> Website </a>"
             },
             "geometry": {
@@ -1945,6 +2045,7 @@
                 "name": "PFRC",
                 "address": "Plainsboro Township",
                 "configuration": "alternate_concept",
+                "ownership": "private",
                 "popupContent": "<a href='https://www.princetonfusionsystems.com/'> Website </a>"
             },
             "geometry": {
@@ -1961,7 +2062,8 @@
                 "country": "USA",
                 "name": "IVR-3",
                 "address": "Urbana",
-                "configuration": "alternate_concept"
+                "configuration": "alternate_concept",
+                "ownership": "public"
             },
             "geometry": {
                 "type": "Point",
@@ -1978,6 +2080,7 @@
                 "name": "C2-W",
                 "address": "Lake Forest",
                 "configuration": "alternate_concept",
+                "ownership": "private",
                 "popupContent": "<a href='https://tae.com/'> Website </a>"
             },
             "geometry": {
@@ -1995,6 +2098,7 @@
                 "name": "Zebra",
                 "address": "Reno",
                 "configuration": "alternate_concept",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.unr.edu/physics/zppl'> Website </a>"
             },
             "geometry": {
@@ -2012,6 +2116,7 @@
                 "name": "OMEGA",
                 "address": "Rochester",
                 "configuration": "inertial",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.lle.rochester.edu/index.php/omega-laser-facility-2/'> Website </a>"
             },
             "geometry": {
@@ -2029,6 +2134,7 @@
                 "name": "MST",
                 "address": "Madison",
                 "configuration": "alternate_concept",
+                "ownership": "public",
                 "popupContent": "<a href='https://wippl.wisc.edu/madison-symmetric-torus/'> Website </a>"
             },
             "geometry": {
@@ -2046,6 +2152,7 @@
                 "name": "Pegasus-III",
                 "address": "Madison",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "popupContent": "<a href='https://pegasus.ep.wisc.edu/'> Website </a>"
             },
             "geometry": {
@@ -2063,6 +2170,7 @@
                 "name": "ZAP ENERGY",
                 "address": "Seattle",
                 "configuration": "alternate_concept",
+                "ownership": "private",
                 "popupContent": "<a href='https://www.zapenergyinc.com/'> Website </a>"
             },
             "geometry": {
@@ -2080,6 +2188,7 @@
                 "name": "Marvel Fusion",
                 "address": "M\u00c3\u00bcnchen",
                 "configuration": "inertial",
+                "ownership": "private",
                 "popupContent": "<a href='https://marvelfusion.com/'> Website </a>"
             },
             "geometry": {
@@ -2097,6 +2206,7 @@
                 "name": "GAMMA PDX-SC",
                 "address": "University of Tsukuba",
                 "configuration": "alternate_concept",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.prc.tsukuba.ac.jp/en/'> Website </a>"
             },
             "geometry": {
@@ -2113,7 +2223,8 @@
                 "country": "Japan",
                 "name": "GAMMA 10/PDX",
                 "address": "University of Tsukuba",
-                "configuration": "alternate_concept"
+                "configuration": "alternate_concept",
+                "ownership": "public"
             },
             "geometry": {
                 "type": "Point",
@@ -2129,7 +2240,8 @@
                 "country": "Japan",
                 "name": "UH-MCPG1",
                 "address": "University of Hyogo",
-                "configuration": "alternate_concept"
+                "configuration": "alternate_concept",
+                "ownership": "public"
             },
             "geometry": {
                 "type": "Point",
@@ -2146,6 +2258,7 @@
                 "name": "RT-1",
                 "address": "Tokyo",
                 "configuration": "alternate_concept",
+                "ownership": "public",
                 "popupContent": "<a href='http://www.ppl.k.u-tokyo.ac.jp/'> Website </a>"
             },
             "geometry": {
@@ -2163,6 +2276,7 @@
                 "name": "LFEX",
                 "address": "Osaka",
                 "configuration": "inertial",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.ile.osaka-u.ac.jp/eng/facilities/lfex/index.html'> Website </a>"
             },
             "geometry": {
@@ -2180,6 +2294,7 @@
                 "name": "GEKKO XII",
                 "address": "Osaka",
                 "configuration": "inertial",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.ile.osaka-u.ac.jp/eng/facilities/gxii/index.html'> Website </a>"
             },
             "geometry": {
@@ -2197,6 +2312,7 @@
                 "name": "FAT-CM",
                 "address": "Nihon University",
                 "configuration": "alternate_concept",
+                "ownership": "private",
                 "popupContent": "<a href='http://www.phys.cst.nihon-u.ac.jp/~plasma/'> Website </a>"
             },
             "geometry": {
@@ -2213,7 +2329,8 @@
                 "country": "Japan",
                 "name": "UH-CTI",
                 "address": "Kyushu",
-                "configuration": "alternate_concept"
+                "configuration": "alternate_concept",
+                "ownership": "public"
             },
             "geometry": {
                 "type": "Point",
@@ -2230,6 +2347,7 @@
                 "name": "PLATO",
                 "address": "Kyushu",
                 "configuration": "tokamak",
+                "ownership": "public",
                 "popupContent": "<a href='http://tokusui.riam.kyushu-u.ac.jp/PLATO_project/index-e.html'> Website </a>",
                 "R": 0.7,
                 "r": 0.2,
@@ -2250,7 +2368,8 @@
                 "country": "Russia",
                 "name": "CAT",
                 "address": "Budker Institute of Nuclear Physics",
-                "configuration": "alternate_concept"
+                "configuration": "alternate_concept",
+                "ownership": "public"
             },
             "geometry": {
                 "type": "Point",
@@ -2266,7 +2385,8 @@
                 "country": "Russia",
                 "name": "GDMT",
                 "address": "Budker Institute of Nuclear Physics",
-                "configuration": "alternate_concept"
+                "configuration": "alternate_concept",
+                "ownership": "public"
             },
             "geometry": {
                 "type": "Point",
@@ -2282,7 +2402,8 @@
                 "country": "Russia",
                 "name": "GDT",
                 "address": "Budker Institute of Nuclear Physics",
-                "configuration": "alternate_concept"
+                "configuration": "alternate_concept",
+                "ownership": "public"
             },
             "geometry": {
                 "type": "Point",
@@ -2298,7 +2419,8 @@
                 "country": "Russia",
                 "name": "GOL-NB",
                 "address": "Budker Institute of Nuclear Physics",
-                "configuration": "alternate_concept"
+                "configuration": "alternate_concept",
+                "ownership": "public"
             },
             "geometry": {
                 "type": "Point",
@@ -2314,7 +2436,8 @@
                 "country": "Russia",
                 "name": "SMOLA",
                 "address": "Budker Institute of Nuclear Physics",
-                "configuration": "alternate_concept"
+                "configuration": "alternate_concept",
+                "ownership": "public"
             },
             "geometry": {
                 "type": "Point",
@@ -2331,6 +2454,7 @@
                 "name": "TORPEX",
                 "address": "Swiss Plasma Center",
                 "configuration": "alternate_concept",
+                "ownership": "public",
                 "popupContent": "<a href='https://www.epfl.ch/research/domains/swiss-plasma-center/research/research_basic_plasmas/research_basic_plasmas_torpex/research_basic_plasmas_torpex_parameters/'> Website </a>"
             },
             "geometry": {
