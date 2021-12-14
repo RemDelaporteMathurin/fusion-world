@@ -161,7 +161,6 @@ async function drawBarChartPrivatePublic() {
             }
         }
     }
-    console.log(series)
     options_bar.series = series;
     options_bar.xAxis = {
             // categories: countries,
