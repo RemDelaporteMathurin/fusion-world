@@ -2149,24 +2149,6 @@
             "type": "Feature",
             "properties": {
                 "country": "USA",
-                "name": "Pegasus-III",
-                "address": "Madison",
-                "configuration": "tokamak",
-                "ownership": "public",
-                "popupContent": "<a href='https://pegasus.ep.wisc.edu/'> Website </a>"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -89.4050965215159,
-                    43.07360712744605
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "country": "USA",
                 "name": "ZAP ENERGY",
                 "address": "Seattle",
                 "configuration": "alternate_concept",
