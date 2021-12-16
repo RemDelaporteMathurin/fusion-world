@@ -217,11 +217,11 @@
     },
     {
         "country": "USA",
-        "tokamak": 8,
+        "tokamak": 7,
         "stellarator": 3,
         "inertial": 4,
         "alternate_concept": 17,
-        "public": 21,
+        "public": 20,
         "private": 11
     },
     {
