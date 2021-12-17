@@ -637,27 +637,6 @@
         {
             "type": "Feature",
             "properties": {
-                "country": "China",
-                "name": "HT-7",
-                "address": "Hefei",
-                "configuration": "tokamak",
-                "ownership": "public",
-                "R": "1.75",
-                "r": "0.4",
-                "TF": "3.5",
-                "IP": "1"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    117.1711244555299,
-                    31.857641122096826
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "country": "Japan",
                 "name": "HYBTOK-II",
                 "address": "Nagoya",

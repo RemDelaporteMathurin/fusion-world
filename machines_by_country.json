@@ -28,11 +28,11 @@
     },
     {
         "country": "China",
-        "tokamak": 7,
+        "tokamak": 6,
         "stellarator": 1,
         "inertial": 0,
         "alternate_concept": 0,
-        "public": 7,
+        "public": 6,
         "private": 1
     },
     {

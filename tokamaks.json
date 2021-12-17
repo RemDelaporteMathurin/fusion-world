@@ -479,21 +479,6 @@
         "IP": "0.8"
     },
     {
-        "country": "China",
-        "name": "HT-7",
-        "address": "Hefei",
-        "ownership": "public",
-        "coordinates": [
-            117.1711244555299,
-            31.857641122096826
-        ],
-        "configuration": "tokamak",
-        "R": "1.75",
-        "r": "0.4",
-        "TF": "3.5",
-        "IP": "1"
-    },
-    {
         "country": "Japan",
         "name": "HYBTOK-II",
         "address": "Nagoya",
