@@ -45,6 +45,7 @@ Typically, a machine has the following structure:
         "address": "Nantes",
         "coordinates": [-1.549333358, 47.216155004], # [Long. , Lat.]
         "configuration": "tokamak",
+        "ownership": "public",  # or "private"
 
         # optional keys if applicable
         "R": 1,  # major radius (m)
