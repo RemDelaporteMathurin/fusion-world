@@ -1,5 +1,15 @@
 [
     {
+        "name": "WHAM",
+        "country": "USA",
+        "address": "Stoughton",
+        "coordinates": [
+            -89.28987407070466,
+            42.95964712199374],
+        "configuration": "alternate_concept",
+        "website": "https://wippl.wisc.edu/wisconsin-hts-axisymmetric-mirror/"
+    },
+    {
         "country": "France",
         "name": "ITER",
         "address": "St-Paul-lez-Durance",
